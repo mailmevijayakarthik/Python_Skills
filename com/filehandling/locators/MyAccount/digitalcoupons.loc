@@ -1,0 +1,5 @@
+digitalcoupons.lbl.title = {"locator":"xpath=//*[@id='content']/div/div[1]/h1","desc":"Labelview for Digital Coupons"}
+digitalcoupons.txt.pin = {"locator":"id=PIN","desc":"Textview for 4 Digit pin"}
+digitalcoupons.chck.pin = {"locator":"xpath=//*[@id='digitalCouponForm']/dl/div[3]/div[3]/div[2]/div[1]/label","desc":"Checkbox for 4 Digit pin"}
+digitalcoupons.btn.save = {"locator":"linkText=Save","desc":"Buttonview for save in Digital Coupons"}
+digitalcoupons.lbl.pinchckerror = {"locator":"xpath=//*[@id='content']/div/div[2]/span","desc":"Labelview for error message when pin check box"}

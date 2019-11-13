@@ -1,0 +1,335 @@
+cart.lbl.header = {"locator":"xpath=//h1[.='Shopping Cart']","desc":"Textview of Shopping Cart"}
+
+cart.lnk.editnote= {"locator":"xpath=.//a[@class='d-none d-lg-inline-block cart-item__note-action']","desc":"edit note link"}
+
+cart.lnk.removenote = {"locator":"xpath=.//span[@class='fa fa-times-circle cart-item__delete-note']","desc":"remove note link"}
+
+cart.lbl.panel= {"locator":"xpath=//div[@class='panel']","desc":"panel"}
+
+cart.txt.edittxt = {"locator":"xpath=//a[@class='cart-item__note-text']","desc":"Text after entering in add note text box"}
+
+cart.txt.addnote={"locator":"xpath=.//div[@class='cart-item__display-name-and-note']//input[@class='cart-item__note-input form-control' and @type='text']","desc":"Textbox of add a note"}
+
+cart.lnk.remove = {"locator":"xpath=//button[@id='removeItem']","desc":"ListLinkView for Remove Item"}
+
+cart.lnk.remove = {"locator":"id=removeItem","desc":"LinkView for Remove Item"}
+
+cart.btn.yes = {"locator":"xpath=.//*[@id='removeCancelOverlay']//div[2]/div/a","desc":"ButtonView for Yes"}
+
+
+
+cart.lnk.continueshopping = {"locator":"xpath=(//*[@title='Continue Shopping'])[1]","desc":"LinkView for Continue Shopping"}
+
+cart.btn.apply = {"locator":"id=couponClick","desc":"ButtonView for Apply"}
+
+cart.box.cartproductblock = {"locator":"xpath=//*[@class='cart-desc']","desc":"ProductBlockView of Products"}
+
+cart.lbl.productname = {"locator":"xpath=.//a[@class='cart-item__display-name']","desc":"TextView for Product Name"}
+
+cart.lbl.productinfo = {"locator":"xpath=.//div[@class='ci-item-name']/following-sibling::div[@class='ci-item-info']","desc":"TextView for Product Info"}
+
+cart.btn.update = {"locator":"id=updateQuantitySTH","desc":"ButtonView for Update icon"}
+
+cart.edt.qty = {"locator":"xpath=.//input[contains(@class,'btn cart-item__input-quantity')]","desc":"EditTextView for Quantity"}
+
+cart.lbl.subtotal = {"locator":"xpath=.//div[@class='ci-subtotal']","desc":"TextView for SubTotal"}
+
+cart.lbl.itemtotal = {"locator":"xpath=.//div[@class='cart-item__total-price'] | .//div[@class='cart-item__sale-price']","desc":"TextView for Item Total"}
+
+cart.lbl.egiftcardname = {\"locator\":\"xpath=//div[.='Electronic Gift Card']\",\"desc\":\"TextView for eGift card name\"}
+
+cart.btn.egiftcardremove = {\"locator\":\"xpath=//div[.='Electronic Gift Card']/../..//button[.='Remove']\",\"desc\":\"ButtonView for eGift card remove button\"}
+
+cart.lbl.physicalgiftcardname = {\"locator\":\"xpath=//div[.='Physical Gift Card']\",\"desc\":\"TextView for physical gift card name\"}
+
+cart.btn.physicalgiftcardremove = {\"locator\":\"xpath=//div[.='Physical Gift Card']/../..//button[.='Remove']\",\"desc\":\"ButtonView for physical gift card remove button\"}
+
+cart.lbl.removeitempopuptitle = {\"locator\":\"xpath=//p[.='Are you sure you want to remove this product?']\",\"desc\":\"TextView for remove item popup title\"}
+
+cart.btn.cancel = {\"locator\":\"xpath=//a[@title='Cancel']\",\"desc\":\"ButtonView for remove item popup- cancel button\"}
+
+cart.lnk.editdetails = {"locator":"xpath=//*[@id='editOverlay'] | //*[@id='editGiftCardBtt']","desc":"LinkView for Edit details"}
+
+cart.lbl.editheader = {"locator":"xpath=//*[.='Edit Item']","desc":"TextView for Edit Item header"}
+
+cart.edt.editqty = {"locator":"xpath=//*[@id='quantity2']","desc":"EditTextView for Quantity in Edit details page"}
+
+cart.btn.editupdate = {"locator":"xpath=//*[@id='sthUpdateItem']","desc":"ButtonView for Update in Edit details page"}
+
+cart.lbl.discountvalue = {\"locator\":\"xpath=.//*[@class='ci-discount']//p\",\"desc\":\"TextView for discount value\"}
+
+cart.lbl.estimatedshipdate = {"locator":"xpath=.//*[@class='c-item-row clearfix last']/div//div[6]/div","desc":"TextView for estimated ship date"}
+
+cart.lbl.discounts = {"locator":"xpath=.//*[@id='body']//span[text()='Discount(s)']","desc":"TextView for Discounts"}
+
+cart.lbl.estimatedtax = {"locator":"xpath=.//*[@id='body']//span[text()='Estimated Tax']","desc":"TextView for Estimated Tax"}
+
+cart.lbl.ordertotal = {"locator":"xpath=//span[contains(.,'Order Total')]","desc":"TextView for Order Total"}
+
+cart.lbl.instorepickup = {"locator":"xpath=.//*[@id='body']/div[2]/div[6]/div[1]","desc":"TextView for In Store Pickup"}
+
+cart.lbl.nospecialhandling = {"locator":"xpath=//*[@class='noSpecialHandling']","desc":"WebElementView No Special Handling"}
+
+cart.lbl.specialhandling = {"locator":"xpath=//*[@class='ci-specialHandling']","desc":"TextView for Special Handling"}
+
+cart.lbl.morediscounts = {"locator":"xpath=//span[contains(.,'WINE 6 OR MORE DISCOUNT')]","desc":"TextView for More Discounts"}
+
+cart.lbl.morediscountsvalue = {"locator":"xpath=.//*[@id='body']//span[@class='qty primary-3']","desc":"TextView for More Discounts Value"}
+
+cart.lbl.taxvalue = {"locator":"xpath=.//*[@id='cart_tax']","desc":"TextView for Tax value"}
+
+cart.lbl.ordertotalvalue = {"locator":"xpath=//*[@id='cart_total']","desc":"TextView for Order Total Value"}
+
+cart.lbl.minqty = {"locator":"xpath=//*[@class='minQuantity']","desc":"TextView for Minimum Quantity"}
+
+cart.btn.editupdateegc = {"locator":"xpath=//*[@value='Update']","desc":"ButtonView for Update in Edit details page for EGC"}
+
+cart.edt.physicalgiftcardqty = {\"locator\":\"xpath=//div[.='Physical Gift Card']/../../div[@class='ci-qty']//input[2]\",\"desc\":\"TextView for physical gift card name\"}
+
+cart.lbl.imageview = {"locator":"xpath=//div[@class='item-image']/a/img","desc":"Image view for Floral item"}
+
+cart.lbl.ShippingText={"locator":"xpath=//span[text()='Shipping']","desc":"Shipping Text"}
+
+cart.lbl.ShippingValue={"locator":"xpath=//span[@id='cart_handling']","desc":"Shipping Value"}
+
+cart.lbl.Deliveryfee={"locator":"xpath=//span[text()='Delivery Fee']","desc":"Delivery fee"}
+
+cart.btn.reserveatimelot={"locator":"xpath=//div[@class='reservation-display']/button[1]","desc":"Reserve a timeslot CTA"}
+
+cart.btn.scheduleacurbside={"locator":"xpath=.//*[@class='picker-buttons']","desc":"Button view of Schedule a curbside"}
+
+cart.btn.carticon = {"locator":"xpath=//*[@id='myCartSId']","desc":"Button View of Cart Icon"}
+
+cart.txt.reviewcart = {"locator":"xpath=//div[text()='Review Cart']","desc":"Text View of Review Cart"}
+
+cart.lnk.addnote = {"locator":"xpath=.//div[@class='cart-item__display-name-and-note']//a[@class='cart-item__note-action']","desc":"Link for add note"} 
+
+cart.btn.timeslotcloseCTA = {"locator":"xpath=(//*[contains(@class,'close')])[3]","desc":"close 'X' CTA"}
+
+cart.txt.shoppingcart = {"locator":"xpath=//*[@class='category-title']/h1","desc":"Text View of Shopping Cart"}
+
+cart.btn.instoresthcheckout = {"locator":"xpath=(//*[@id='chkoutBtn'])[1]","desc":"Button View of Instore and STH Checkout from shopping cart"}
+
+cart.txt.guestcheckout = {"locator":"xpath=//div[@class='category-title']/h1[text()='Shopping Cart']","desc":"Text view of Guest Checkout"}
+
+cart.btn.checkout = {"locator":"xpath=//button[@id='chkoutBtn']","desc":"Checkout button"}
+
+cart.btn.footercheckout = {"locator":"xpath=//div[@class='sticky-footer-group']//button[contains(@class, 'place-order-btn')]","desc":"Checkout button for Curbside in footer"}
+
+cart.lbl.carttitle = {"locator":"xpath=//*[@class='cart-h1']","desc":"Title for cart page"}
+
+cart.ele.cartproductcount = {"locator":"xpath=//*[@class='panel']/.//div[contains(@class,'cart-item__row fullcart-item')]","desc":"Add to cart product count in check out page"}
+
+cart.ele.cartproducttotalcost = {"locator":"xpath=//*[@*='panel']/.//*[contains(@class,'total-price')]","desc":"total product cost from order summary section"}
+
+cart.ele.cartproductincrement = {"locator":"xpath=//*[@*='panel']/.//*[contains(@class,'increment')]","desc":"product increment from order summary section"}
+
+cart.ele.cartproducttotalsection = {"locator":"xpath=//*[@*='cart-total-section']/.//*[contains(@class,'item-price')]/div[2]","desc":"prodcut total section from order summary section"}
+
+cart.ele.cartproductinputquantity = {"locator":"xpath=//*[@*='panel']/.//*[contains(@class,'input-quantity')]","desc":"input product quantity from order summary section"}
+
+cart.ele.cartreviewproductname = {"locator":"xpath=//*[@class='panel']/..//a[contains(@class,'display-name')]","desc":"product name from review your cart page"}
+
+cart.ele.cartreviewproductprice = {"locator":"xpath=//*[@*='panel']/.//*[contains(@class,'total-price')]","desc":"product price from review your cart page"}
+
+cart.ele.cartreservetimeslot = {"locator":"xpath=//button[contains(@class,'curbside-icon')]","desc":"reserve time slot from review your cart page"}
+
+cart.ele.cartreservetimeslottab = {"locator":"xpath=//*[contains(@class,'nav-link') and text()='%s']","desc":"reserve time slot tab from review your cart page"}
+
+cart.ele.cartreservetime = {"locator":"xpath=//*[@class='picker-time__list']/..//button[contains(@class,'picker-time')]","desc":"reserve times from review your cart page"}
+
+cart.btn.cartschedulecurbside = {"locator":"xpath=//button[text()='Schedule Curbside']","desc":"schedule curbside button from review your cart page"}
+
+cart.btn.cartcheckoutnow = {"locator":"xpath=//*[@class='sticky-footer-group']/..//*[contains(@class,'btn place-order-btn')]","desc":"checkout now button from review your cart page"}
+
+cart.ele.cartrevieworderdetail = {"locator":"xpath=//*[text()='Review Order']/..//*[contains(@class,'review-cart')]/span","desc":"checkout review order detail from checkout page"}
+
+cart.ele.cartrevieworderprice = {"locator":"xpath=//*[text()='Review Order']/..//*[contains(@class,'total-price')]","desc":"checkout review order price from checkout page"}
+
+cart.ele.cartrevieworderdetails = {"locator":"xpath=//*[text()='Review Order']/..//*[@class='review-cart-items-header']/div","desc":"review order details from checkout page"}
+
+cart.ele.cartreviewcartdisplaynames = {"locator":"xpath=//*[contains(@class,'review-cart__display-name')]","desc":"review cart display names from checkout page"}
+
+cart.lnk.cartreviewcarteditcart = {"locator":"xpath=//*[text()='Review Order']/..//*[text()='Edit Cart']","desc":"review cart edit cart from checkout page"}
+
+cart.ele.cartreviewcartnamesicon = {"locator":"xpath=//*[@class='cart-item__row-product']/div[@class='cart-item__delete']","desc":"review cart names icon from review your cart page"}
+
+cart.btn.cartreviewcartnamesremove = {"locator":"xpath=//button[text()='Remove']","desc":"review cart names remove from review your cart page"}
+
+cart.btn.cartreviewincrement = {"locator":"xpath=//*[@class='panel']/..//*[contains(@class,'quantity-placeholder')]//button[contains(@class,'increment')]","desc":"review cart increment quantity from review your cart page"}
+
+cart.btn.cartreviewdecrement = {"locator":"xpath=//*[@class='panel']/..//*[contains(@class,'quantity-placeholder')]//button[contains(@class,'decrement')]","desc":"review cart decrement quantity from review your cart page"}
+
+cart.btn.cartemptycart = {"locator":"xpath=//*[text()='Review Cart']/..//*[text()='Empty Cart']","desc":"empty cart button from review your cart page"}
+
+cart.btn.cartemptycartremove = {"locator":"xpath=//button[text()='Empty Cart']","desc":"empty cart remove button from review your cart page"}
+
+cart.lnk.cartreviewordereditcart = {"locator":"xpath=//*[text()='Review Order']/..//*[@class='edit-cart']","desc":"edit cart from checkout page"}
+
+cart.ele.carttimeslotclose = {"locator":"xpath=//*[contains(text(),'Time Slot Expired')]//ancestor::header//following-sibling::button","desc":"close button for time slot from review your cart page"}
+
+cart.ele.carttimeexpireclose = {"locator":"xpath=//*[contains(@*,'expires-soon')]//ancestor::header//following-sibling::button","desc":"close button for time expire from review your cart page"}
+
+cart.ele.cartreviewcartdisplayqty = {"locator":"xpath=//*[contains(@class,'review-cart__substitution')]/span","desc":"review cart display qty from checkout page"}
+
+cart.ele.cartproductinputquantity = {"locator":"xpath=.//*[@*='panel']/.//*[contains(@class,'input-quantity')]","desc":"input product quantity from order summary section"}
+
+cart.lbl.productswethinkyoulove = {"locator":"xpath=//h6[contains(text(),'Products We Think You')]","desc":"Products We Think You'll Love section header"}
+
+cart.lst.productswethinkyoulove = {"locator":"xpath=//li[@class='product-card product-card--small']","desc":"Products We Think You'll Love section product list"}
+
+cart.lbl.productswethinkyouloveproductname = {"locator":"xpath=.//a[@class='product-card__title']","desc":"Products We Think You'll Love section product name"}
+
+cart.lbl.areyouforgettingsomething = {"locator":"xpath=//h5[text()='Are You Forgetting Something?']","desc":"Are You Forgetting Something? header in Cart page"}
+
+cart.lst.areyouforgettingsomethingproduct = {"locator":"xpath=//h5[text()='Are You Forgetting Something?']/..//li","desc":"List of Are You Forgetting Something? product card"}
+
+cart.lst.frequentlypurchasedproduct = {"locator":"xpath=//h5[text()='Frequently Purchased']/..//li","desc":"List of Frequently Purchased product card"}
+
+cart.btn.productcardaddtocart = {"locator":"xpath=.//div[@class='product-card__btn-container']//button[contains(@class,'btn-add-to-cart')]","desc":"Add to cart button of product card"}
+
+cart.lbl.productcardname = {"locator":"xpath=.//span[@class='responsivegriditem__title']","desc":"product card name"}
+
+cart.lbl.productcardprice = {"locator":"xpath=.//span[contains(@class,'cat-price-number')]","desc":"product card price"}
+
+cart.lbl.productcardqty = {"locator":"xpath=.//div[@class='product-card__btn-container']//button[contains(@class,'btn-add-to-cart')]/span[1]","desc":"product card quantity"}
+
+cart.btn.areyouforgettingsomethingaddtocart = {"locator":"xpath=.//div[@class='product-card__btn-container']//button[contains(@class,'btn-add-to-cart')]","desc":"Add to cart button of Are you forgetting something product"}
+
+cart.lbl.areyouforgettingsomethingproductname = {"locator":"xpath=.//span[@class='responsivegriditem__title']","desc":"Are you forgetting something product name"}
+
+cart.lbl.areyouforgettingsomethingproductprice = {"locator":"xpath=.//span[contains(@class,'cat-price-number')]","desc":"Are you forgetting something product price"}
+
+cart.lbl.areyouforgettingsomethingproductqty = {"locator":"xpath=.//div[@class='product-card__btn-container']//button[contains(@class,'btn-add-to-cart')]/span[1]","desc":"Are you forgetting something product quantity"}
+
+cart.lst.productlist = {"locator":"xpath=//div[contains(@class,'cart-item__row-product')]","desc":"List of products in Review Cart"}
+
+cart.lbl.weight = {"locator":"xpath=.//div[@class='cart-item__quantity']/div","desc":"Label View for weight lb"}
+
+cart.select.weight = {"locator":"xpath=//div[@class='cart-item__quantity']/select","desc":"Drop down View for weight lb"}
+
+cart.lst.categoryname = {"locator":"xpath=//h2[@class='cart-category-heading']","desc":"category name in cart page"}
+
+cart.lnk.addnote = {"locator":"xpath=.//div[@class='cart-item__display-name-and-note']//a[@class='cart-item__note-action']","desc":"Text View for add note"}
+
+cart.ele.cartsubstitutionheader = {"locator":"xpath=//*[contains(@class,'headings')]/div//*[@id='tooltip-substitutions-desktop']","desc":"substitution column header in cart page"}
+
+cart.ele.cartsubstitutionheadertoottip = {"locator":"xpath=//*[contains(@class,'headings')]/div//*[contains(@aria-describedby,'BV')]","desc":"substitution column header tooltip in cart page"}
+
+cart.ele.cartsubstitutionheadertext = {"locator":"xpath=//*[contains(@class,'col-lg')]/div[contains(@style,'display')]/div","desc":"Text view for substitution column header in cart page"}
+
+cart.btn.emptycartconfirm = {"locator":"//div[@id='emptyCartModal___BV_modal_body_']//button[@class='btn btn-primary']","desc":"Empty Cart button"}
+
+cart.lbl.cartisemptymsg = {"locator":"xpath=//div[@class='cart-empty-message']","desc":"Cart is empty message"}
+
+cart.btn.cancelbutton = {"locator":"xpath=//div[@id='emptyCartModal___BV_modal_body_']//button[text()='Cancel']","desc":"Cancel Button"}
+
+cart.lbl.cartcolumnnames = {"locator":"xpath=//*[contains(@class,'headings')]/div","desc":"column header for review your cart page"}
+
+cart.ele.cartclipqualify = {"locator":"xpath=//*[@class='panel']/..//*[contains(text(),'Qualify')]","desc":"qualify for coupon product from review your cart page"}
+
+cart.ele.cartclipqualifyprogressbar = {"locator":"xpath=//*[@class='panel']/.//*[@role='progressbar']","desc":"qualify progressbar for coupon product from review your cart page"}
+
+cart.lnk.emptycart = {"locator":"xpath=//span[@class='d-none d-lg-inline']","desc":"Empty Cart link"}
+
+cart.btn.emptycartx = {"locator":"xpath=//header[@id='emptyCartModal___BV_modal_header_']//button[@class='close']","desc":"Empty Cart X button"}
+
+cart.btn.cartclipbutton = {"locator":"xpath=//*[@class='panel']/..//*[contains(@class,'btn btn-coupon')]","desc":"clip button from review your cart page"}
+
+cart.btn.closenessqualifier = {"locator":"xpath=//div[contains(@class, closeness-qualifier)]","desc":"line item closeness qualifier in revie cart page"}
+
+cart.btn.cartincreasequantity = {"locator":"xpath=//button[@class='btn btn-increment']","desc":"increase product count from mini cart"}
+
+cart.ele.cartoffercomplete = {"locator":"xpath=//*[text()='Offer Completed']","desc":"clip function notification from review your cart page"}
+
+cart.lbl.cartoffersaleprice = {"locator":"xpath=//*[@class='panel']/..//*[contains(@class,'cart-item__sale-price')]","desc":"item sale price from review your cart page"}
+
+cart.txt.ordernote = {"locator":"xpath=//div[@class='container']//textarea","desc":"Text View for order note"}
+
+cart.btn.saveordernote = {"locator":"xpath=//div[@class='container']//form[@class='order-note-form d-flex']//button","desc":"Button View for save order note"}
+
+cart.lbl.productswethinkyouloveproductprice = {"locator":"xpath=.//span[@class='product-card__price']","desc":"Products We Think You'll Love section product price"}
+
+cart.btn.productswethinkyouloveproductaddtocart = {"locator":"xpath=.//button[starts-with(@class,'btn btn-add-to-cart icon__after-plus--normal')]","desc":"Products We Think You'll Love section product Add to cart"}
+
+cart.select.productswethinkyouloveproductaddtocart = {"locator":"xpath=.//select[@class='weight-select']","desc":"Products We Think You'll Love section product Add to cart lbs"}
+
+cart.lbl.productswethinkyouloveproductqty = {"locator":"xpath=.//button[starts-with(@class,'btn btn-add-to-cart icon__after-plus--normal')]/span[1] | .//button[starts-with(@class,'btn btn-add-to-cart icon__after-down--normal')]/span[1]","desc":"Products We Think You'll Love section product quantity"}
+
+cart.ele.carttipspercentage = {"locator":"xpath=//*[@class='gratuity gratuity__sidebar']//div[@class='gratuity-percent-label']","desc":"tips percentage from checkout page"}
+
+cart.ele.carttipspercentagecost = {"locator":"xpath=//*[@class='gratuity gratuity__sidebar']//div[@class='gratuity-dollar-label']","desc":"tips percentage cost from checkout page"}
+
+cart.btn.carttipbutton = {"locator":"xpath=//*[@class='gratuity gratuity__sidebar']//a[contains(@class,'gratuity-option')]","desc":"tip your driver button from checkout page"}
+
+cart.ele.cartcustomtip = {"locator":"xpath=//label[@class='gratuity__custom gratuity__custom--sidebar']/input[@type='number']","desc":"custom tip field from checkout page"}
+
+cart.ele.carttipsyourdriver = {"locator":"xpath=//div[@class='input-gratuity-custom__container']/input[@class='input-gratuity-custom']","desc":"Tip your driver field from checkout page"}
+
+cart.ele.cartdrivertip = {"locator":"xpath=//*[@class='cart-total-card']//*[text()='Driver Tip']//following-sibling::div[contains(@class,'heavy')]","desc":"Text view for Driver tip field from checkout page"}
+
+cart.btn.minus = {"locator":"xpath=//button[@class='btn btn-decrement']","desc":"ButtonView for Minus"}
+
+cart.btn.plus = {"locator":"xpath=.//button[@class='btn btn-increment']","desc":"ButtonView for plus"}
+
+cart.btn.viewdealmin = {"locator":"xpath=//div[@class='modal-content']//button[@class='btn btn-decrement']","desc":"ButtonView for Minus in view deals"}
+
+cart.btn.remove = {"locator":"xpath=./..//button[text()='Remove']","desc":"Button View for Remove Item"}
+
+cart.btn.cancelremove = {"locator":"xpath=./..//button[text()='Cancel']","desc":"Product Cancel button"}
+
+cart.btn.removex = {"locator":"xpath=.//a[@class='fa fa-times-circle cart-delete-item']","desc":"Remove X button"}
+
+cart.txt.esttotal = {"locator":"xpath=//section[@class='cart-total-section']//div[@class='item-text item-text--price']","desc":"Order Summary Est Total amount"}
+
+cart.txt.footertotal = {"locator":"xpath=//span[text()='Total: ']//strong","desc":"Sticky Footer Total amount"}
+
+cart.ele.carttimeexpiresoonclose = {"locator":"xpath=//*[contains(@*,'expires-soon')]//ancestor::header//following-sibling::button","desc":"close button for time expire from review your cart page"}
+
+cart.ele.cartaddacard = {"locator":"xpath=//*[contains(text(),'Add a Card')]","desc":"link view for Add a Card from checkout page"}
+
+cart.lbl.subtotalvalue = {"locator":"xpath=.//*[@class='cart-total-section']//*[text()='Subtotal*']","desc":"TextView for Order SubTotal Value"}
+
+cart.lbl.personalshopperfee = {"locator":"xpath=.//*[@class='cart-total-section']//*[text()='Personal Shopper Fee']","desc":"TextView for Personal Shopper Fee"}
+
+cart.lbl.esttax = {"locator":"xpath=.//*[@class='cart-total-section']//*[text()='Est. Tax']","desc":"Est tax"}
+
+cart.lbl.personalshopperdeliveryfee = {"locator":"xpath=//*[contains(@class, 'cart-total-card')]//*[text()='Delivery Fee']/following-sibling::div","desc":"Delivery Fee in cart"}
+
+cart.lbl.esttotal = {"locator":"xpath=.//*[@class='cart-total-section']//*[@class='item-text item-text--total']","desc":"Est total"}
+
+cart.chk.substitutionglobal = {"locator":"xpath=//label[contains(text(),'Substitutions')]/input","desc":"Check box view for substitution global in cart page"}
+
+cart.chk.subsok = {"locator":"xpath=//div[contains(@class,'cart-item__substitution')]/label[contains(text(),'Subs OK?')]/input","desc":"Check box view for substitution individual list in cart page"}
+
+cart.btn.delivery = {"locator":"xpath=//a[text()='delivery']","desc":"Button View for delivery"}
+
+cart.btn.totalsectioncheckout = {"locator":"xpath=//div[@class='cart-total-card']//button[contains(@class, 'place-order-btn')]","desc":"Checkout button for Curbside in footer"}
+
+cart.chk.substitutions = {"locator":"xpath=//*[contains(@class,'substitutions')]//*[@type='checkbox']","desc":"Check box view for substitutions check box from review cart page"}
+
+cart.txt.esttaxamount = {"locator":"xpath=(//*[contains(text(),'Est. Tax')]//following::*[contains(@class,'heavy')])[1]","desc":"Text view for tax amount in order summary page"}
+
+cart.btn.removalslider = {"locator":"xpath=//div[@class='cart-item__delete-confirm isDeleting']","desc":"Product Removal slider"}
+
+cart.txt.yoursavings = {"locator":"xpath=//section//div[contains(text(),'Your Savings')]/following-sibling::div","desc":"Text view for Your Savings in order summary page"}
+
+cart.btn.viewdeals = {"locator":"xpath=//button[text()='View Deals']","desc":"View Deals option in cart page"}
+
+cart.txt.drivertip = {"locator":"xpath=//*[@class='cart-total-card']//*[@class='item-text item-text--total']/following-sibling::div","desc":"Text view of driver tip"}
+
+cart.lbl.timeintimeslothelduntilmsg = {"locator":"xpath=//span[text()='Time slot will be held for you until ']/em","desc":"Label view of time in Timeslot held until message"}
+
+cart.txt.promocode = {"locator":"xpath=//section//input[@class='form-control']","desc":"Text View for promo code"}
+
+cart.btn.promoxicon = {"locator":"xpath=//label[@class='fa fa-times-circle remove-promo-code']","desc":"Button View for x icon"}
+
+cart.edt.weightedquantity = {"locator":"xpath=//*[contains(@class,'cart-item__row')]//*[@class='cart-item__quantity']/select","desc":"Text view for weighted quanity"}
+
+cart.lbl.shopperfee = {"locator":"xpath=//section//div[text()='Personal Shopper Fee']/following-sibling::div","desc":"Label view of Shopper Fee"}
+
+cart.txt.selectedtimeslot = {"locator":"xpath=//*[contains(@class,'expires expires--active')]","desc":"Text view for timeslot time in cart page"}
+
+cart.ele.inputquantityviewdeals = {"locator":"xpath=//div[@class='modal-content']//input[@class='btn cart-item__input-quantity']","desc":"input product quantity from order summary section in view deals"}
+
+cart.btn.viewdealsremove = {"locator":"xpath=//div[@class='modal-content']//a[@class='fa fa-times-circle cart-delete-item']","desc":"View deals tab remove button"}

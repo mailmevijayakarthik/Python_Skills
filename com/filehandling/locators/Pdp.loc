@@ -1,0 +1,14 @@
+pdp.lnk.mylist	= {"locator":"xpath=//div[@class='atl-container']//ul/li/a[text()='My List']","desc":"My list link PDP"}
+pdp.lnk.pdpaddtolist = {"locator":"xpath=//a[@title='Add to Shopping List']","desc":"Add to list link in PDP"}
+
+
+
+
+
+
+
+
+
+
+
+

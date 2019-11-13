@@ -1,0 +1,31 @@
+confirm.lbl.activetitle = {"locator":"xpath=//li[contains(@class,'active')]//div[.='Confirmation']","desc":"TextView for confimation active title"}
+confirm.btn.continueshopping = {"locator":"xpath=//input[@title='Continue Shopping']","desc":"ButtonView for Continue Shopping"}
+confirm.lbl.thankyou = {"locator":"xpath=//p[@class='checkout-order-confirmation-title']","desc":"TextView for Thank You"}
+confirm.lbl.ordernum = {"locator":"xpath=//div[@class='checkout-order-confirmation']/p[2]/span","desc":"TextView for Order Number"}
+confirm.lbl.emailid = {"locator":"xpath=//div[@class='checkout-order-confirmation']/p[3]/span","desc":"TextView for Email id"}
+confirm.lbl.shiptohome = {"locator":"xpath=//div[@class='checkout-title'][.='ship to home']","desc":"TextView for Check Out Title Ship To Home"}
+confirm.lbl.delivery = {"locator":"xpath=//div[@class='checkout-title'][.='delivery']","desc":"TextView for Check Out Title Delivery"}
+confirm.lbl.instorepickup = {"locator":"xpath=//div[@class='checkout-title'][.='in store pickup']","desc":"TextView for Check Out Title In Store Pick up"}
+confirm.li.sthproducts = {"locator":"xpath=//div[@class='checkout-title'][.='ship to home']/following-sibling::div//a/div","desc":"ListView for products under Ship To Home"}
+confirm.lbl.itemstotal = {"locator":"xpath=//div[@class='checkout-new-element-total']/p[.='Items Total']/following-sibling::p","desc":"TextView for Items total under Ship to Home"}
+confirm.lbl.ordertotalamt = {"locator":"xpath=//*[@id='defaultOrderTotal']/span[2]","desc":"TextView for Order total amount"}
+confirm.lbl.ordersubtotalamt = {"locator":"xpath=//span[.='Order Subtotal']/following-sibling::span","desc":"TextView for Order Sub total amount"}
+confirm.lbl.shippingamt = {"locator":"xpath=//span[.='Shipping']/following-sibling::span","desc":"TextView for Shipping amount"}
+confirm.lbl.discountamt = {"locator":"xpath=//span[.='Discount(s)']/following-sibling::span/p","desc":"TextView for Discount amount"}
+confirm.lbl.estimatedtaxamt = {"locator":"xpath=.//*[@id='defaultTaxAmount']/span[2]","desc":"TextView for Estimated Tax amount"}
+confirm.lbl.deliveryfeeamt = {"locator":"xpath=//span[.='Delivery Fee']/following-sibling::span","desc":"TextView for Delivery fee amount"}
+confirm.li.itemtotal = {"locator":"xpath=//p[.='Item Total']","desc":"ListView for Item total amount"}
+confirm.lbl.quantity = {"locator":"xpath=//div[@class='checkout-total-bottom']//p[.='Qty']/following-sibling::p","desc":"TextView for total quantity"}
+confirm.li.instoreproducts = {"locator":"xpath=//div[@class='checkout-title'][.='in store pickup']/following-sibling::div//a/div","desc":"ListView for products under In Store Pickup"}
+confirm.li.deliveryproducts = {"locator":"xpath=//div[@class='checkout-title'][.='delivery']/following-sibling::div//a/div","desc":"ListView for products under Delivery"}
+confirm.lbl.giftcardamt = {"locator":"xpath=//span[.='Gift Card']/following-sibling::span","desc":"TextView for giftcard amount"}
+confirm.txt.passwordsignup = {"locator":"xpath=//input[@id='reg-password']","desc":"EditView for password for signup"}
+confirm.txt.confirmpasswordsignup = {"locator":"xpath=//input[@id='confirm-password']","desc":"EditView for confirm password for signup"}
+confirm.btn.signup = {"locator":"xpath=//input[@value='Sign Up']","desc":"ButtonView for signup"}
+confirm.chk.savepaymentinfo = {"locator":"xpath=//input[contains(@name,'saveCreditCard')]","desc":"CheckBoxView for Save Payment Info"}
+confirm.lbl.signuperror = {"locator":"xpath=//*[@id='formError']//p","desc":"TextView for signup error message"}
+confirm.txt.specialhandlingamount = {"locator":"xpath=//span[.='Special Handling']/following-sibling::span","desc":"TextView for Special Handling amount"}
+confirm.lbl.header = {"locator":"xpath=//div[contains(text(),'Order Received')]","desc":"Label view of Order Received"}
+confirm.lnk.viewmyorder = {"locator":"xpath=//div[contains(text(),'View My Order')]","desc":"Link view of View My Order"}
+confirm.btn.closefeedback = {"locator":"xpath=//div[@class='live-form-content']//button[@data-aut='button_Close']","desc":"Button view of close feedback modal"}
+confirm.frame.feedbacksurvey = {"locator":"xpath=//iframe[@title='Feedback Survey']","desc":"Frame view of Feedback Survey"}

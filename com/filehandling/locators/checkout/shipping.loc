@@ -1,0 +1,38 @@
+shippingtab.txt.firstname = {"locator":"xpath=//input[@id='firstNameField']","desc":"EditView for firstname"}
+shippingtab.txt.lastname = {"locator":"xpath=//input[@id='lastNameField']","desc":"EditView for lastname"}
+shippingtab.txt.phonenumber1 = {"locator":"xpath=//input[@id='phoneNumber1']","desc":"EditView for phonenumber part one"}
+shippingtab.txt.phonenumber2 = {"locator":"xpath=//input[@id='phoneNumber2']","desc":"EditView for phonenumber part two"}
+shippingtab.txt.phonenumber3 = {"locator":"xpath=//input[@id='phoneNumber3']","desc":"EditView for phonenumber part three"}
+shippingtab.txt.streetaddress1 = {"locator":"xpath=//input[@id='aLine1']","desc":"EditView for street address 1"}
+shippingtab.txt.streetaddress2 = {"locator":"xpath=//input[@id='aLine2']","desc":"EditView for street address 2"}
+shippingtab.txt.city = {"locator":"xpath=//input[@id='cityField']","desc":"EditView for city"}
+shippingtab.txt.zipcode1 = {"locator":"xpath=//input[@id='zipCodeInput1']","desc":"EditView for zipcode 1"}
+shippingtab.txt.zipcode2 = {"locator":"xpath=//input[@id='zipCodeInput2']","desc":"EditView for zipcode 2"}
+shippingtab.lbl.isbusinesspurchase = {"locator":"xpath=//div[.='Is this a business purchase?']","desc":"TextView for is this a business purchase"}
+shippingtab.txt.statedropdown = {"locator":"xpath=//select[@id='stateBox']","desc":"DropdownView for selecting state"}
+shippingtab.lbl.shippingto = {"locator":"xpath=//span[.='Shipping to: ']","desc":"TextView for shipping to"}
+shippingtab.li.lbl.shippingtoaddresslist = {"locator":"xpath=//div[@id='checkout-address-container']/p","desc":"ListView for shipping to address"}
+shippingtab.txt.prefixdropdown = {"locator":"xpath=//dt[.='Prefix']/following-sibling::dd/select","desc":"TextView for prefix dropdown"}
+shippingtab.txt.countrydropdown = {"locator":"xpath=//select[@id='countryBox']","desc":"TextView for country dropdown"}
+shippingtab.lbl.createnewshippingaddress = {"locator":"xpath=//dd/strong[.='Create a New Shipping Address']","desc":"TextView for create a new shipping address"}
+shippingtab.lbl.shippingaddress = {"locator":"xpath=//div[.='Shipping Address - Ship To Home']","desc":"TextView for shipping address"}
+shippingtab.lbl.shippingheader = {"locator":"xpath=//ul[@class='rdcrcl-navigation clearfix']/li[4]/div[2]/div/../..","desc":"TextView for shipping tab header"}
+shippingtab.lbl.verifyshippingsddress = {"locator":"xpath=//h2[.='Verify Your Shipping Address']","desc":"TextView for verifying shipping address"}
+shippingtab.btn.usethisaddress = {"locator":"xpath=//button[.='Use this Address']","desc":"ButtonView for use this address"}
+shippingtab.btn.continueexistingaddress = {"locator":"xpath=//button[@id='continueShippingButton']","desc":"ButtonView for continue in existing address"}
+shippingtab.btn.continuenewaddress = {"locator":"xpath=//button[@id='newAddressContinueShippingButton']","desc":"ButtonView for continue for new address"}
+shippingtab.txt.nickname = {"locator":"id=nickNameField","desc":"TextView for nickname field"}
+shippingtab.btn.editcart = {"locator":"xpath=//*[.='Edit Cart']","desc":"ButtonView for Edit Cart"}
+shippingtab.lbl.errormsg = {"locator":"xpath=//*[@id=\\\"formError\\\"]","desc":"TextView for error message"}
+shippingtab.lbl.shiptomultiad = {"locator":"xpath=//*[.='Ship to Multiple Addresses']","desc":"TextView for Ship to Multiple addresses"}
+shippingtab.rbtn.shiptomultiad = {"locator":"xpath=//*[@id='shipto-multi-address-radio']","desc":"RadioButtonView for Ship to Multiple addresses"}
+shippingtab.btn.shiptomultiaddropdown = {"locator":"xpath=//select[contains(@class,'multiple-shipping-address-select')]","desc":"ButtonView for Ship to Mutiple addresses select drop down"}
+shippingtab.li.items = {"locator":"xpath=//div[contains(@class,'checkout-box-subcontent')]","desc":"ListView for items in Shipping address tab"}
+shippingtab.btn.save = {"locator":"id=newAddressContinueShippingButton","desc":"Buttonview of save"}
+shippingtab.dd.shipto = {"locator":"id=shipping-address-options","desc":"Dropdown of Ship To"}
+shippingtab.lbl.shippingtoaddressnickname = {"locator":"xpath=//*[@id='checkout-address-container']/p[1]","desc":"TextView for shipping to address name"}
+shippingtab.rbtn.newshippingaddress = {"locator":"xpath=.//*[@id='create-new-address-radio']","desc":"RadioButtonView for new shipping address"}
+shippingtab.lnk.viewallshipping = {"locator":"xpath=//a[.='View all shipping and handling details']","desc":"LinkView for Shipping Details"}
+shippingtab.lbl.deliveryandreturns = {"locator":"xpath=.//*[@id='body']/div/div/div/h1","desc":"TextView for for Delivery and Returns"}
+shippingtab.lbl.shippingandhandling = {"locator":"xpath=//*[@class='category-title']/h1","desc":"TextView for for Shipping and Handling"}
+shippingtab.lbl.shippingmethod = {"locator":"xpath=//*[@class='checkout-section']//strong","desc":"TextView for for Shipping method"}

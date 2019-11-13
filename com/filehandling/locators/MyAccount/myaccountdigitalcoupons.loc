@@ -1,0 +1,11 @@
+myacccoup.lbl.header = {"locator":"xpath=//*[@class='category-title']/h1","desc":"Text Header Digital coupons"}
+myacccoup.lbl.mobilestatus = {"locator":"xpath=//*[@class='mobile-status active-status']","desc":"Text of Mobile status"}
+myacccoup.edt.mobileno1 = {"locator":"xpath=//*[@id='mobNo1']","desc":"EditText of Mobile Number 1"}
+myacccoup.edt.mobileno2 = {"locator":"xpath=//*[@id='mobNo2']","desc":"EditText of Mobile Number 2"}
+myacccoup.edt.mobileno3 = {"locator":"xpath=//*[@id='mobNo3']","desc":"EditText of Mobile Number 3"}
+myacccoup.lbl.getoffersbytext = {"locator":"xpath=//*[.='Get Extra Offers by Text']","desc":"TextView of Get offers by Text"}
+myacccoup.chk.getoffersbytext = {"locator":"xpath=//*[.='Get Extra Offers by Text']/../..//*[@class='cutomize-checkbox']//label","desc":"CheckBoxView of Get offers by Text"}
+myacccoup.lbl.createaltid = {"locator":"xpath=//*[.='Create Alternate ID Just in Case']","desc":"TextView of Create Alternate id"}
+myacccoup.chk.createaltid = {"locator":"xpath=//*[.='Create Alternate ID Just in Case']/../..//*[@class='cutomize-checkbox']//label","desc":"CheckBoxView of Create Alternate id"}
+myacccoup.btn.save = {"locator":"xpath=//*[.='Save']","desc":"ButtonView of Save"}
+myacccoup.edt.pin = {"locator":"xpath=//*[@id='PIN']","desc":"EditText of 4 digit pin"}

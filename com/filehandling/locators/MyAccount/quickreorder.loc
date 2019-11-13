@@ -1,0 +1,3 @@
+quickReorder.txt.quickReorderheader = {\"locator\":\"xpath=.//*[@id='content']/div/div[@class='category-title']/h1[text()='Quick Reorder']\",\"desc\":\"Quick Reorder TextView Title\"}
+quickReorder.lbl.productname = {"locator":"xpath=.//span[@class='ci-item-name']","desc":"Text View of product name"}
+quickReorder.lbl.addtocart = {"locator":"xpath=.//*[@value='Add to Cart']","desc":"Button View of Add to cart"}

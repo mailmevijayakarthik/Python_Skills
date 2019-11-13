@@ -1,0 +1,90 @@
+search.txt.productname= {"locator":"xpath=//div[@id='ajaxCategoryDisplay']/div/ul/li/div[2]/div/a/span","desc":"TextView for Coupons Product name in  Product page"}
+search.btn.addtolist={"locator":"xpath=//*[contains(@title,'Add to List')]","desc":"Button for Add to List in  Product page"}
+search.btn.exploremyheb = {"locator":"xpath=//*[contains(text(),'Explore My H‑E‑B')]","desc":"Button for Explore My HEB in HomePage"}
+search.btn.shopnow = {"locator":"xpath=//*[contains(text(),'Shop Now')]","desc":"Button for Shop Now in HomePage"}
+search.txt.search = {"locator":"xpath=//*[@id='searchText']","desc":"Textbox for Search"}
+search.btn.search = {"locator":"xpath=//*[@id='searchsubmit']","desc":"ButtonView for Search"}
+
+search.txt.errormsg = {"locator":"xpath=//*[@id='CDP_BodyContent_rsp']/div/div[2]/div/div[3]/div[2]","desc":"TextView for error message of invalid Search term"}
+search.lnk.products = {"locator":"xpath=//a[@title='View All Product Results']","desc":"LinkView for products"}
+search.lnk.recipes = {"locator":"xpath=//div[@id='recipes-result']//a[@class='call-to-action-link strong']","desc":"LinkView for recipes"}
+search.lnk.content = {"locator":"xpath=//a[@title='View Content']","desc":"LinkView for content"}
+search.lnk.article = {"locator":"xpath=//div[@id='content-result']//a[@class='call-to-action-link strong']","desc":"LinkView for Article"}
+search.lnk.firstavailableitem = {"locator":"xpath=//*[@id='ajaxCategoryDisplay']/div/ul/li[1]/div[2]/div[1]/a/span","desc":"LinkView for first available item from the search"}
+search.lnk.home = {"locator":"xpath=//a[text()='Home']","desc":"LinkView for navigating to Home page"}
+search.txt.instorepickup = {"locator":"xpath=//*[contains(text(),'Order Ahead for In-Store Pickup')]","desc":"TextView for Instore Pickup"}
+search.txt.searchresults = {"locator":"xpath=//*[@id='CDP_BodyContent_rsp']//h1[contains(text(),'Search Results')]","desc":"TextView for Search Results"}
+search.lis.starratings = {"locator":"xpath=//*[@class='cat-star clearfix']","desc":"ListView for Star Ratings"}
+search.lis.ratingscount = {"locator":"xpath=//*[@class='cat-star clearfix']//span","desc":"ListView for Ratings Count"}
+search.lis.addtorecipebox = {"locator":"xpath=//*[@id='cat-recipe']//button[@title='Add to Recipe Box']","desc":"ListView for Add to Recipe box button"}
+search.lis.addtorecipeboxoptions = {"locator":"xpath=(//*[@id='cat-recipe']//button[@title='Add to Recipe Box'])[1]/..//div[@class='atl-container']/ul/li/a","desc":"ListView for Options under Add to Recipe box"}
+search.lnk.firstrecipeitem = {\"locator\":\"xpath=//*[@id='cat-recipe']/ul/li[1]/div[2]/a\",\"desc\":\"LinkText for First Recipe Item\"}
+search.lbl.soldonline = {"locator":"xpath=//*[@id='prodFilterOnline']","desc":"Select sold online filter"}
+search.txt.soldonlineerrmsg = {"locator":"xpath=//*[@id='ajaxCategoryDisplay']/div","desc":"TextView for error message of sold online filter"}
+search.lbl.recipes = {"locator":"xpath=//*[@id='cat-recipe']/div[1]","desc":"Search results recipes"}
+search.lnk.recipesresult = {"locator":"xpath=//a[text()='View All Recipe Results']","desc":"View all Search results for recipes"}
+search.lnk.listview = {"locator":"xpath=//a[text()='List']","desc":"List view in recipes"}
+search.lnk.allcontentresult = {"locator":"xpath=//a[text()='View All Content Results']","desc":"LinkView for all content result"}
+search.lbl.content = {"locator":"xpath=//*[@id='cat-content']/div[1]","desc":"Content page validation"}
+search.lnk.readmore = {"locator":"xpath=//*[@id='cat-content']/ul/li[1]/div/div/div/a","desc":"Content page read more link"}
+search.lbl.readmoreheader = {"locator":"xpath=//*[@id='body']/div/div[2]/div[1]/h1","desc":"Read more link header"}
+search.lbl.contentheader = {"locator":"xpath=//*[@id='cat-content']/ul/li[1]/a/div","desc":"Content header"}
+search.lnk.subscribeprod = {"locator":"xpath=//*[@id='ajaxCategoryDisplay']/div/ul/li[1]/div[2]/div[1]/a/span","desc":"First available product in CDP"}
+search.btn.ontime = {"locator":"xpath=//label[@for='choice-oneTime']","desc":"One time purchase in PDP"}
+search.btn.subscribe = {"locator":"xpath=//label[@for='choice-subscribe']","desc":"Subscribe button in PDP"}
+search.img.primopick = {"locator":"xpath=//img[@alt='Primo Pick']","desc":"Primopick in PDP"}
+search.lbl.refineyourresult = {"locator":"xpath=//div[text()='refine your results']","desc":"Refine your result label"}
+search.lis.refineyourresultlist = {"locator":"xpath=(//input[@type='checkbox']/.././a)","desc":"Refine your result list"}
+search.li.typeaheadterm = {"locator":"xpath=//ul[@class='search-results']/li","desc":"ListView for type ahead term"}
+search.menu.shop = {"locator":"xpath=//a[@href='/browse/shop']","desc":"Shop Menu in Home Page"}
+search.menu.shopmenu = {"locator":"xpath=//a[@class='main-nav__item-name main-nav__item-name--has-children']","desc":"All Shop Menus in Home Page"}
+search.page.header = {"locator":"xpath=//a[starts-with(@class,'breadcrumb-last')]","desc":"Header in any Page"}
+search.btn.weightcontainer = {"locator":"xpath=//div[@class='weight-select-container']","desc":"Container button for weighted product"}
+search.lbl.weightproductname = {"locator":"xpath=(//select[@class='weight-select']//ancestor::li//span[@class='responsivegriditem__title'])[1]","desc":"weighted product name from search page"}
+search.select.weightcontainer = {"locator":"xpath=(//div[@class='weight-select-container']/select)[1]","desc":"Selector for weighted product"}
+search.ele.minicart = {"locator":"xpath=//*[@class='minicart__header']","desc":"Minicart for weighted product"}
+search.txt.minicartweightproductname = {"locator":"xpath=//a[@class='cart-item__display-name']/span","desc":"Minicart for weighted product name"}
+search.ele.minicartestimateweight = {"locator":"xpath=//div[@class='btn cart-item__input-quantity cart-item__estimated-weight']","desc":"Element for estimate weighted product weight"}
+
+search.lnk.categoryfilter = {"locator":"xpath=//div[@class='show-for-medium-up']//a[@title='%s']","desc":"By category filter links"}
+search.lst.productblocks = {"locator":"xpath=//ul[contains(@class,'product-grid')]/li","desc":"Search results page Product Array"}
+search.lst.producttitle = {"locator":"xpath=.//span[@class='responsivegriditem__title']","desc":"List view of product title"}
+search.lbl.searchresultcount = {"locator":"xpath=//div[@class='subcategory-container']","desc":"Label for Search result count"}
+search.lst.productrating = {"locator":"xpath=.//div[@class='cat-star clearfix']//img","desc":"List view of product rating"}
+search.lst.productratingcount = {"locator":"xpath=.//div[@class='cat-star clearfix']/span","desc":"List view of product rating count"}
+search.lst.productprice = {"locator":"xpath=.//span[@class='cat-price-number']","desc":"List view of product price"}
+search.menu.shop = {"locator":"xpath=//a[@href='/browse/shop']","desc":"Shop Menu in Home Page"}
+
+search.menu.shop = {"locator":"xpath=//a[@href='/browse/shop']","desc":"Shop Menu in Home Page"}
+search.btn.afterclip = {"locator":"xpath=//button[@class='btn btn-coupon-clipped']","desc":"NonActive clipped button for product"}
+search.ele.couponcloseicon = {"locator":"xpath=//div[@class='one-to-one-header']//a[@aria-label='Close']","desc":"close icon for coupon product"}
+search.btn.clip = {"locator":"xpath=//button[@class='btn btn-coupon']","desc":"clip button from mini cart"}
+search.lbl.minicartproductprice = {"locator":"xpath=//div[@class='cart-item__total-price']","desc":"Add to cart product price from mini cart"}
+search.button.decreasequantity = {"locator":"xpath=//button[@class='btn btn-decrement']","desc":"decrease product count from mini cart"}
+
+search.drpdwn.sortByOptions = {"locator":"id=prodSortBySelect","desc":"sort by options in search results products page"}
+
+search.btn.container = {"locator":"xpath=//div[@class='add-to-cart-button-container']","desc":"Container button for all product"}
+search.lbl.alladdtocartproductname = {"locator":"xpath=(//div//button[starts-with(@class,'btn btn-add-to-cart icon__after-plus--normal')]//ancestor::li//span[@class='responsivegriditem__title'])","desc":"All add to cart product name"}
+search.lbl.alladdtocartprice = {"locator":"xpath=(//div[@class='cat-price']/span)","desc":"All add to cart product price"}
+search.lbl.ratingstars = {"locator":"xpath=//div[@class='cat-star clearfix']","desc":"rating starts for all product"}
+search.lbl.stars = {"locator":"xpath=(//div[@class='cat-star clearfix'])[%s]/div/img","desc":"starts for all product"}
+
+search.lst.recipeblocks = {"locator":"xpath=//ul[contains(@class,'recipe-card-list')]/li","desc":"Search results page recipe Array"}
+search.lnk.recipetitle = {"locator":"xpath=.//div[@class='cat-list-deparment']/a","desc":"Search results recipe title"}
+
+search.elm.sortby = {"locator":"xpath=//div[starts-with(@class,'sort-container')]//select","desc":"dropdown for sort by"}
+search.txt.productname= {"locator":"xpath=//div[@id='ajaxCategoryDisplay']/div/ul/li/div[2]/div/a/span","desc":"TextView for Coupons Product name in  Product page"}
+search.btn.addtolist={"locator":"xpath=//*[contains(@title,'Add to List')]","desc":"Button for Add to List in  Product page"}
+
+search.btn.addtocart = {"locator":"xpath=.//button[starts-with(@class,'btn btn-add-to-cart icon__after-plus--normal')]","desc":"Add to cart button for product"}
+search.lbl.addtocartqty = {"locator":"xpath=.//button[starts-with(@class,'btn btn-add-to-cart icon__after-plus--normal')]","desc":"Add to cart quantity for product"}
+
+search.lnk.searchoncurbside = {"locator":"xpath=//div[@class='search-result-deep-linking']/a","desc":"Link for search for keyword on Curbside or Delivery"}
+
+search.chk.searchfiltercoupon = {"locator":"xpath=(//input[@name='Has Coupons'])[1]","desc":"filter coupon check box from home page"}
+search.chk.searchfreeverified = {"locator":"xpath=(//input[@name='Gluten Free Verified'])[1]","desc":"free verified check box from home page"}
+
+search.btn.searchclipbutton = {"locator":"xpath=//*[@class='panel']/..//*[contains(@class,'btn btn-coupon')]","desc":"clip button from review your cart page"}
+
+search.txt.searchtitle = {"locator":"xpath=//h1[@class='search-result-title']","desc":"Search Result title"}

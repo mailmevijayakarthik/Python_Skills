@@ -1,0 +1,87 @@
+taxexemption.txt.taxexemptionheader = {\"locator\":\"xpath=.//*[@id='content']/div/div[@class='category-title']/h1[contains(text(),'Tax Exemption')]\",\"desc\":\"Tax Exemption TextView Title\"}
+
+taxexemption.lbl.register = {\"locator\":\"xpath=//div[@class='va'][.='Register']\",\"desc\":\"Tax Exemption Register\"}
+
+taxexemption.lbl.printform = {\"locator\":\"xpath=//div[@class='va'][.='Print Form']\",\"desc\":\"Tax Exemption Print Form\"}
+
+taxexemption.lnk.breadcrumb = {\"locator\":\"xpath=//a[@class='breadcrumb-last']\",\"desc\":\"Tax Exemption breadcrumb\"}
+
+taxexemption.lnk.couponsbreadcrumb = {\"locator\":\"xpath=//div[@class='breadcrumb clearfix']/a[.='Coupons']\",\"desc\":\"Coupons breadcrumb\"}
+
+taxexemption.lnk.digitalcouponsbreadcrumb = {\"locator\":\"xpath=//div[@class='breadcrumb clearfix']/a[.='Digital Coupons']\",\"desc\":\"Digital Coupons breadcrumb\"}
+
+taxexemption.lnk.printablecouponsbreadcrumb = {\"locator\":\"xpath=//div[@class='breadcrumb clearfix']/a[.='Printable Coupons']\",\"desc\":\"Printable Coupons breadcrumb\"}
+
+taxexemption.lnk.myaccbreadcrumb = {\"locator\":\"xpath=//div[@class='breadcrumb clearfix']/a[.='My Account']\",\"desc\":\"Tax Exemption My Account breadcrumb\"}
+
+taxexemption.lnk.homebreadcrumb = {\"locator\":\"xpath=//div[@class='breadcrumb clearfix']/a[text()='Home']\",\"desc\":\"Tax Exemption Home breadcrumb\"}
+
+taxexemption.lnk.imagingservice = {\"locator\":\"xpath=//a[@class='system-link'][text()='Imaging.Services@heb.com']\",\"desc\":\"Tax Exemption Imaging Services\"}
+
+taxexemption.lbl.requirednote = {\"locator\":\"xpath=//div[@class='requiered-note'][contains(text(),'Required')]/span[@class='primary-3']\",\"desc\":\"Tax Exemption Required\"}
+
+taxexemption.lbl.id = {\"locator\":\"xpath=//dt[@id='reg-taxExemptId']\",\"desc\":\"Tax Exemption ID\"}
+
+taxexemption.txt.id = {\"locator\":\"xpath=//input[@id='reg-fName']\",\"desc\":\"Tax Exemption ID\"}
+
+taxexemption.lbl.orgname = {\"locator\":\"xpath=//dt[@id='reg-orgName']/span[@class='primary-3']\",\"desc\":\"Tax Exemption Organization Name\"}
+
+taxexemption.txt.orgname = {\"locator\":\"xpath=//input[@id='reg-orgName']\",\"desc\":\"Tax Exemption Organization Name\"}
+
+taxexemption.lbl.taxexemptionstate = {\"locator\":\"xpath=//dt[contains(text(),'Tax Exemption State')]\",\"desc\":\"Tax Exemption Tax Exemption State\"}
+
+taxexemption.dd.taxexemptionstate = {\"locator\":\"xpath=//dl[@class='tax-exemption-form']/div[3]//select[@id='reg-tax-state']\",\"desc\":\"Tax Exemption State\"}
+
+taxexemption.lbl.contactemail = {\"locator\":\"xpath=//dt[@id='reg-taxEmail']/span[@class='primary-3']\",\"desc\":\"Tax Exemption Contact email\"}
+
+taxexemption.txt.contactemail = {\"locator\":\"xpath=//*[@id='taxExemptionRegistration']/dl/div[4]/dd/input[3]\",\"desc\":\"Tax Exemption Contact email\"}
+
+taxexemption.lbl.contactname = {\"locator\":\"xpath=//dt[@id='reg-taxContact']/span[@class='primary-3']\",\"desc\":\"Tax Exemption Contact name\"}
+
+taxexemption.txt.contactname = {\"locator\":\"xpath=//input[@id='reg-taxContact']\",\"desc\":\"Tax Exemption Contact name\"}
+
+taxexemption.lbl.title = {\"locator\":\"xpath=//dt[@id='reg-taxTitle']/span[@class='primary-3']\",\"desc\":\"Tax Exemption Title\"}
+
+taxexemption.txt.title = {\"locator\":\"xpath=//input[@id='reg-taxTitle']\",\"desc\":\"Tax Exemption Title\"}
+
+taxexemption.lbl.phoneno = {\"locator\":\"xpath=//dt[@id='reg-taxPhone']/span[@class='primary-3']\",\"desc\":\"Tax Exemption Phone\"}
+
+taxexemption.lbl.registeras = {\"locator\":\"xpath=//dt[@id='reg-tax-regType']/span[@class='primary-3']\",\"desc\":\"Tax Exemption Registered As\"}
+
+taxexemption.dd.registeras = {\"locator\":\"xpath=//select[@name='regType']\",\"desc\":\"Tax Exemption Registered As\"}
+
+taxexemption.lbl.businessdesc = {\"locator\":\"xpath=//dt[@id='reg-businessDesc']/span[@class='primary-3']\",\"desc\":\"Tax Exemption Business Description\"}
+
+taxexemption.txt.businessdesc = {\"locator\":\"xpath=//input[@id='reg-businessDesc']\",\"desc\":\"Tax Exemption Business Description\"}
+
+taxexemption.lbl.generaldesc = {\"locator\":\"xpath=//dt[@id='reg-generalDesc']\",\"desc\":\"Tax Exemption General Description\"}
+
+taxexemption.txt.generaldesc = {\"locator\":\"xpath=//textarea[@title='Groceries and/or general merchandise']\",\"desc\":\"Tax Exemption General Description\"}
+
+taxexemption.lbl.orgaddress1 = {\"locator\":\"xpath=//dt[@id='reg-tax-address1']/span[@class='primary-3']\",\"desc\":\"Tax Exemption Organization Address line 1 \"}
+
+taxexemption.txt.orgaddress1 = {\"locator\":\"xpath=//input[@id='reg-tax-address1']\",\"desc\":\"Tax Exemption Organization Address line 1 \"}
+
+taxexemption.lbl.orgaddress2 = {\"locator\":\"xpath=//dt[@id='reg-tax-address2']\",\"desc\":\"Tax Exemption Organization Address line 2 \"}
+
+taxexemption.lbl.city = {\"locator\":\"xpath=//dt[@id='reg-tax-city']/span[@class='primary-3']\",\"desc\":\"Tax Exemption City \"}
+
+taxexemption.txt.city = {\"locator\":\"xpath=//input[@id='reg-tax-city']\",\"desc\":\"Tax Exemption City \"}
+
+taxexemption.lbl.state = {\"locator\":\"xpath=//dl[@class='tax-exemption-form']/div[14]/dt[contains(text(),'State')]\",\"desc\":\"Tax Exemption State\"}
+
+taxexemption.dd.state = {\"locator\":\"xpath=//dl[@class='tax-exemption-form']/div[14]//select[@id='reg-tax-state']\",\"desc\":\"Tax Exemption State\"}
+
+taxexemption.lbl.zip = {\"locator\":\"xpath=//dt[@id='reg-tax-postalCode']/span[@class='primary-3']\",\"desc\":\"Tax Exemption Zip \"}
+
+taxexemption.txt.zip = {\"locator\":\"xpath=//input[@id='reg-tax-postalCode']\",\"desc\":\"Tax Exemption Zip \"}
+
+taxexemption.chk.iverify = {\"locator\":\"xpath=//input[@type='checkbox'][@id='reg-tax-agree']\",\"desc\":\"Tax Exemption I verify checkbox \"}
+
+taxexemption.lbl.iverify = {\"locator\":\"xpath=//dl[@class='tax-exemption-form']//label\",\"desc\":\"Tax Exemption I verify checkbox \"}
+
+taxexemption.btn.continue = {\"locator\":\"xpath=//button[@title='Continue']\",\"desc\":\"Tax Exemption Continue \"}
+
+taxexemption.lnk.cancel = {\"locator\":\"xpath=//a[@title='Cancel']\",\"desc\":\"Tax Exemption Cancel \"}
+
+taxexemption.btn.printform = {\"locator\":\"xpath=//*[@id='tax-print-form']\",\"desc\":\"Print Form button \"}

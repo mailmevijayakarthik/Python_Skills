@@ -1,0 +1,51 @@
+recipecdp.list.recipeitems = {\"locator\":\"xpath=//*[@id='recipeListPlaceHolder']/ul/li\",\"desc\":\"ListView for recipe items\"}
+
+recipecdp.lbl.recipename = {\"locator\":\"xpath=.//*[@id='recipeListPlaceHolder']/ul/li[1]/div[3]/a\",\"desc\":\"ListView for recipe name\"}
+
+recipecdp.li.lbl.recipename = {\"locator\":\"xpath=.//*[@class='recipetitle']/a\",\"desc\":\"TextView for recipe name\"}
+
+recipecdp.lbl.pageheader = {\"locator\":\"xpath=//div[@class='recipecategoryheader']\",\"desc\":\"TextView for recipe cdp page header\"}
+
+recipecdp.lbl.recipegridview = {\"locator\":\"xpath=//a[@id='recipeGridView']\",\"desc\":\"TextView for recipe grid view\"}
+
+recipecdp.lbl.recipelistview = {\"locator\":\"xpath=//a[@id='recipeListView'] | //*[@title='List View']\",\"desc\":\"TextView for recipe list view\"}
+
+recipecdp.lbl.sortby = {\"locator\":\"xpath=//label[.='Sort by:']\",\"desc\":\"TextView for sort by\"}
+
+recipecdp.txt.sortbydropdown = {\"locator\":\"xpath=//select[@id='sortBySelect']\",\"desc\":\"DropdownView for sort by\"}
+
+recipecdp.lbl.resultcount = {\"locator\":\"xpath=//div[@class='result-search']/span\",\"desc\":\"TextView for result count number\"}
+
+recipecdp.lbl.results = {\"locator\":\"xpath=//div[@class='result-search']\",\"desc\":\"TextView for results label\"}
+
+recipecdp.lbl.filterby = {\"locator\":\"xpath=//div[@class='filterby']\",\"desc\":\"TextView for filter by\"}
+
+recipecdp.chk.filterbyoptionsdynamic = {\"locator\":\"xpath=//div[.='%s']/../div/label\",\"desc\":\"CheckboxView for single filter by option in dynamic view\"}
+
+recipecdp.chk.filterbyoptionslist = {\"locator\":\"xpath=//div[@id='wrapper']//div[@class='uppercase recipeoptiontxt inline-block']/../div/label\",\"desc\":\"CheckboxView for all the filter by options\"}
+
+recipecdp.lbl.filterbyoptionslist = {\"locator\":\"xpath=//div[@id='wrapper']//div[@class='uppercase recipeoptiontxt inline-block']\",\"desc\":\"TextView for all the filter by options\"}
+
+recipecdp.get.lbl.recipeimage = {\"locator\":\"xpath=.//*[@id='recipeListPlaceHolder']/ul/li[%s]/div[1]/a/img\",\"desc\":\"ListView for recipe image\"}
+
+recipecdp.get.lbl.recipename = {\"locator\":\"xpath=.//*[@id='recipeListPlaceHolder']/ul/li[%s]/div[3]/a\",\"desc\":\"ListView for recipe name\"}
+
+recipecdp.get.lbl.recipenamealter = {\"locator\":\"xpath=.//*[@id='recipeListPlaceHolder']/ul/li[%s]/div[2]/a\",\"desc\":\"ListView for recipe name\"}
+
+recipecdp.get.lbl.reciperating = {\"locator\":\"xpath=.//*[@id='recipeListPlaceHolder']/ul/li[%s]/div[4]\",\"desc\":\"ListView for recipe rating\"}
+
+recipecdp.get.lbl.reciperatingalter = {\"locator\":\"xpath=.//*[@id='recipeListPlaceHolder']/ul/li[%s]/div[3]\",\"desc\":\"ListView for recipe rating\"}
+
+recipecdp.get.lbl.add2list = {\"locator\":\"xpath=.//*[@id='recipeListPlaceHolder']/ul/li[%s]//a[.='Add to List']\",\"desc\":\"ListView for add2list\"}
+
+recipecdp.get.lbl.add2listalter = {\"locator\":\"xpath=.//*[@id='recipeListPlaceHolder']/ul/li[%s]/div[4]/a\",\"desc\":\"ListView for add2list\"}
+
+recipecdp.get.lbl.add2recipebox = {\"locator\":\"xpath=.//*[@id='recipeListPlaceHolder']/ul/li[%s]//a[.='Add to Recipe Box']\",\"desc\":\"ListView for add2recipebox\"}
+
+recipecdp.get.lbl.add2recipeboxalter = {\"locator\":\"xpath=//*[@id='recipeListPlaceHolder']/ul/li[%s]//button[.='Add to Recipe Box']\",\"desc\":\"ListView for add2recipebox\"}
+
+recipecdp.btn.loadmoreitems = {\"locator\":\"xpath=//*[@id='loadMoreItemsWrapper']/a\",\"desc\":\"ButtonView of Load more items\"}
+
+recipecdp.lbl.totalorcooktime = {\"locator\":\"xpath=//*[@class='recipespecs'][contains(.,'Total')] | //*[@class='cat-list-description']\",\"desc\":\"TextView of Total Time or Cook Time\"}
+
+recipecdp.lbl.firstProdName= {"locator":"xpath=(//div[@class='productimage'])[1]","desc":"Recipe first image CDP"}

@@ -1,0 +1,59 @@
+minicart.btn.cartslider = {"locator":"xpath=//*[contains(@class,'minicart__header')]","desc":"Button view Mini Cart slider"}
+
+minicart.txt.editqty = {"locator":"xpath=(//*[@id='js-minicart']//input)[5]","desc":"Text view MiniCart edit box"}
+
+minicart.btn.removeproduct = {"locator":"xpath=//a[@class='fa fa-times-circle cart-delete-item']","desc":"remove selected product from cart"}
+
+minicart.txt.minicartheader = {"locator":"xpath=//*[contains(@class,'minicart__header')]","desc":"Minicart header"}
+
+minicart.txt.removemessage = {"locator":"xpath=//*[@class='cart-item__delete-confirm-message']","desc":"Text view of Are you sure want to Remove message"}
+
+minicart.btn.remove = {"locator":"xpath=(//*[@class='btn btn-primary'])[4]","desc":"Button view of Remove"}
+
+minicart.btn.removecta = {"locator":"xpath=//*[text()='Remove']","desc":"button for remove product from cart"}
+
+
+
+minicart.btn.cancel = {"locator":"xpath=(//*[@id='js-minicart']//button)[1]","desc":"Button view of Cancel"}
+
+minicart.lbl.count={"locator":"xpath=//input[@class='btn cart-item__input-quantity']","desc":"Mini cart count"}
+
+minicart.ele.products = {"locator":"xpath=//div[@class='cart-item__row minicart-item']","desc":"Products in the mini cart"}
+
+minicart.prd.btn.remove = {"locator":"xpath=.//a[@class='fa fa-times-circle cart-delete-item']","desc":"remove selected product from cart"}
+
+minicart.prd.btn.removecta = {"locator":"xpath=.//*[text()='Remove']","desc":"button for remove product from cart"}
+
+minicart.prd.btn.cancelcta = {"locator":"xpath=.//*[text()='Cancel']","desc":"cancel button for remove product cta"}
+
+minicart.prd.lbl.prdname = {"locator":"xpath=//*[@class='cart-item__display-name']/span[1]","desc":"product name"}
+
+minicart.prd.lbl.prdsize = {"locator":"xpath=.//a[@class='cart-item__display-name']/span[2]","desc":"product size"}
+
+minicart.prd.lbl.totalprice = {"locator":"xpath=.//div[@class='cart-item__total-price']","desc":"product price"}
+
+minicart.prd.ele.quantity = {"locator":"xpath=.//*[contains(@class, 'cart-item__input-quantity')]","desc":"product quantity"}
+
+minicart.prd.lbl.saleprice = {"locator":"xpath=.//div[@class='cart-item__sale-price']","desc":"product sale price"}
+
+minicart.prd.input.quantity = {"locator":"xpath=.//div[contains(@class, 'quantity')]//input", "desc":"input field for product"}
+
+minicart.prd.btn.increaseqty = {"locator":"xpath=..//div[contains(@class, 'quantity')]//button[contains(@class,'increment')]","desc":"increase qty button"}
+
+minicart.prd.btn.decreaseqty = {"locator":"xpath=..//div[contains(@class, 'quantity')]//button[contains(@class,'decrement')]","desc":"decrease qty button"}
+
+minicart.lst.productlist = {"locator":"xpath=//a[@class='cart-item__display-name']","desc":"List view of product in minicart"}
+
+minicart.lst.minilistname = {"locator":"xpath=//a[@class='cart-item__display-name']//span[1]","desc":"name of product in minicart"}
+
+minicart.ele.weightcontainer = {"locator":"xpath=//div[@class='minicart expanded']//*[contains(@class,'cart-item__quantity')]/div","desc":"Element for weighted product"}
+
+minicart.select.weightcontainer = {"locator":"xpath=(//div[@class='minicart expanded']//select)[1]","desc":"Selector for weighted product"}
+
+minicart.btn.checkoutnow = {"locator":"xpath=//div[@class='minicart expanded']//*[contains(text(),'View cart')]","desc":"Button view for minicart checkout now"}
+
+minicart.txt.timeslotmessage = {"locator":"xpath=//*[@class='timeslot']","desc":"Text view for timeslot message"}
+
+minicart.ele.expandicon = {"locator":"xpath=//*[@class='minicart']/..//*[contains(@class,'angle-left')]","desc":"Element view for Mini Cart expand icon"}
+
+minicart.ele.collapseicon = {"locator":"xpath=//*[@class='minicart expanded']/..//*[contains(@class,'angle-right')]","desc":"Element view for Mini Cart collapse icon"}

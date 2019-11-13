@@ -1,0 +1,103 @@
+coupon.lnk.couponsmenu= {"locator":"xpath=//ul[@class='main-nav']//a[text()='Coupons']","desc":"Coupons link in Home Page header"}
+
+coupon.lbl.couponModalPopup= {"locator":"xpath=(//div[@id='modal-coupon-ask-to-login'])[2]","desc":"Coupon modal popup"}
+
+coupon.btn.couponModalPopupClose= {"locator":"xpath=//div[@id='modal-coupon-ask-to-login']//a[@class='close-reveal-modal']","desc":"Coupons close popup"}
+
+coupon.lbl.couponModalPopuplogintoStartTxt= {"locator":"xpath=(//div[@class='modal-coupon-ask-to-login-text'])[2]","desc":"Coupons popup login text"}
+
+coupon.lbl.couponModalPopupDCImage= {"locator":"xpath=(//img[@class='modal-coupon-ask-to-login-image'])[2]","desc":"Coupons popup DC image"}
+
+coupon.btn.couponModalpopupLoginBtn= {"locator":"xpath=(//a[text()='Log In'])[2]","desc":"Coupons popup Login Btn"}
+
+coupon.btn.couponsModalPopupBrowseAsGuestBtn= {"locator":"xpath=(//a[text()='Browse Coupons as Guest'])[2]","desc":"Coupons popup Browse coupons as Guest btn"}
+
+coupon.lnk.couponsModalPopupCreateOne= {"locator":"xpath=(//a[@href='/my-account/user-register'])[5]","desc":"Coupons Create one link"}
+
+coupon.lbl.couponsPageHeader= {"locator":"xpath=//h1[text()='Digital Coupons']|//h1[contains(text(),'Coupon Products')]","desc":"Coupons page header"}
+
+coupon.lbl.couponsPageBanner= {"locator":"xpath=//div[@class='coupon-banner-txt columns text-center']","desc":"Coupons banner"}
+
+coupon.lnk.couponsPageBannerLearnmore= {"locator":"xpath=//a[@class='coupon-learn-more']","desc":"Coupons banner Learn more link"}
+
+coupon.lbl.couponsTotAvailableTab= {"locator":"xpath=//div[@id='totalAvailable']","desc":"Coupons Total Available Tab"}
+
+coupon.lbl.couponsMyselectedTab= {"locator":"xpath=//div[@id='mySelected']","desc":"Coupons My Selected tab"}
+
+coupon.lbl.couponsSavingsToDateTab= {"locator":"xpath=//div[@id='savingsToDate']","desc":"Coupons"}
+
+coupon.lbl.couponResults= {"locator":"xpath=//div[@class='coupon-results']","desc":"Coupon Results Section"}
+
+coupon.lnk.couponsSearchBar= {"locator":"xpath=//div[contains(@class,'coupon-filter-bar')]/..//input[@id='searchCouponText']","desc":"Coupons Search bar"}
+
+coupon.ele.couponsSearchIcon= {"locator":"xpath=//div[contains(@class,'coupon-filter-bar')]/..//button[@class='search-button']","desc":"Coupons Search icon"}
+
+coupon.lbl.couponsSearchTxt= {"locator":"xpath=(//div[@class='coupon-search-result-msg']//span)[1]","desc":"Coupons Search Text"}
+
+coupon.lnk.couponsSearchClearLink= {"locator":"xpath=(//div[@class='coupon-search-result-msg']//span)[2]","desc":"Coupons Search clear link"}
+
+coupon.btn.couponsSortBy= {"locator":"xpath=//select[@id='sortBySelect']","desc":"Coupons SortBy dropdown"}
+
+coupon.btn.couponsBydepartment= {"locator":"xpath=//select[@id='coupon-filter-category']","desc":"Coupons By Department"}
+
+coupon.btn.couponsSelectBtnFirstProd= {"locator":"xpath=(//a[text()='Select Coupon'])[1]","desc":"Select Coupon First product"}
+
+coupon.btn.couponsSelectedBtn= {"locator":"xpath=//span[@class='fa fa-check-circle']","desc":"Selected Coupon button"}
+
+coupon.btn.couponsDetailsBtnFirstProd= {"locator":"xpath=(//a[text()='Details'])[1]","desc":"Coupons Details btn first product"}
+
+coupon.btn.couponspopupCloseBtn= {"locator":"xpath=//div[@class='coupons-popup']//a[@class='close-reveal-modal']","desc":"Coupons Details popup close btn"}
+
+coupon.lbl.couponsDetailsPopupImage= {"locator":"xpath=//div[@class='modal-coupon-product-image']","desc":"Coupons Details popup Image"}
+
+coupon.lbl.couponDetailsPopupName= {"locator":"xpath=//div[@class='coupon-name']","desc":"Coupon Details popup name"}
+
+coupon.lbl.couponDetailsPopupExpiryDate= {"locator":"xpath=(//div[@class='coupon-limit'])[2]","desc":"Coupon Details popup Expiry date"}
+
+coupon.btn.couponDetailsPopupSocialicon= {"locator":"xpath=//div[@class='coupon-modal-share-coupon']","desc":"Coupon Details popup Social icon"}
+
+coupon.lbl.couponDetailsPopupTerms= {"locator":"xpath=//div[@class='terms-and-condition']","desc":"Coupon Details popup Terms and Conditions"}
+
+coupon.btn.couponsScrollTotop= {"locator":"xpath=//a[text()='Scroll to top']","desc":"Coupons scroll to top"}
+
+coupon.lbl.couponsPaginationtext= {"locator":"xpath=//section[@id='coupon-showing-amount']","desc":"Coupons Pagination text"}
+
+coupon.lbl.couponsMyselectedPageCouponResults= {"locator":"xpath=//div[@class='coupon-redeemed-meta']","desc":"My selected page coupon results"}
+
+coupon.btn.couponsMyselectedPageAddToList= {"locator":"xpath=//button[@id='btn-add-all-to-list']","desc":"My Selected Page Add to list button"}
+
+coupon.btn.couponsMySelectedPageSortBy= {"locator":"xpath=//select[@id='sortSelected']","desc":"My selected Page Sort by option"}
+
+coupon.btn.couponsMySelectedPagePrintbtn= {"locator":"xpath=//span[@class='fa fa-print']","desc":"My selected Page Print btn"}
+
+coupon.lbl.couponsMySelectedPageProductnames= {"locator":"xpath=//div[@class='coupon-selected-description']","desc":"My selected Page Product names"}
+
+coupon.lbl.couponsMySelectedPageProducts= {"locator":"xpath=//div[@class='coupon-selected-meta']","desc":"My selected Page Products"}
+
+coupon.lbl.couponsSavingsToDate= {"locator":"xpath=//div[@class='coupon-redeemed-meta']","desc":"Savings To date Page Redeemed coupons message"}
+
+coupon.lst.CouponProducts= {"locator":"xpath=//li[@class='coupon-item ']","desc":"List of coupon products"}
+
+coupon.lst.CouponsMyselectedFirstCheckBox= {"locator":"xpath=(//div[@class='coupon-selected-checkbox'])[1]","desc":"My selected tab First product check box"}
+
+coupon.lnk.facebookIcon= {"locator":"xpath=(//a[@title='Twitter']/..)[2]//a[1]//div[2]","desc":"Facebook icon"}
+
+coupon.lnk.TwitterIcon= {"locator":"xpath=//img[@alt='Twitter']","desc":"Twitter icon"}
+
+coupon.lnk.EmailIcon= {"locator":"xpath=//img[@alt='Send Email']","desc":"Email icon"}
+
+coupon.lnk.couponCatridge= {"locator":"xpath=//a[@title='View Coupons']","desc":"Home page coupon catridge link"}
+
+coupon.btn.CouponSelectDigitalCouponBtn= {"locator":"xpath=//a[text()='Select Digital Coupons']","desc":"Coupon Page Select Digital coupon button"}
+
+coupon.btn.clipCouponsBtn= {"locator":"xpath=//a[text()='Clip Coupons']","desc":"Coupon page Clip Coupons button"}
+
+coupon.lnk.EmailOverlay= {"locator":"xpath=(//div[@id='emailOverlayDiv'])[2]","desc":"Email Overlay"}
+
+
+
+coupon.lnk.coupons = {"locator":"xpath=//li[@class='coupon-item ']","desc":"list of coupons"}
+
+coupon.lnk.detailclose = {"locator":"xpath=//div[@id='couponDetailModal____BV_modal_content_']//button[@class='close']","desc":"coupons detail modal close button"}
+
+coupon.btn.addtocart = {"locator":"xpath=//span[text()='Add To Cart']","desc":"coupon detail add to cart button"}

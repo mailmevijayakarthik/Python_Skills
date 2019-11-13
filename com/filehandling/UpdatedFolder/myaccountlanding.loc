@@ -1,0 +1,25 @@
+myacclanding.lnk.addressbook = {"locator":"xpath=//a[@title='Address Book']","desc":"Linkview for Address Book"}
+
+myacclanding.lnk.profileinformation = {"locator":"xpath=//a[@title='Edit Profile Information']","desc":"Linkview for Profile Information"}
+
+myacclanding.lbl.header = {"locator":"xpath=//div[@class='category-title']/h1","desc":"Label view for header"}
+
+myacclanding.lnk.changepassword = {"locator":"xpath=//a[@title='Change Password']","desc":"Linkview for Change Password"}
+
+myacclanding.lnk.editprofile = {"locator":"xpath=//a[@title='Edit Profile Information']","desc":"Linkview for Edit Profile Information"}
+
+myacclanding.lbl.username = {"locator":"xpath=//p[text()='Name, Email & Password']/parent::div/ul/li[1]","desc":"Textview for user name"}
+
+myacclanding.lbl.email = {"locator":"xpath=//p[text()='Name, Email & Password']/parent::div/ul/li[2]","desc":"Textview for email"}
+
+myacclanding.lnk.editcommPref = {"locator":"xpath=//a[@title='Edit Communication Preferences']","desc":"Linkview for Edit Communication Preferences"}
+
+myacclanding.lnk.createpharmprof = {"locator":"xpath=//a[@title='Create Pharmacy Profile']","desc":"Linkview for Create Pharmacy Profile"}
+
+myacclanding.lnk.managecreditcards = {"locator":"id=manageCreditcards","desc":"Linkview for manage Creditcards"}
+
+myacclanding.li.lbl.billingaddress = {\"locator\":\"xpath=//div[@class='nameSection']/span\",\"desc\":\"TextView for added billing address\"}
+
+myacclanding.btn.addressedit = {\"locator\":\"xpath=//*[@id='editAddress']\",\"desc\":\"ButtonView for Edit Shipping Address\"}
+
+myacclanding.lbl.addressnickname1 = {"locator":"xpath=(//*[@class='li-name'])[1]","desc":"TextView for Address Nick name1"}

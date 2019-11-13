@@ -1,0 +1,4 @@
+forgotpwd.txt.email = {"locator":"id=forgot-email","desc":"Text view of Email Text Box"}
+forgotpwd.btn.sendemail = {"locator":"id=forgot-password-save","desc":"Button view of send Email"}
+forgotpwd.lbl.pwdresetheader = {"locator":"xpath=//h1[text()='Password Reset']","desc":"Label View of Password Reset header"}
+forgotpwd.lbl.pwdresetlnksentmsg = {"locator":"xpath=//*[text()='A password reset link has been sent to the email address you provided. Please check your email and follow the steps.']","desc":"Label View of confirmation Message"}

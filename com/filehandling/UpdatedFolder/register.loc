@@ -1,0 +1,45 @@
+registration.lbl.title = {\"locator\":\"xpath=//h1[text() ='Register']",\"desc\":\"Label view for page title in registration page\"}
+
+
+
+registration.input.firstname = {"locator":"xpath=//input[@id='register-first-name']","desc":"Input box for first name in registration page"}
+
+registration.input.lastname = {"locator":"xpath=//input[@id='register-last-name']","desc":"Input box for last name in VPP registration page"}
+
+registration.input.email = {"locator":"xpath=//input[@id='register-email']","desc":"Input box for email in VPP registration page"}
+
+registration.input.password = {"locator":"xpath=//input[@id='reg-password']","desc":"Input box for password in VPP registration page"}
+
+registration.input.mobile = {"locator":"xpath=//input[@id='register-telephone-number']","desc":"Input box for mobile number in registration page"}
+
+registration.btn.continue = {"locator":"xpath=//input[@id='createaccount-btn']","desc":"Button view for Continue in VPP registration page"}
+
+registration.btn.promotion = {\"locator\":\"xpath=//*[@id='reg_newsletter_signup']\",\"desc\":\"Button for promotion in registration page\"}
+
+registration.btn.createaccount = {\"locator\":\"xpath=//input[@id='createaccount-btn']",\"desc\":\"Button for create account in registration page\"}
+
+registration.txt.errormessage = {\"locator\":\"xpath=//*[contains(text(),'Please enter a valid email')]",\"desc\":\"TextView for Error message\"}
+
+registration.lnk.termsandconditions = {\"locator\":\"xpath=//a[@title='terms and conditions']",\"desc\":\"LinkView for terms and conditions page\"}
+
+registration.lnk.privacypolicy = {\"locator\":\"xpath=//a[@title='privacy policy']",\"desc\":\"LinkView for privacy policy page\"}
+
+registration.lbl.required = {\"locator\":\"xpath=//*[@id='register']/div[3]/div[1]/div[2]/div[1]/div/div[1]/div[1]/span",\"desc\":\"Label view for required warning message in registration page\"}
+
+registration.lbl.thanksheader = {"locator":"xpath=//*[.='Thank You For Creating an Account']","desc":"LabelView of ThankYou page header"}
+
+registration.btn.gotit = {"locator":"id=gotItThanksButton","desc":"ButtonView of ThankYou Got it"}
+
+registration.btn.gotodigitalcoupons = {"locator":"xpath=//a[.='Not now. Show me my Digital Coupons!']","desc":"ButtonView of Go to Digital Coupons"}
+
+registration.lbl.accountexistserrmsg = {\"locator\":\"xpath=//span[text()='An account exists with this email address. Please re-type your email address or reset your password.']",\"desc\":\"LabelView for account exists with this email address error message\"}
+
+registration.lbl.eightcharminimum = {\"locator\":\"xpath=//li[@id='reg-characterCountTip']\",\"desc\":\"Label for 8 characters minimum in password in registration page\"}
+
+registration.lbl.onenumminimum = {\"locator\":\"xpath=//li[@id='reg-specialCharacterTip']\",\"desc\":\"Label for One number minimum in password in registration page\"}
+
+registration.lnk.show = {\"locator\":\"xpath=//input[@type='password']/following-sibling::label[@id='showPasswordText']",\"desc\":\"LinkView for Show in password field\"}
+
+registration.lnk.hide = {\"locator\":\"xpath=//input[@type='text']/following-sibling::label[@id='showPasswordText']",\"desc\":\"LinkView for Hide in password field\"}
+
+registration.lnk.createone = {"locator":"xpath=//a[text()='Create one']","desc":"create one link"}

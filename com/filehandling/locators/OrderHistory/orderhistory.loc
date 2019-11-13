@@ -1,0 +1,145 @@
+odrhistory.btn.addtocart = {"locator":"xpath=.//*[@value='Add to Cart']","desc":"Button for Add to Cart"}
+odrhistory.lnk.viewcart = {"locator":"xpath=//*[@id='myCartSId']","desc":"LinkText for View Cart"}
+odrhistory.btn.checkout = {"locator":"xpath=.//*[@id='chkoutBtn']","desc":"Button for Checkout"}
+odrhistory.lnk.orderstatus = {"locator":"xpath=//a[text()='Order Status']","desc":"LinkText for Order Status"}
+odrhistory.txt.orderstatus = {"locator":"xpath=.//*[@id='body']/div[1]/div/div[2]/h1","desc":"TextView for Order Status"}
+odrhistory.tbx.ordernumber = {"locator":"xpath=//*[@id='orderStatus']//*[@class='order-number']/..//input[1]","desc":"TextBox for Order Number"}
+odrhistory.tbx.emailaddress = {"locator":"xpath=//*[@id='orderStatus']//*[@class='order-number']/../following-sibling::*//input[1]","desc":"TextBox for Email Address"}
+odrhistory.btn.submit = {"locator":"xpath=.//*[@id='orderStatus']/div[3]/button","desc":"Button for Submit"}
+odrhistory.grd.orderdetails = {"locator":"xpath=.//*[@id='orderResultForm']/div[4]/div[2]/div","desc":"GridView for Order Details"}
+odrhistory.lnk.username = {"locator":"xpath=.//*[@id='myaccountSId']","desc":"LinkText for User Name"}
+odrhistory.txt.myaccount = {"locator":"xpath=.//*[@id='content']/div/div[1]/h1","desc":"TextView for My Account"}
+odrhistory.lnk.orderhistory = {"locator":"xpath=.//*[@id='orderHistory']","desc":"LinkText for Order History"}
+odrhistory.txt.orderhistory = {"locator":"xpath=.//*[@id='content']/div/div[@class='category-title']/h1[text()='Order History']","desc":"TextView for Order History"}
+odrhistory.grd.myorders = {"locator":"xpath=.//div[@class='order-cont']/div","desc":"GridView for My Orders"}
+odrhistory.btn.viewdetails = {"locator":"xpath=.//div[@class='order-cont']/div[%s]/div[1]//button","desc":"Button for View Details"}
+odrhistory.lnk.myorderstatus = {"locator":"xpath=.//*[@id='myaccountdrop']/ul/li[1]/a","desc":"LinkText for Order Status"}
+odrhistory.btn.cancelproducts = {"locator":"xpath=//div[@class='order-cont']/div[%s]/div[2]//button[@class='oh-cancel']","desc":"Button for Cancel Products"}
+odrhistory.txt.cancelorderpopup = {"locator":"xpath=.//*[@id='OverlayDiv']/div/div/h2","desc":"TextView for Cancel Order Pop Up"}
+odrhistory.btn.yescancelorder = {"locator":"xpath=.//*[@id='confirm-cancel-order']","desc":"Button for Yes in Cancel Order"}
+odrhistory.btn.hidedetails = {"locator":"xpath=.//div[@class='order-cont']/div[%s]/div[1]/a/div","desc":"Button for Hide Details"}
+odrhistory.txt.cancelrequested = {"locator":"xpath=.//*[@class='right myAccountCancelTextDelivery']","desc":"TextView for Cancel Requested"}
+odrhistory.list.orders = {"locator":"xpath=//div[@class='order-cont']/div[@class='order-details']","desc":"ListView for all orders"}
+odrhistory.lbl.ordnumdynamic = {"locator":"xpath=.//div[@class='order-cont']/div[%s]/div/div[2]","desc":"TextView for dynamic order number"}
+odrhistory.lbl.orderdate = {"locator":"xpath=//div[@class='oh-o-date strong']","desc":"TextView for order date"}
+odrhistory.lbl.orderno = {"locator":"xpath=//div[@class='oh-o-number strong']","desc":"TextView for order number"}
+odrhistory.lbl.ordertotal = {"locator":"xpath=//div[@class='oh-o-total strong primary-3']","desc":"TextView for order total"}
+odrhistory.lbl.orderstatussummary = {"locator":"xpath=//div[@class='oh-o-status strong']","desc":"TextView for order status"}
+odrhistory.lnk.viewdetailssummary = {"locator":"xpath=//button[@id='show-details-button']","desc":"LinkView for View details"}
+odrhistory.lbl.sectiontitle = {"locator":"xpath=(//div[@class='order-details'])[1]//div[@class='c-title-row oh-o-first-title']","desc":"TextView for order title section"}
+odrhistory.lbl.ordertotaldetails = {"locator":"xpath=(//span[normalize-space(text())='Order Total']/following-sibling::span)[1]","desc":"TextView for order total in details section"}
+odrhistory.btn.delicancel = {"locator":"xpath=(//button[@class='oh-cancel'])[1]","desc":"ButtonView for cancel deli"}
+odrhistory.btn.addtocartorderhsty = {"locator":"xpath=(//input[@value='Add to Cart'])[1]","desc":"ButtonView for add to cart"}
+odrhistory.list.orderhistory = {"locator":"xpath=//div[@class='order-cont']/div[@class='order-details']","desc":"ListView for order history"}
+odrhistory.lbl.cartdrpdwn = {"locator":"id=myCartdrop","desc":"TextView for cart drop down"}
+odrhistory.lnk.itemname1 = {"locator":"xpath=(//div[@class='ci-item-name']/a)[1]","desc":"LinkView for item name"}
+odrhistory.btn.reorderallitems = {"locator":"xpath=(//input[@value='Reorder All Items'])[1]","desc":"ButtonView for reorder all items"}
+odrhistory.lbl.errormodal = {"locator":"id=formError","desc":"TextView for error modal"}
+odrhistory.lnk.viewdetailswithaddtocart = {"locator":"xpath=//input[@value='Add to Cart']/../../../../../../..//button[@title='View Details']","desc":"ListView for View Details with Add to cart button"}
+odrhistory.btn.addtocartinsideviewdetails = {"locator":"xpath=//input[@value='Add to Cart']","desc":"ButtonView for Add to cart button inside View details"}
+odrhistory.lnk.remove = {"locator":"xpath=//div[.='gift cards']/parent::div//button[@value='Remove']","desc":"LinkRemove in Add to cart"}
+odrhistory.lbl.yesrmvprodalert = {"locator":"xpath=//a[@title='Yes']","desc":"ButtonView of Yes in Remove items popup"}
+odrhistory.lnk.viewdetails = {"locator":"id=show-details-button","desc":"Link view for Show details"}
+odrhistory.lbl.imageview = {"locator":"xpath=//div[@class='item-image']/a/img","desc":"Image view of Floral item"} 
+odrhistory.lnk.reorderitm = {"locator":"xpath=//input[@value='Reorder All Items']","desc":"Button view of Reorder All item from Order History Page"}
+
+odrhistory.btn.vieworderhistorydetails = {"locator":"xpath=//*[contains(@class,'order-history')]/..//*[text()='View']","desc":"Button view for order details from Order History Page"}
+odrhistory.txt.orderdetailfullfillment = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[@class='order-history__fullfillment']//child::div[1]","desc":"Text view for order detail full fillment from Order History Page"}
+odrhistory.txt.orderdetailfullfillmenttime = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[@class='order-history__fullfillment']//child::div[2]","desc":"Text view for order detail full fillment time from Order History Page"}
+odrhistory.txt.orderdetailheader = {"locator":"xpath=//h1[text()='Order Details']","desc":"Text view for order details header from Order History Page"}
+odrhistory.ele.pagecontainer = {"locator":"xpath=//div[@class='pagination-label']","desc":"number of product in page"}
+odrhistory.ele.nextpage = {"locator":"xpath=//a[contains(@aria-label,'next page')]","desc":"element to display next page"}
+odrhistory.ele.previouspage = {"locator":"xpath=//a[contains(@aria-label,'previous page')]","desc":"element to display previous page"}
+
+orderhistory.get.txt.orderbytime = {"locator":"xpath=//div[@class='order-history__time' and contains(text(), '%s')]","desc":"get a specific order"}
+orderhistory.btn.otherorders = {"locator":"xpath=//a[@class='huptab js-coupon-tab ']","desc":"other order button"}
+orderhistory.lst.orderdetails = {"locator":"xpath=//div[@class='oh-o-number strong']","desc":"other order details"}
+odrhistory.lnk.myaccountlink = {"locator":"xpath=//a[@id='myaccountSId']","desc":"My Account Link"}
+orderhistory.lst.viewdetails = {"locator":"xpath=//button[text()='View Details']","desc":"view order details"}
+odrhistory.txt.instore = {"locator":"xpath=//div[@id='order-details-%s']//div[text()='in-store pickup']","desc":"Instore Order"}
+odrhistory.txt.shiptohome = {"locator":"xpath=//div[@id='order-details-%s']//div[text()='ship to home']","desc":"Shio to Home Order"}
+
+
+odrhistory.txt.itemquantity = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[contains(@class,'order-history__total')][1]","desc":"text view for item quantity in order history page"}
+odrhistory.ele.orderdetailicon = {"locator":"xpath=//*[@class='order-history__table-icon']/*","desc":"Element view for order icon from Order History Page"}
+odrhistory.txt.itemcost = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[contains(@class,'order-history__total')][2]","desc":"text view for item cost in order history page"}
+
+odrhistory.ele.orderhistorytablerow = {"locator":"xpath=//*[contains(@class,'order-history__table-row')]","desc":"Ele view for order history table row from Order History Page"}
+
+odrhistory.ele.orderstab = {"locator":"xpath=//a[contains(@class,'huptab')]","desc":"orders tab for order history page"}
+odrhistory.ele.viewdetails = {"locator":"xpath=//*[text()='View Details']","desc":"other orders view details link from order history page"}
+odrhistory.ele.curbsideanddeliverycontenttab = {"locator":"xpath=//*[contains(@id,'site-header__store-experience')]","desc":"curbside and delivery content tab from order history page"}
+
+odrhistory.btn.addtocart = {"locator":"xpath=.//*[@value='Add to Cart']","desc":"Button for Add to Cart"}
+odrhistory.btn.addtocartinsideviewdetails = {"locator":"xpath=//input[@value='Add to Cart']","desc":"ButtonView for Add to cart button inside View details"}
+odrhistory.btn.addtocartorderhsty = {"locator":"xpath=(//input[@value='Add to Cart'])[1]","desc":"ButtonView for add to cart"}
+odrhistory.btn.cancelproducts = {"locator":"xpath=//div[@class='order-cont']/div[%s]/div[2]//button[@class='oh-cancel']","desc":"Button for Cancel Products"}
+odrhistory.btn.checkout = {"locator":"xpath=.//*[@id='chkoutBtn']","desc":"Button for Checkout"}
+odrhistory.btn.delicancel = {"locator":"xpath=(//button[@class='oh-cancel'])[1]","desc":"ButtonView for cancel deli"}
+odrhistory.btn.hidedetails = {"locator":"xpath=.//div[@class='order-cont']/div[%s]/div[1]/a/div","desc":"Button for Hide Details"}
+odrhistory.btn.itemview = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//a[contains(@class,'btn order-history')][text()='View']","desc":"button view for view button in order history page"}
+odrhistory.btn.reorderallitems = {"locator":"xpath=(//input[@value='Reorder All Items'])[1]","desc":"ButtonView for reorder all items"}
+
+odrhistory.btn.submit = {"locator":"xpath=.//*[@id='orderStatus']/div[3]/button","desc":"Button for Submit"}
+odrhistory.btn.viewdetails = {"locator":"xpath=.//div[@class='order-cont']/div[%s]/div[1]//button","desc":"Button for View Details"}
+odrhistory.btn.vieworderhistorydetails = {"locator":"xpath=//*[contains(@class,'order-history')]/..//*[text()='View']","desc":"Button view for order details from Order History Page"}
+odrhistory.btn.yescancelorder = {"locator":"xpath=.//*[@id='confirm-cancel-order']","desc":"Button for Yes in Cancel Order"}
+
+odrhistory.ele.itemquantity = {"locator":"xpath=//*[contains(@class,'order-details__table-row')]//../*[contains(@class,'order-details__table-column')][3]","desc":"text view for item quantity in order history page"}
+odrhistory.ele.orderdetailicon = {"locator":"xpath=//*[@class='order-history__table-icon']/*","desc":"Element view for order icon from Order History Page"}
+odrhistory.ele.pagecontainer = {"locator":"xpath=//div[@class='pagination-label']","desc":"number of product in page"}
+odrhistory.grd.myorders = {"locator":"xpath=.//div[@class='order-cont']/div","desc":"GridView for My Orders"}
+odrhistory.grd.orderdetails = {"locator":"xpath=.//*[@id='orderResultForm']/div[4]/div[2]/div","desc":"GridView for Order Details"}
+odrhistory.lbl.cartdrpdwn = {"locator":"id=myCartdrop","desc":"TextView for cart drop down"}
+odrhistory.lbl.errormodal = {"locator":"id=formError","desc":"TextView for error modal"}
+odrhistory.lbl.imageview = {"locator":"xpath=//div[@class='item-image']/a/img","desc":"Image view of Floral item"} 
+odrhistory.lbl.orderdate = {"locator":"xpath=//div[@class='oh-o-date strong']","desc":"TextView for order date"}
+odrhistory.lbl.orderno = {"locator":"xpath=//div[@class='oh-o-number strong']","desc":"TextView for order number"}
+odrhistory.lbl.orderstatussummary = {"locator":"xpath=//div[@class='oh-o-status strong']","desc":"TextView for order status"}
+odrhistory.lbl.ordertotal = {"locator":"xpath=//div[@class='oh-o-total strong primary-3']","desc":"TextView for order total"}
+odrhistory.lbl.ordertotaldetails = {"locator":"xpath=(//span[normalize-space(text())='Order Total']/following-sibling::span)[1]","desc":"TextView for order total in details section"}
+odrhistory.lbl.ordnumdynamic = {"locator":"xpath=.//div[@class='order-cont']/div[%s]/div/div[2]","desc":"TextView for dynamic order number"}
+odrhistory.lbl.sectiontitle = {"locator":"xpath=(//div[@class='order-details'])[1]//div[@class='c-title-row oh-o-first-title']","desc":"TextView for order title section"}
+odrhistory.lbl.yesrmvprodalert = {"locator":"xpath=//a[@title='Yes']","desc":"ButtonView of Yes in Remove items popup"}
+odrhistory.list.orderhistory = {"locator":"xpath=//div[@class='order-cont']/div[@class='order-details']","desc":"ListView for order history"}
+odrhistory.list.orders = {"locator":"xpath=//div[@class='order-cont']/div[@class='order-details']","desc":"ListView for all orders"}
+odrhistory.lnk.itemname1 = {"locator":"xpath=(//div[@class='ci-item-name']/a)[1]","desc":"LinkView for item name"}
+odrhistory.lnk.myorderstatus = {"locator":"xpath=.//*[@id='myaccountdrop']/ul/li[1]/a","desc":"LinkText for Order Status"}
+odrhistory.lnk.orderhistory = {"locator":"xpath=.//*[@id='orderHistory']","desc":"LinkText for Order History"}
+odrhistory.lnk.orderhistorybreadcrumb = {"locator":"xpath=//a[contains(@class,'breadcrumb')][text()='Order History']","desc":"Order History Link from Order History Page"}
+odrhistory.lnk.orderstatus = {"locator":"xpath=//a[text() ='Order Status']","desc":"LinkText for Order Status"}
+odrhistory.lnk.remove = {"locator":"xpath=//div[.='gift cards']/parent::div//button[@value='Remove']","desc":"LinkRemove in Add to cart"}
+odrhistory.lnk.reorderitm = {"locator":"xpath=//input[@value='Reorder All Items']","desc":"Button view of Reorder All item from Order History Page"}
+odrhistory.lnk.username = {"locator":"xpath=.//*[@id='myaccountSId']","desc":"LinkText for User Name"}
+odrhistory.lnk.viewcart = {"locator":"xpath=//*[@id='myCartSId']","desc":"LinkText for View Cart"}
+odrhistory.lnk.viewdetails = {"locator":"id=show-details-button","desc":"Link view for Show details"}
+odrhistory.lnk.viewdetailssummary = {"locator":"xpath=//button[@id='show-details-button']","desc":"LinkView for View details"}
+odrhistory.lnk.viewdetailswithaddtocart = {"locator":"xpath=//input[@value='Add to Cart']/../../../../../../..//button[@title='View Details']","desc":"ListView for View Details with Add to cart button"}
+odrhistory.lnk.viewmyorder = {"locator":"xpath=//*[contains(@class,'view-order')]","desc":"Click View My Order"}
+odrhistory.lst.breadcrumb = {"locator":"xpath=//div[@class='breadcrumb clearfix']/a","desc":"List view for Breadcrumb in order history"}
+odrhistory.tbx.emailaddress = {"locator":"xpath=//*[@id='orderStatus']//*[@class='order-number']/../following-sibling::*//input[1]","desc":"TextBox for Email Address"}
+odrhistory.tbx.ordernumber = {"locator":"xpath=//*[@id='orderStatus']//*[@class='order-number']/..//input[1]","desc":"TextBox for Order Number"}
+odrhistory.txt.bannerdetailheader = {"locator":"xpath=//div[@class='order-history__fullfillment-type']/div[1]","desc":"Text view for banner detail header from Order Details Page"}
+odrhistory.txt.cancelorderpopup = {"locator":"xpath=.//*[@id='OverlayDiv']/div/div/h2","desc":"TextView for Cancel Order Pop Up"}
+odrhistory.txt.cancelrequested = {"locator":"xpath=.//*[@class='right myAccountCancelTextDelivery']","desc":"TextView for Cancel Requested"}
+odrhistory.txt.itemcost = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[contains(@class,'order-history__total')][2]","desc":"text view for item cost in order history page"}
+odrhistory.txt.itemquantity = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[contains(@class,'order-history__total')][1]","desc":"text view for item quantity in order history page"}
+odrhistory.txt.myaccount = {"locator":"xpath=.//*[@id='content']/div/div[1]/h1","desc":"TextView for My Account"}
+odrhistory.txt.orderdetailfullfillment = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[@class='order-history__fullfillment']//child::div[1]","desc":"Text view for order detail full fillment from Order History Page"}
+odrhistory.txt.orderdetailfullfillmenttime = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[@class='order-history__fullfillment']//child::div[2]","desc":"Text view for order detail full fillment time from Order History Page"}
+odrhistory.txt.orderhistorystatus = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[contains(@class,'order-history__status')]","desc":"Text view for order history status from Order History Page"}
+
+odrhistory.txt.orderdetailheader = {"locator":"xpath=//h1[text()='Order Details']","desc":"Text view for order details header from Order History Page"}
+odrhistory.txt.orderhistory = {"locator":"xpath=.//*[@id='content']/div/div[@class='category-title']/h1[text()='Order History']","desc":"TextView for Order History"}
+
+odrhistory.txt.orderstatus = {"locator":"xpath=.//*[@id='body']/div[1]/div/div[2]/h1","desc":"TextView for Order Status"}
+orderhistory.get.txt.orderbytime = {"locator":"xpath=//div[@class='order-history__time' and contains(text(), '%s')]","desc":"get a specific order"}
+odrhistory.ele.orderdetailicon = {"locator":"xpath=//*[@class='order-history__table-icon']/*","desc":"Element view for order icon from Order History Page"}
+odrhistory.txt.itemcost = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[contains(@class,'order-history__total')][2]","desc":"text view for item cost in order history page"}
+
+
+odrhistory.ele.orderdetailicon = {"locator":"xpath=//*[@class='order-history__table-icon']/*","desc":"Element view for order icon from Order History Page"}
+odrhistory.txt.itemquantity = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[contains(@class,'order-history__total')][1]","desc":"text view for item quantity in order history page"}
+odrhistory.txt.itemcost = {"locator":"xpath=//*[contains(@id,'change-order-list-mobile')]/..//div[contains(@class,'order-history__total')][2]","desc":"text view for item cost in order history page"}
+odrhistory.txt.delivery = {"locator":"xpath=//div[text()='delivery']","desc":"TextView for delivery order"}
+odrhistory.txt.giftcards = {"locator":"xpath=//div[text()='giftcards']","desc":"TextView for delivery order"}

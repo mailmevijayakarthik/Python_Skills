@@ -1,0 +1,3 @@
+helpfaq.lbl.header = {\"locator\":\"xpath=//h1[text()='Help']",\"desc\":\"LabelView for Help header\"}
+
+helpfaq.lnk.faqheader = {\"locator\":\"xpath=//div[@class='faqheader']",\"desc\":\"LinkView for faq header\"}

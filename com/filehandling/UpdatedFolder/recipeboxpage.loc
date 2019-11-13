@@ -1,0 +1,33 @@
+recipeBox.lbl.header = {"locator":"xpath=//h1[.='My Recipe Box']","desc":"Textview of My Recipe Box header"}
+
+recipeBox.lbl.recipename = {"locator":"xpath=.//*[@id='recipeContainer']/div/div[2]/a","desc":"TextView of Recipe name"}
+
+recipeBox.lbl.recipeitemslist = {\"locator\":\"xpath=//div[@class='recipewrapper inline-table']\",\"desc\":\"ListView for recipe items\"}
+
+recipeBox.lbl.recipenameslist = {\"locator\":\"xpath=.//*[@id='recipeContainer']/div/div[2]/a\",\"desc\":\"ListView for recipe names\"}
+
+recipeBox.lbl.moreoptionslist = {\"locator\":\"xpath=.//div[contains(@id,'moreOptionsLink')]/a\",\"desc\":\"ListView for more options\"}
+
+recipeBox.lbl.deleterecipelist = {\"locator\":\"xpath=//a[@id='deleteRecipe']\",\"desc\":\"ListView for delete recipe\"}
+
+recipeBox.lnk.createfolder = {"locator":"xpath=//a[@title='createnewfolder']","desc":"Linkview of My Recipe Box Create a Folder"}
+
+recipeBox.txt.foldername = {"locator":"xpath=//input[@id='newUserFolder']","desc":"Textview of My Recipe Box Folder Name"}
+
+recipeBox.btn.save = {"locator":"xpath=//input[@value='Save']","desc":"Buttonview of My Recipe Box Save"}
+
+recipeBox.lbl.ellipsis = {"locator":"xpath=//a[contains(text(),'...(0)')]","desc":"Textview of My Recipe Box Ellipsis folder name"}
+
+recipeBox.lnk.movetootherfolder = {\"locator\":\"xpath=.//div[@class='show']/div[3]/a\",\"desc\":\"LinkView for move to other folder\"}
+
+recipeBox.lnk.movetootherfolderdesserts = {\"locator\":\"xpath=.//div[contains(@class,'atl-container ')]/ul//a[text()='Desserts']\",\"desc\":\"LinkView for move to other folder desserts\"}
+
+recipeBox.lnk.movetootherfoldersuccess = {\"locator\":\"xpath=//p[contains(text(),'Recipe has successfully been moved')]\",\"desc\":\"TextView for move to other folder success message\"}
+
+recipeBox.lnk.movetootherfoldersuccessok = {\"locator\":\"xpath=//button[@title='Ok']\",\"desc\":\"LinkView for move to other folder success ok btn\"}
+
+recipeBox.lnk.moreoptions = {\"locator\":\"xpath=.//div[contains(@id,'moreOptionsLink')]/a\",\"desc\":\"LinkView for more options\"}
+
+recipeBox.lnk.allfolder = {\"locator\":\"xpath=//div[@class='recipebox']//a[contains(text(),'ALL')]\",\"desc\":\"LinkView for All folder\"}
+
+recipeBox.lnk.breakfastfolder = {\"locator\":\"xpath=//div[@class='recipebox']//a[contains(text(),'Breakfast')]\",\"desc\":\"LinkView for Breakfast folder\"}

@@ -1,0 +1,18 @@
+delivery.lbl.deliveryheader = {"locator":"xpath=//ul[@class='rdcrcl-navigation clearfix']/li[3]/div[2]/div","desc":"TextView for delivery tab header"}
+delivery.lbl.deliveryaddress = {"locator":"xpath=//div[.='Delivery Address']","desc":"TextView for delivery address"}
+delivery.txt.deliverydate = {"locator":"xpath=//input[@class='date  hasDatepicker']","desc":"EditView for delivery date"}
+delivery.txt.firstname = {"locator":"xpath=//input[contains(@id, 'firstName')]","desc":"EditView for firstname"}
+delivery.txt.lastname = {"locator":"xpath=//input[contains(@id, 'lastName')]","desc":"EditView for lastname"}
+delivery.txt.phonefield1 = {"locator":"xpath=//input[contains(@id, 'phoneField1')]","desc":"EditView for phone field 1"}
+delivery.txt.phonefield2 = {"locator":"xpath=//input[contains(@id, 'phoneField2')]","desc":"EditView for phone field 2"}
+delivery.txt.phonefield3 = {"locator":"xpath=//input[contains(@id, 'phoneField3')]","desc":"EditView for phone field 3"}
+delivery.txt.city = {"locator":"xpath=//input[contains(@id, 'city')]","desc":"EditView for city"}
+delivery.txt.streetaddress1 = {"locator":"xpath=//input[contains(@id, 'address1')]","desc":"EditView for street address 1"}
+delivery.txt.streetaddress2 = {"locator":"xpath=//input[contains(@id, 'address2')]","desc":"EditView for street address 2"}
+delivery.txt.statedropdown = {"locator":"xpath=//select[contains(@id, 'state')]","desc":"DropdownView for state"}
+delivery.btn.continue = {"locator":"xpath=//button[@id='delivery-details-continue']","desc":"ButtonView for continue"}
+delivery.lbl.zipcode = {"locator":"xpath=//div[contains(@id,'addressSection')]/dd[8]","desc":"TextView for zipcode"}
+delivery.li.btn.usesameadd = {"locator":"xpath=//*[@class='useSameAddrSGId']","desc":"Button View for use same address check box"}
+delivery.lbl.plsentervalidphonenumerrormsg = {"locator":"xpath=//p[.='Please enter a valid phone number.']","desc":"TextView for Please enter a valid phone number error message"}
+delivery.lbl.errormsg = {"locator":"xpath=//*[@id='formError']//p","desc":"TextView for error message"}
+delivery.lbl.imageview = {"locator":"xpath=//div[@class='checkout-img']/a/img","desc":"Image view for floral item"}

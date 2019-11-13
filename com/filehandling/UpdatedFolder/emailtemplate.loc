@@ -1,0 +1,21 @@
+email.lbl.header = {"locator":"xpath=//h4[.='Email to a friend']","desc":"Textview of email page header"}
+
+email.edt.recipentemails = {"locator":"xpath=//*[@id='recipientEmails']","desc":"EditTextview of recipent emails"}
+
+email.edt.yourname = {"locator":"xpath=//*[@id='yourName']","desc":"EditTextview of your name"}
+
+email.edt.youremail = {"locator":"xpath=//*[@id='yourEmail']","desc":"EditTextview of your email"}
+
+email.chk.sendmecopy = {"locator":"xpath=//*[@for='email_1']","desc":"CheckBoxview of send me a copy"}
+
+email.rbt.iamnotrobot = {"locator":"xpath=//*[@class='recaptcha-checkbox-checkmark']","desc":"RadioButtonview of i am not a robot"}
+
+email.btn.sendemail = {"locator":"xpath=//*[@id='sendEmailToFriend']","desc":"Buttonview of Send email"}
+
+email.btn.cancel = {"locator":"xpath=//*[@id='cancel']","desc":"Buttonview of cancel"}
+
+email.iframe.iamnotrobot = {"locator":"xpath=//iframe[@role='presentation']","desc":"iframeview of i am not a robot"}
+
+email.txt.pinemail = {"locator":"xpath=//div[@role='dialog']//input[@id='email']","desc":"EditTextview of your email"}
+
+email.btn.loginandtweet = {"locator":"xpath=//input[@value='Log in and Tweet']","desc":"Btnview of your Login and Tweet"}

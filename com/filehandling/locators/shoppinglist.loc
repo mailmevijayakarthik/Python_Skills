@@ -1,0 +1,123 @@
+shoppinglist.lnk.mylist	= {"locator":"xpath=//div[@class='atl-container']//ul/li/a[text()='My List']","desc":"My list link PDP"}
+shoppinglist.lnk.shoppingList = {"locator":"xpath=//a[text()='Lists']","desc":"Link view for shopping list in Home page"}
+shoppinglist.lnk.pdpaddtolist = {"locator":"xpath=//a[@title='Add to Shopping List']","desc":"Add to list link in PDP"}
+
+shoppinglist.lst.addtolistproduct = {"locator":"xpath=//*[@class='sl-item__name-link']","desc":"add to list products in CDP"}
+shoppinglist.lbl.initialpopupheader = {"locator":"xpath=//h4[.='Shopping Lists']","desc":"Labelview of Shopping Lists initial popup header"}
+shoppinglist.lbl.shoppinglisticon = {"locator":"xpath=//*[@id='my-list-anchor']/span","desc":"Label view for shopping list icon in Home page"}
+shoppinglist.lnk.createanaccount = {"locator":"linkText=Create an Account","desc":"Link view for create an account in Home page"}
+shoppinglist.lnk.alreadyhaveaccount = {"locator":"linkText=I already have an account","desc":"Link view for already have an account in Home page"}
+
+shoppinglist.lnk.mylist	= {"locator":"xpath=//div[@class='atl-container']//ul/li/a[text()='My List']","desc":"My list link PDP"}
+shoppinglist.lnk.shoppingList = {"locator":"xpath=//a[text()='Lists']","desc":"Link view for shopping list in Home page"}
+shoppinglist.lnk.pdpaddtolist = {"locator":"xpath=//a[@title='Add to Shopping List']","desc":"Add to list link in PDP"}
+shoppinglist.txt.search	= {"locator":"id=searchText","desc":"Text view for searching items in Home page"}
+shoppinglist.lnk.mylist	= {"locator":"xpath=//div[@class='atl-container']//ul/li/a[text()='My List']","desc":"My list link PDP"}
+shoppinglist.btn.search = {"locator":"id=searchsubmit","desc":"Button view for searching items in Home page"}
+shoppinglist.dd.addtolist = {"locator":"xpath=//*[@id='addToListForm']/div[3]/ul/li[1]/a[2]","desc":"Dropdown view for adding items in PDP"}
+shoppinglist.lbl.listflyout = {"locator":"xpath=//*[@id='flyout-added-to-list']/section[1]/p/span[2]","desc":"Label view for added item as flyout in PDP"}
+shoppinglist.lbl.itemsinlist = {"locator":"xpath=//*[@id='mylistdrop']/section[2]/a[1]","desc":"Label view for added item in list from header"}
+shoppinglist.lbl.cancel = {"locator":"xpath=//*[@id='modal-shopping-list-tutorial-start']/a","desc":"Label view for cancel option in shopping list"}
+shoppinglist.lbl.shoppinglistpgtitle = {"locator":"xpath=//*[@id='shopping-list-title']","desc":"Label view for My list page"}
+shoppinglist.btn.createnewlistbtn = {"locator":"xpath=//button[.='New List']","desc":"Button for Create New List"}
+shoppinglist.btn.popupclose = {"locator":"xpath=//div[@id='modal-shopping-list-tutorial-start']/a[@aria-label='Close']","desc":"Button for close shopping list pop up"}
+shoppinglist.lbl.mylists = {"locator":"xpath=//h3[.='My Lists']","desc":"TextView for My Lists"}
+shoppinglist.txt.loadmore = {"locator":"xpath=//*[@class='load-more-container']","desc":"TextView for Load More Container"}
+shoppinglist.txt.listsize = {"locator":"xpath=//*[@class='load-more-container']//p/span[2]","desc":"TextView for List Size"}
+shoppinglist.txt.shoppingliststutorialpopup = {"locator":"xpath=//div[@class='text-center']/h4","desc":"TextView for Shopping Lists in tutorial pop up"}
+shoppinglist.btn.skiptutorial = {"locator":"xpath=//div[@class='text-center']/div[2]/a[2]","desc":"ButtonView for Skip Tutorial"}
+shoppinglist.lnk.viewallshoppinglists = {"locator":"linkText=View All Shopping Lists","desc":"Link view for View All Shopping Lists in Home page"}
+shoppinglist.lnk.newlist = {"locator":"xpath=//button[text()='New List']","desc":"Link for New List"}
+shoppinglist.lnk.editlist = {"locator":"xpath=//*[contains(text(),'Edit List')]","desc":"Link for Edit List"}
+shoppinglist.btn.additem = {"locator":"xpath=//*[contains(text(),'Add An Item')]","desc":"Button for Add item"}
+shoppinglist.lnk.changeprofilestore = {"locator":"xpath=//a[text()='Change']","desc":"Link for change profile store"}
+shoppinglist.lnk.frequentlyadded = {"locator":"xpath=//a[contains(text(),'Frequently Added')]","desc":"Link for frequently added"}
+shoppinglist.lbl.frequentlyadded = {"locator":"xpath=//*[contains(text(),'Frequently Added')]","desc":"Link for frequently added"}
+shoppinglist.lnk.digitalcoupons = {"locator":"xpath=//div[@class='my-lists__container']//a[@title='Coupons']","desc":"Link for digital coupons"}
+shoppinglist.lnk.weeklyad = {"locator":"xpath=//div[@class='my-lists__container']//a[@title='Weekly Ad']","desc":"Link for weekly ads"}
+shoppinglist.lnk.receipes = {"locator":"xpath=//div[@class='my-lists__container']//a[@title='Recipes']","desc":"Link for receipes"}
+shoppinglist.lnk.mailicon = {"locator":"xpath=//*[@id='allListItems']/header/div[3]/div/a[1]/span","desc":"Link for mail"}
+shoppinglist.lnk.printicon = {"locator":"xpath=//*[@id='allListItems']/header/div[3]/div/a[2]/span","desc":"Link for print"}
+shoppinglist.dd.sort = {"locator":"id=shopListSortSelect","desc":"Drop down for sort"}
+shoppinglist.lnk.buildyourlist = {"locator":"xpath=//*[contains(text(),'Build Your List')]","desc":"Link for build your list"}
+shoppinglist.txt.nameoflist = {"locator":"xpath=//input[@title='Name of list']","desc":"TextBox for Name of list"}
+shoppinglist.btn.createnewlist = {"locator":"xpath=//button[.='Create New List']","desc":"Button for Create New List"}
+shoppinglist.lbl.shoppinglisttitle = {"locator":"xpath=//h2[@id='shopping-list-title']","desc":"Label for Shopping-list-title"}
+shoppinglist.couponsproduct.lbl.couponsproduct = {"locator":"xpath=//div[@id='content']//h1","desc":"TextView for Coupons Product"}
+shoppinglist.couponsproduct.btn.addtolist = {"locator":"xpath=//*[contains(@title,'Add to List')]","desc":"Button for Add to List in Coupons Product page"}
+shoppinglist.couponsproduct.txt.couponsproductname = {"locator":"xpath=//div[@id='ajaxCategoryDisplay']/div/ul/li/div[2]/div/a/span","desc":"TextView for Coupons Product name in Coupons Product page"}
+shoppinglist.lis.itemsname = {"locator":"xpath=//a[@class='sl-item__name-link']","desc":"ListView for Items name in Shopping List"}
+shoppinglist.lis.itemsimage = {"locator":"xpath=//div[@id='ajaxCategoryDisplay']/ol/li/div[2]/a/img","desc":"ListView for Items Image in Shopping List"}
+shoppinglist.btn.delete = {"locator":"xpath=//div[contains(@id,'deleteOrMove')]/button[1]","desc":"ListView for Delete button in Shopping List"}
+shoppinglist.btn.move = {"locator":"xpath=//button[.='Move']","desc":"ListView for Move button in Shopping List"}
+shoppinglist.txt.deleteitem = {"locator":"xpath=//div[@id='OverlayMoveItemDiv']/div/h4","desc":"TextView for Delete Item in Delete pop up in Shopping List"}
+shoppinglist.btn.deleteitem = {"locator":"xpath=//div[@id='OverlayMoveItemDiv']/div//form/button[1]","desc":"ButtonView for Delete Item in Shopping List"}
+shoppinglist.btn.cancel = {"locator":"xpath=//div[@id='OverlayMoveItemDiv']/div//form/button[2]","desc":"ButtonView for Cancel in Shopping List"}
+shoppinglist.btn.close = {"locator":"xpath=//div[@id='OverlayMoveItemDiv']/div//a","desc":"ButtonView for close in Shopping List"}
+shoppinglist.lbl.storename = {"locator":"xpath=//span[@class='shopping-list__store-name']","desc":"Label for Shopping-list-store-name"}
+shoppinglist.txt.editnewlistname = {"locator":"xpath=//label[@class='modal-shopping-list-label']/following-sibling::input[@type='text']","desc":"TextBox for new-list-name after edit"}
+shoppinglist.dd.choosealist = {"locator":"xpath=//select[@id='selectList']","desc":"Drop down for choose a list"}
+shoppinglist.btn.editSubmit = {"locator":"xpath=//input[@id='editShoppingListSubmit']","desc":"Button for edit ShoppingList Submit"}
+shoppinglist.lnk.deletelist = {"locator":"xpath=//a[.='Delete List']","desc":"Link for Delete List"}
+shoppinglist.txt.zipcodetext = {"locator":"xpath=//input[@id='zipcodeText']","desc":"Textbox for zipcode"}
+shoppinglist.btn.searchzip = {"locator":"xpath=//button[.='Search']","desc":"Button view for searching Zipcode"}
+shoppinglist.lst.storenameoverlay = {"locator":"xpath=//a[@class='store-card__name-link']","desc":"List view for store name"}
+shoppinglist.lst.makemystoreoverlay = {"locator":"xpath=//button[.='Make My H-E-B Store']","desc":"List view for make my store"}
+shoppinglist.lbl.shoppinglisttitle = {"locator":"xpath=//*[@id='modal-shopping-list-tutorial-start']/div/h4","desc":"Label for Shopping-list-title"}
+shoppinglist.btn.getstarted = {"locator":"xpath=//*[contains(text(),'Get Started!')]","desc":"Button for Get Started "}
+shoppinglist.lbl.emailtofriend = {"locator":"xpath=//*[contains(text(),'Email to a friend')]","desc":"LabelView for Email your friend "}
+shoppinglist.btn.emailXbutton = {"locator":"id=closeModalWindow","desc":"Button for X in email "}
+shoppinglist.txt.recipientemail = {"locator":"xpath=//*[@id='recipientEmails']","desc":"TextBox for entering recipient email "}
+shoppinglist.txt.yourname = {"locator":"xpath=//*[@id='yourName']","desc":"TextBox for entering your name "}
+shoppinglist.txt.youremail = {"locator":"xpath=//*[@id='yourEmail']","desc":"TextBox for entering your email "}
+shoppinglist.btn.sendmeacopy = {"locator":"xpath=//*[@id='email_1']","desc":"Button Send me a copy of this message in email "}
+shoppinglist.btn.captcha = {"locator":"xpath=//*[@id='recaptcha-anchor']/div[5]","desc":"Button for Solve ReCaptch in email"}
+shoppinglist.btn.sendemail = {"locator":"id=sendEmailToFriend","desc":"Button for Send email "}
+shoppinglist.btn.emailcancel = {"locator":"xpath=//*[@id='cancel']","desc":"Button for Cancel in email "}
+shoppinglist.lbl.printheader = {"locator":"xpath=//*[contains(text(),'Would you also like to print...?')]","desc":"LabelView for Print in Shopping list page "}
+shoppinglist.btn.printclose = {"locator":"xpath=//*[@id='printoverlay']/a","desc":"Button for close in print"}
+shoppinglist.btn.print = {"locator":"xpath=//*[@id='printoverlay']/div[3]/button","desc":"Button for print in print page"}
+shoppinglist.lbl.printproduct = {"locator":"xpath=//*[@id='printoverlay']/dl/dd/label","desc":"LabelView for product image check box in print page"}
+shoppinglist.get.lnk.listname = {"locator":"xpath=//a[@class='my-lists__link'][.='%s']","desc":"LinkView for Shoppinglist name"}
+shoppinglist.btn.movelist = {"locator":"xpath=//input[@id='moveShoppingListItemSubmit']","desc":"Button for movelist"}
+shoppinglist.lbl.moveitem = {"locator":"xpath=//h4[.='Move Item']","desc":"Label for Move Item popup"}
+shoppinglist.txt.movenewlistname = {"locator":"xpath=//div[@id='moveShoppingListNewField']/input[@id='new-list-name']","desc":"TextBox for new-list-name for move"}
+shoppinglist.lnk.addnote = {"locator":"xpath=//span[@class='sl-item__note-add']","desc":"List view for addnote link"}
+shoppinglist.txt.addnote = {"locator":"xpath=//textarea[@class='sl-item__note-textarea']","desc":"TextBox for addnote "}
+shoppinglist.btn.canceladdnote = {"locator":"xpath=//button[.='Cancel']","desc":"Button for Cancel Add note"}
+shoppinglist.btn.addnote = {"locator":"xpath=//button[.='Add Note']","desc":"Button for Add note"}
+shoppinglist.get.lbl.addednotes = {"locator":"xpath=//span[@class='sl-item__note'][.='%s']","desc":"LabelView for Shoppinglist addednotes"}
+shoppinglist.lbl.listofitemmost = {"locator":"xpath=//*[contains(text(),'A list of the items you use the most')]","desc":"LabelView for list of items seen the most in Frequently added page"}
+shoppinglist.btn.freqaddtolist = {"locator":"xpath=//*[@id='shopping-list-item-list']/li[2]/div[1]/div[2]/button","desc":"ButtonView for add to list in Frequently added page"}
+shoppinglist.lbl.freqitemadded = {"locator":"xpath=//*[@id='shopping-list-item-list']/li[2]/div[1]/div[1]/h3/a","desc":"LabelView for list of items added in Frequently added page"}
+shoppinglist.lbl.freqpagnation = {"locator":"xpath=//*[@id='allListItems']/div[4]/p","desc":"LabelView for pagnation in Frequently added page"}
+shoppinglist.lnk.wishlist = {"locator":"xpath=//a[contains(text(),'Wish List')]","desc":"Link View for wish list in Frequently added page"}
+shoppinglist.lbl.wishlist = {"locator":"xpath=//*[@id='shopping-list-title']","desc":"LabelView for wish list in Frequently added page"}
+shoppinglist.btn.wishlistsearch = {"locator":"xpath=//*[@id='searchsubmit']","desc":"ButtonView for Search in wish list page"}
+shoppinglist.txt.wishlistsearch = {"locator":"id=searchText","desc":"TextBox for Search in wish list page"}
+shoppinglist.lbl.wishlistitem = {"locator":"xpath=//*[@id='shopping-list-item-list']/li[2]/div[1]/div[1]/h3","desc":"LabelView for items added in wish list page"}
+shoppinglist.lnk.mylistpdp = {"locator":"xpath=//*[@id='listliClass']","desc":"LinkView for mylist in PDP"}
+shoppinglist.txt.addanitemsearch = {"locator":"xpath=//*[@id='guide-search']","desc":"TextBox for Search in add an item in Shoping list page"}
+shoppinglist.lis.itemqty = {"locator":"xpath=//*[contains(@id,'itemQty')]","desc":"ListView for number of items present in counter of add an item in Shoping list page"}
+shoppinglist.lnk.choosespecificitem = {"locator":"linkText=Choose specific item","desc":"Link for choose specific item in shopping list page"}
+shoppinglist.dd.movechoosealist = {"locator":"xpath=//form[@id='moveShoppingListItemForm']/select[@id='selectList']","desc":"Drop down for choose a list"}
+shoppinglist.get.lnk.listnameactive = {"locator":"xpath=//span[@class='my-lists__link my-lists__link--active'][.='%s']","desc":"LinkView for Shoppinglist name"}
+shoppinglist.lis.itemqty = {"locator":"xpath=//*[contains(@id,'itemQty')]","desc":"ListView for number of items present in counter of add an item in Shoping list page"}
+shoppinglist.lbl.tutorialclose = {"locator":"xpath=//a[@class='joyride-close-tip']","desc":"LabelView for tutorial close in shopping list page"}
+shoppinglist.lbl.tutorialnext = {"locator":"xpath=//a[contains(text(),'Next')]","desc":"LabelView for tutorial next in shopping list page"}
+shoppinglist.lbl.tutorialprevious = {"locator":"xpath=//a[contains(text(),'Prev')]","desc":"LabelView for tutorial previous in shopping list page"}
+shoppinglist.lbl.tutorialfinish = {"locator":"xpath=//a[contains(text(),'Finish')]","desc":"LabelView for tutorial finish in shopping list page"}
+shoppinglist.lbl.tutorialtip1 = {"locator":"xpath=//div[@class='joyride-content-wrapper']//div[contains(text(),'Tip 1 of 5')]","desc":"LabelView for tutorial tip1 in shopping list page"}
+shoppinglist.lbl.tutorialtip2 = {"locator":"xpath=//div[@class='joyride-content-wrapper']//div[contains(text(),'Tip 2 of 5')]","desc":"LabelView for tutorial tip2 in shopping list page"}
+shoppinglist.lbl.tutorialtip3 = {"locator":"xpath=//div[@class='joyride-content-wrapper']//div[contains(text(),'Tip 3 of 5')]","desc":"LabelView for tutorial tip3 in shopping list page"}
+shoppinglist.lbl.tutorialtip4 = {"locator":"xpath=//div[@class='joyride-content-wrapper']//div[contains(text(),'Tip 4 of 5')]","desc":"LabelView for tutorial tip4 in shopping list page"}
+shoppinglist.lbl.tutorialtip5 = {"locator":"xpath=//div[@class='joyride-content-wrapper']//div[contains(text(),'Tip 5 of 5')]","desc":"LabelView for tutorial tip5 in shopping list page"}
+shoppinglist.lbl.shop = {"locator":"xpath=//*[@id='main-nav']/li[1]/a","desc":"LinkView for shop in shopping list page"}
+shoppinglist.lnk.shopfirstavailableitem = {"locator":"xpath=//*[@id='ajaxCategoryDisplay']/div[1]/ul/li[1]/div[2]/a","desc":"LinkView for first available item in shopping list page"}
+shoppinglist.lbl.shopbydept = {"locator":"xpath=//*[@id='body']/div/div/div[3]/h1","desc":"LabelView for shop by department heading in shopping list page"}
+shoppinglist.lnk.cdpfirstavailableitem = {"locator":"xpath=(//span[@class='responsivegriditem__title'])[1]","desc":"LinkView for first available item in cdp"}
+shoppinglist.lis.aisle = {"locator":"xpath=//p[contains(text(),'Aisle')]","desc":"ListView for Aisle in Shoping list page"}
+shoppinglist.lbl.emptyshoppinglist = {"locator":"xpath=//p[contains(text(),'Your shopping list is empty.')]","desc":"Lbl for Your shopping list is empty"}
+shoppinglist.lnk.FirstDepartmentLink = {"locator":"xpath=(//div[@class='cat-list-category'])[2]","desc":"First department link"}
+shoppinglist.lnk.FirstSubDepartmentLink = {"locator":"xpath=//*[@id='content']/div/div[4]/div/ul/li[1]/div[2]/a","desc":"LinkView for first available item in department"}
+shoppinglist.lnk.listname = {"locator":"xpath=//h2[@id='shopping-list-title']","desc":"New list name for user"}

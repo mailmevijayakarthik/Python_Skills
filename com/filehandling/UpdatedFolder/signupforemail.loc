@@ -1,0 +1,11 @@
+signupforemail.txt.reenteremail = {\"locator\":\"xpath=//input[@id='reg-confirmEmail']",\"desc\":\"Text view for Re-enter email\"}
+
+signupforemail.txt.zipcode = {\"locator\":\"xpath=//input[@title='Zip Code']",\"desc\":\"Text view for Zip Code\"}
+
+signupforemail.btn.go = {\"locator\":\"xpath=//button[@id='storeGo']",\"desc\":\"Button view for Go\"}
+
+signupforemail.lst.btnselect = {\"locator\":\"xpath=//ul[@id='store-list']//button",\"desc\":\"Button view for Select\"}
+
+signupforemail.btn.submit = {\"locator\":\"xpath=//button[@title='Submit']",\"desc\":\"Button view for Submit\"}
+
+signupforemail.lbl.thankyoumsg = {\"locator\":\"xpath=//h1[text()='thank you for signing up for emails']",\"desc\":\"Label view for Thank you message\"}

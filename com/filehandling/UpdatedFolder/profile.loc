@@ -1,0 +1,9 @@
+profile.lbl.successpopup = {\"locator\":\"xpath=//h2[contains(text(),'Thank You For Creating an Account')]",\"desc\":\"LabelView for pop up in the profile page\"}
+
+profile.btn.gotItThanks = {\"locator\":\"xpath=//*[contains(@id,'gotIt')]",\"desc\":\"Button for clicking the Got It Thanks in the profile page\"}
+
+profile.txt.regFirstName = {\"locator\":\"xpath=//input[@id='reg-fName']",\"desc\":\"Text in First Name field in the profile page\"}
+
+profile.txt.regLastName = {\"locator\":\"xpath=//input[@id='reg-lName']",\"desc\":\"Text in Last Name field in the profile page\"}
+
+profile.txt.regEmail = {\"locator\":\"xpath=//input[@id='reg-email']",\"desc\":\"Text in Email field in the profile page\"}

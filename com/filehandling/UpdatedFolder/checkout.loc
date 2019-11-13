@@ -1,0 +1,197 @@
+checkout.lbl.header = {"locator":"xpath=//h1[.='Checkout'] | //div[@class='cart-h1'][text()='Checkout']","desc":"Labelview of CheckOut for InStore and Curbside"}
+
+checkout.lbl.securecheckout = {"locator":"xpath=//*[@class='rdcrcl-navigation clearfix']//li[1]//div[@class='va']","desc":"Textview of Secure CheckOut"}
+
+checkout.lbl.registeredcustomer = {"locator":"xpath=//*[.='Registered Customers']","desc":"Textview of CheckOut Registered Customers"}
+
+checkout.edt.regstrduseremail = {"locator":"xpath=//*[@name='login']","desc":"EditTextview of Email Address"}
+
+checkout.edt.regstrduserpassword = {"locator":"id=atg_store_passwordInput","desc":"EditTextview of Password"}
+
+checkout.btn.login = {"locator":"id=createaccount-btn","desc":"Buttonview of login"}
+
+checkout.lbl.newcustomer = {"locator":"xpath=//*[.='New Customers']","desc":"Textview of CheckOut New Customers"}
+
+checkout.edt.newuseremail = {"locator":"xpath=//input[@id='reg-email']","desc":"Textview of new user email"}
+
+checkout.edt.newuserpassword = {"locator":"xpath=//input[@id='reg-password']","desc":"EditTextview of new user Password"}
+
+checkout.edt.newuserlastname = {"locator":"xpath=//input[@id='reg-lName']","desc":"EditTextview of new user LastName"}
+
+checkout.edt.newuserfname = {"locator":"xpath=//input[@id='reg-fName']","desc":"EditTextview of new user FirstName"}
+
+checkout.btn.createaccount = {"locator":"xpath=//*[@title='Create Account']","desc":"Buttonview of Create Account"}
+
+checkout.lbl.guestcheckout = {"locator":"xpath=//*[.='Guest Checkout']","desc":"Textview of Guest checkout"}
+
+checkout.txt.guestcheckout = {"locator":"xpath=//*[@id='body']/div/h1","desc":"Text view of Guest Checkout"}
+
+checkout.btn.curbsidecheckout = {"locator":"xpath=//*[@class='cart-total-card']/button","desc":"Button View of Curbside Checkout"}
+
+checkout.btn.guestcheckout = {"locator":"xpath=//button[text()='Guest Checkout']","desc":"Buttonview of Guest checkout"}
+
+checkout.lnk.itemcount = {"locator":"xpath=//span[@class='cart-item-amount']","desc":"item count in checkout page"}
+
+checkout.txt.curbsidecheckout = {"locator":"xpath=//*[@class='cart-h1']","desc":"Text view of curbside Checkout"}
+
+checkout.txt.pickupdetailscheckout = {"locator":"xpath=(//*[@class='checkout-step-label'])[2]","desc":"Text view of Pickup details Checkout"}
+
+
+
+checkout.ele.cartrevieworderdetail = {"locator":"xpath=//*[text()='Review Order']/..//*[contains(@class,'review-cart')]/span","desc":"checkout review order detail from checkout page"}
+
+checkout.ele.cartrevieworderprice = {"locator":"xpath=//*[text()='Review Order']/..//*[contains(@class,'total-price')]","desc":"checkout review order price from checkout page"}
+
+checkout.txt.cartsubtotal = {"locator":"xpath=//*[contains(@class,'cart-total-card')]//*[contains(text(),'Subtotal')]//following-sibling::div[contains(@class,'heavy')]","desc":"subtotal from checkout page"}
+
+checkout.txt.carttax = {"locator":"xpath=//*[contains(@class,'cart-total-card')]//*[contains(text(),'Est. Tax')]//following-sibling::div[contains(@class,'heavy')]","desc":"tax from checkout page"}
+
+checkout.txt.carttotal = {"locator":"xpath=//*[contains(@class,'cart-total-card')]//*[contains(text(),'Est. Total')]//following-sibling::div[contains(@class,'price')]","desc":"total from checkout page"}
+
+checkout.tab.checkoutPickupDetails = {"locator":"xpath=//*[@id='body']/div[2]/div[2]/ul/li[2]","desc":"Tabview of Pickup Details at Guest checkout"}
+
+checkout.lbl.revieworderheader = {"locator":"xpath=//*[text()='Review Order']","desc":"Label view of review order"}
+
+checkout.ele.revieworderdetailscheckout = {"locator":"xpath=//*[text()='Review Order']/..//*[@class='review-cart-items-header']/div","desc":"review order details from checkout page"}
+
+checkout.ele.reviewdisplaynamescheckout = {"locator":"xpath=//*[contains(@class,'review-cart__display-name')]","desc":"review cart display names from checkout page"}
+
+chekout.lnk.revieweditcartcheckout = {"locator":"xpath=//*[text()='Review Order']/..//*[text()='Edit Cart']","desc":"review cart edit cart from checkout page"}
+
+cart.ele.cartrevieworderdetail = {"locator":"xpath=//*[text()='Review Order']/..//*[contains(@class,'review-cart')]/span","desc":"checkout review order detail from checkout page"}
+
+checkout.lst.productlist = {"locator":"xpath=//section[@class='review-cart-items panel']","desc":"List of products in Checkout"}
+
+checkout.edt.qtys = {"locator":"xpath=	//*[text()='Review Order']/..//*[contains(@class,'review-cart__substitution d-none d-lg-block')]/span","desc":"Review Order for Quantity"}
+
+checkout.tab.checkoutpickupdetails = {"locator":"xpath=//*[@id='body']/div[2]/div[2]/ul/li[2]","desc":"Tabview of Pickup Details at Guest checkout"}
+
+checkout.btn.clickplaceorder = {"locator":"xpath=//footer[contains(@class,'checkout-footer d-none d-md-flex')]//button[contains(text(), 'Place order')]","desc":"Click Place Order"}
+
+checkout.txt.item= {"locator":"xpath=//h2[text()='Review Order']/following::div[@class='review-cart-items-header']/div[1]","desc":"item  in checkout page"}
+
+checkout.lnk.carticon= {"locator":"xpath=//a[@class='header-cart']/span[@class='fa fa-shopping-cart']","desc":"cart icon in checkout page"}
+
+checkout.lnk.editcart= {"locator":"xpath=//div[@class='review-cart-items-header']//a[@class='edit-cart']","desc":"Edit Card Link"}
+
+checkout.lbl.reviewcart = {"locator":"xpath=//div[text()='Review Cart']","desc":"Review cart header name"}
+
+checkout.btn.selectcreditcard = {"locator":"xpath=//*[contains(@class,'slick-slider')]/..//*[contains(@*,'slick-active')]","desc":"Select credit card"}
+
+checkout.btn.changereservation = {"locator":"xpath=//button[text()='Change Reservation']","desc":"Change Reservation Link"}
+
+checkout.txt.timeslottab = {"locator":"xpath=//h5[text()='How are you shopping today?']","desc":"Change Reservation timeslot tab"}
+
+checkout.lnk.edit = {"locator":"xpath=//a[text()='edit']","desc":"Link view of Edit"}
+
+checkout.lnk.addacard = {"locator":"xpath=//div[text()='Add a Card']","desc":"Add a Card Link"}
+
+checkout.btn.addacardx = {"locator":"xpath=//header[@id='add-new-card-modal___BV_modal_header_']//button[@class='close']","desc":"X button in Add a Card overlay"}
+
+checkout.ele.addnewcardmodal = {"locator":"xpath=//div[contains(@id, 'add-new-card-modal') and @class='modal-body']","desc":"Add new card modal"}
+
+checkout.lbl.contactname = {"locator":"xpath=//div[@class='mb-3']/div[1]","desc":"Label view of contact information name"}
+
+checkout.lbl.contactemail = {"locator":"xpath=//div[@class='mb-3']/div[2]","desc":"Label view of contact information email"}
+
+checkout.lbl.contactphone = {"locator":"xpath=//div[@class='mb-3']/div[3]","desc":"Label view of contact information phone"}
+
+checkout.lbl.gettextalertsheader = {"locator":"xpath=//div[@class='checkout-heading']","desc":"Label view of contact information Get text alerts header"}
+
+checkout.lbl.helpmsg = {"locator":"xpath=//small[@id='telHelp']","desc":"Label view of contact information Get text alerts help message"}
+
+checkout.lbl.pickupcontactinfo = {"locator":"xpath=//*[@class='checkout-heading']/*[text()='Pickup']","desc":"Text view of pickup contact information"}
+
+checkout.txt.phonenumber = {"locator":"xpath=//input[@id='phoneNumber']","desc":"Text view of phone Number"}
+
+checkout.btn.orderconfirmation = {"locator":"xpath=//div[text()='Order Received']","desc":"Order Conformation message"}
+
+checkout.lbl.orderdetails = {"locator":"xpath=//h2[text()='Order Details']","desc":"Label view of Order Details header"}
+
+checkout.lbl.contextheader = {"locator":"xpath=//h2[@class='checkout-heading reservation__heading']","desc":"Label view of Order Details section Curbside or Delivery header"}
+
+checkout.lbl.storecardname = {"locator":"xpath=//h3[@class='store-card__name']","desc":"Label view of store name for Curbside or Delivery"}
+
+checkout.lbl.timeslothelduntilmsg = {"locator":"xpath=//span[text()='Time slot will be held for you until ']","desc":"Label view of Timeslot held until message"}
+
+checkout.lbl.timeintimeslothelduntilmsg = {"locator":"xpath=//span[text()='Time slot will be held for you until ']/em","desc":"Label view of time in Timeslot held until message"}
+
+checkout.btn.cardrightarrow = {"locator":"xpath=//*[contains(@class,'hup-slider__nav--next slick-arrow')]","desc":"Credit card Right Arrow button"}
+
+checkout.btn.cardleftarrow = {"locator":"xpath=//*[contains(@class,'hup-slider__nav--prev slick-arrow')]","desc":"Credit card Left Arrow button"}
+
+checkout.lst.creditcards = {"locator":"xpath=//div[@class='slick-track']/div","desc":"List of Credit cards"}
+
+checkout.img.creditcardtype = {"locator":"xpath=.//div[@class='credit-card__image']/span","desc":"Image of Credit card type"}
+
+checkout.lbl.creditcardnum = {"locator":"xpath=.//div[@class='credit-card__number']","desc":"Label of Credit card number"}
+
+checkout.lnk.delete = {"locator":"xpath=.//a[text()='Delete']","desc":"Link of Delete Credit card"}
+
+checkout.lnk.deleteconfirm = {"locator":"xpath=.//button[text()='Delete']","desc":"Link of Delete Credit card"}
+
+checkout.lnk.creditcard = {"locator":"xpath=.//a[contains(@class,'credit-card')]","desc":"Link of Credit card"}
+
+checkout.lnk.editcart = {"locator":"xpath=//a[text()='Edit Cart']","desc":"Link view of Edit Cart"}
+
+checkout.lnk.changereservation = {"locator":"xpath=//*[text()='Change Reservation']","desc":"Link view for change reservation from checkout page"}
+
+checkout.ele.deliverydatetime = {"locator":"xpath=//*[contains(@class,'reservation__details')]//*[@class='reservation__date-time']","desc":"Text view for delivery date and time from checkout page"}
+
+checkout.txt.reservationheader = {"locator":"xpath=//*[@class='panel reservation']/h2","desc":"Text view for change reservation header from checkout page"}
+
+checkout.ele.cartdrivertip = {"locator":"xpath=//*[@class='cart-total-card']//*[text()='Driver Tip']//following-sibling::div[contains(@class,'heavy')]","desc":"Text view for Driver tip field from checkout page"}
+
+checkout.lbl.subtotal = {"locator":"xpath=//div[@class='cart-total-card']//div[contains(text(),'Subtotal')]/following-sibling::div","desc":"Label View for Est. Subtotal"}
+
+checkout.lbl.personalshopperfee = {"locator":"xpath=//div[@class='cart-total-card']//div[contains(text(),'Personal Shopper Fee')]/following-sibling::div","desc":"Label View for Personal Shopper Fee"}
+
+checkout.lbl.deliveryfee = {"locator":"xpath=//div[@class='cart-total-card']//div[contains(text(),'Delivery Fee')]/following-sibling::div","desc":"Label View for Delivery Fee"}
+
+checkout.lbl.yoursavings = {"locator":"xpath=//div[@class='cart-total-card']//div[contains(text(),'Your Savings')]/following-sibling::div","desc":"Label View for Your Savings"}
+
+checkout.lbl.tax = {"locator":"xpath=//div[@class='cart-total-card']//div[contains(text(),'Est. Tax')]/following-sibling::div","desc":"Label View for Est. Tax"}
+
+checkout.lbl.drivertip = {"locator":"xpath=//div[@class='cart-total-card']//div[contains(text(),'Driver Tip')]/following-sibling::div","desc":"Label View for Driver Tip"}
+
+checkout.lbl.total = {"locator":"xpath=//div[@class='cart-total-card']//div[contains(text(),'Est. Total')]/following-sibling::div","desc":"Label View for Est. Total"}
+
+checkout.lst.products = {"locator":"xpath=//div[@class='review-cart__row']","desc":"Product row in checkout review order section"}
+
+checkout.revieworder.name = {"locator":"xpath=.//div[contains(@class, 'display-name')]/span","desc":"Review order name"}
+
+checkout.revieworder.subpref = {"locator":"xpath=.//div[contains(@class, 'substitution')]/div","desc":"Review order sub pref"}
+
+checkout.revieworder.qty = {"locator":"xpath=.//div[contains(@class, 'substitution')]/span","desc":"Review order quantity"}
+
+checkout.revieworder.price = {"locator":"xpath=.//div[contains(@class, 'total-price')]","desc":"Review order price"}
+
+checkout.btn.gifttooltip = {"locator":"xpath=//span[@id='tooltip-gc-pin']","desc":"Giftcard Tool tip button"}
+
+checkout.lnk.giftcardlink = {"locator":"xpath=//a[text()='Apply a Gift Card or E-Gift Card']","desc":"Gift card link"}
+
+checkout.lnk.learnmore = {"locator":"xpath=//div[text()='Learn More']","desc":"Learn More link"}
+
+checkout.txt.learnmorescreen = {"locator":"xpath=//div[@id='giftcard-pin-modal']","desc":"Where is the Gift Card Number and Pin screen"}
+
+checkout.lnk.promocode = {"locator":"xpath=(//a[text()='Have a promo code?'])[1]","desc":"Have a promo code link"}
+
+checkout.inpt.promoinputfield = {"locator":"xpath=//input[@class='form-control']","desc":"Have a promo code input field"}
+
+checkout.btn.promoinputclose = {"locator":"xpath=//label[@class='fa fa-times-circle remove-promo-code']","desc":"Have a promo code input field"}
+
+checkout.btn.closebutton = {"locator":"xpath=//header[contains(@id,'giftcard-pin-modal')]//button[@class='close']","desc":"Where is the Gift Card Number and Pin screen close button"}
+
+checkout.inpt.giftcardinput = {"locator":"xpath=//input[@id='giftCardNumber']","desc":"Gift Card Number input field"}
+
+checkout.btn.applygiftcard = {"locator":"xpath=//button[@class='btn btn-primary mb-3 mt-3 disabled']","desc":"Apply Gift Card button disable"}
+
+checkout.btn.enablegiftcard = {"locator":"xpath=//button[text()='Apply Gift Card']","desc":"Apply Gift Card button enable"}
+
+checkout.btn.headerlogo = {"locator":"xpath=//*[@class='header-logo']/img","desc":"Button view for header logo"}
+
+checkout.txt.giftcarttext = {"locator":"xpath=//div[text()='Gift Card & E-Gift Card']","desc":"text view of gift card"}
+
+checkout.txt.giftcardtooltip = {"locator":"xpath=//div[text()='Learn More']/../..","desc":"Have a promo code link"}
+
+checkout.edt.customtip = {"locator":"xpath=//label[@class='gratuity__custom gratuity__custom--sidebar']/input[@type='number']","desc":"EditTextview of Custom Tip"}

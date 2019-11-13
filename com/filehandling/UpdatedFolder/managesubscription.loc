@@ -1,0 +1,61 @@
+manageSubscription.txt.header = {\"locator\":\"xpath=.//*[@id='content']/div/div[@class='category-title']/h1[text()='Manage Subscriptions']\",\"desc\":\"Manage Subscriptions TextView Title\"}
+
+manageSubscription.lnk.editshipaddress = {\"locator\":\"xpath=//a[@class='system-link'][text()='Edit Shipping Address']\",\"desc\":\"editshipaddress LinkView\"}
+
+manageSubscription.lbl.newaddressupdate = {\"locator\":\"xpath=//*[@id='changeSubAddress']/div[3]/ul/li[2]/label/ul/li[1]\",\"desc\":\"newshipaddress TextView\"}
+
+manageSubscription.radio.newaddressupdate = {\"locator\":\"xpath=//*[@id='accountAddress1']\",\"desc\":\"newshipaddress RadioView\"}
+
+manageSubscription.link.addressbook = {\"locator\":\"xpath=//*[@id='changeSubAddress']/div[3]/p[1]/a\",\"desc\":\"Address Book link\"}
+
+manageSubscription.link.save = {\"locator\":\"xpath=//*[@id='changeSubAddress']//input[@value='Save']\",\"desc\":\"Save link\"}
+
+manageSubscription.lbl.shippingaddressname = {\"locator\":\"xpath=//div[.='Shipping Address']/following-sibling::ul/li[1]\",\"desc\":\"Shipping Address name\"}
+
+manageSubscription.lbl.cannotremove = {\"locator\":\"xpath=.//*[@id='cannotRemoveSubscriptionAddress']\",\"desc\":\"cannot Remove Subscription Address\"}
+
+manageSubscription.radio.defaultaddress = {\"locator\":\"xpath=//*[@id='accountAddress1']\",\"desc\":\"default shipaddress RadioView\"}
+
+manageSubscription.lnk.removeaddedaddress = {\"locator\":\"xpath=//*[@id='removeAddress'][@name='NewAddressSubscription']\",\"desc\":\"removeaddedaddress LinkView\"}
+
+manageSubscription.lnk.yesremoveaddedaddress = {\"locator\":\"xpath=//*[@id='overlayDiv']/div/div/div[2]/div[1]/button\",\"desc\":\"removeaddedaddress LinkView\"}
+
+manageSubscription.lbl.subscribeditem = {\"locator\":\"xpath=//*[@id='content']/div/div[5]/div[2]/div[2]/div/div[1]/span\",\"desc\":\"subscribed item TextView\"}
+
+manageSubscription.lnk.editpaymentinfo = {\"locator\":\"xpath=//a[@class='system-link'][text()='Edit Payment Information']\",\"desc\":\"Edit Payment Info Link\"}
+
+manageSubscription.lnk.managecreditcard = {\"locator\":\"xpath=//*[@id='changeSubCreditCard']/div[3]/p[1]/a\",\"desc\":\"managecreditcard Link\"}
+
+manageSubscription.lnk.addnewcreditcard = {\"locator\":\"xpath=//*[@id='content']/div/div[3]/div[3]/div[1]/a\",\"desc\":\"Add new creditcard Link\"}
+
+manageSubscription.lbl.addedvisacreditcard = {\"locator\":\"xpath=//div[@class='cardOwnerName'][@title='visa-7777']\",\"desc\":\"added visa creditcard\"}
+
+manageSubscription.radio.newcreditupdate = {\"locator\":\"xpath=.//*[@id='accountCreditCard1']\",\"desc\":\"newcreditupdate RadioView\"}
+
+manageSubscription.link.savecredit = {\"locator\":\"xpath=//*[@id='changeSubCreditCard']//input[@value='Save']\",\"desc\":\"Save Credit link\"}
+
+manageSubscription.lbl.newcreditupdate = {\"locator\":\"xpath=.//*[@id='content']/div/div[4]/div[2]/div/div/div/div[2]/div[2]/div[2]/span[contains(text(),'visa-7777')]\",\"desc\":\"New Credit Text\"}
+
+manageSubscription.lnk.cannotdeletesubscriptioncard = {\"locator\":\"xpath=//*[@id='cannotDeleteSubscriptionCard']\",\"desc\":\"cannot delete subscription card\"}
+
+manageSubscription.radio.defaultcreditupdate = {\"locator\":\"xpath=//*[@id='accountCreditCard1']\",\"desc\":\"default creditupdate RadioView\"}
+
+manageSubscription.lnk.deletecard = {\"locator\":\"xpath=//*[@id='deleteCard']\",\"desc\":\"Delete Card\"}
+
+manageSubscription.lnk.yesdeletecard = {\"locator\":\"xpath=//*[@id='removeCancelOverlay']/div/div/div[2]/div/a\",\"desc\":\"Yes deletecard LinkView\"}
+
+manageSubscription.lnk.change = {\"locator\":\"xpath=//a[text()='Change']\",\"desc\":\"Change LinkView\"}
+
+manageSubscription.lnk.changedate = {\"locator\":\"xpath=//form[contains(@id,'changeDate')]//li[1]/a\",\"desc\":\"Change Date LinkView\"}
+
+manageSubscription.lbl.date = {\"locator\":\"xpath=//div[@class='subscription-cart-item ']//div[4]/span\",\"desc\":\"Date TextView\"}
+
+manageSubscription.txt.quantity = {\"locator\":\"xpath=//input[@type='text'][@maxlength='2']\",\"desc\":\"Quantity TextView\"}
+
+manageSubscription.lnk.update = {\"locator\":\"xpath=//a[@id='updateQuantitySubscription']\",\"desc\":\"Quantity Update LinkView\"}
+
+manageSubscription.lbl.itemtotal = {\"locator\":\"xpath=//div[@class='subscription-cart-item ']//div[5]//span[contains(text(),'$')]\",\"desc\":\"Item total LabelView\"}
+
+manageSubscription.lbl.itemnotavilable = {\"locator\":\"xpath=//em[text()='Item not available']\",\"desc\":\"Item not available error message LabelView\"}
+
+manageSubscription.lbl.itemnotavilableoopsem = {\"locator\":\"xpath=//*[@class='oops']/span[text()='%s']\",\"desc\":\"Item not available oops error message LabelView\"}

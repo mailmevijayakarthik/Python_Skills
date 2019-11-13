@@ -1,0 +1,1 @@
+shopbydept.lnk.megamenu = {"locator":"xpath=//ul[@id='main-nav']/li/a[text()='%s']","desc":"Based on text select menu from curbside & delivery home page"}
