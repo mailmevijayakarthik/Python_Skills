@@ -13,5 +13,5 @@ Expected output is
 666666
 '''
 
-for i in range(101):
+for i in range(10):
     print(str(i)*i)
