@@ -1,0 +1,10 @@
+header.lnk.shoppinglist = {"locator":"xpath=//a[text()='Lists']","desc":"Link view for shopping list in Home page"}
+header.lnk.reservetimeslot = {"locator":"xpath=//div[@class='reservation-display']","desc":"Reserve a timeslot link in header"}
+
+header.lnk.cartcount = {"locator":"xpath=//div[@class='btn-my-cart__item-count']","desc":"cart icon count"}
+
+header.lnk.closebutton = {"locator":"xpath=(//button[@class='close'])[1]","desc":"time slot close button"}                                                                                                                                            
+
+header.lnk.navmenu = {"locator":"xpath=//a[contains(@class, 'navbar-toggle')]","desc":"Link for header nav menu"}
+header.ele.leftnav = {"locator":"xpath=//nav[contains(@class, 'site-header__nav')]", "desc":"Left nav pane on mobile web"}
+

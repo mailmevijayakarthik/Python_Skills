@@ -1,0 +1,119 @@
+pharmacy.lnk.Pharmacy = {"locator":"xpath=//a[@class='Go to Pharmacy']","desc":"Link for Pharmacy"}
+
+pharmacy.img.HeroImage = {"locator":"xpath=//div[@class='pharmacy-banner-main flex-container flex-column left']","desc":"Hero Banner Image"}
+
+pharmacy.btn.RefillPrescription = {"locator":"xpath=//span[text()=' Refill Prescription']","desc":"Refill Prescription button"}
+
+pharmacy.btn.CheckRefillstatus = {"locator":"xpath=//span[@class='icon icon-rx-refill-status']","desc":"Check Refill status button"}
+
+pharmacy.btn.RefillXpress= {"locator":"xpath=//span[@class='icon icon-rx-refill-express']","desc":"Refill Xpress Button"}
+
+pharmacy.btn.TransferPrescription = {"locator":"xpath=//span[text()=' Transfer Prescription']","desc":"Transfer Prescription button"}
+
+pharmacy.tbx.RefillPresFirstName = {"locator":"xpath=//input[@name='fName']","desc":"Refill Prescription First name"}
+
+pharmacy.tbx.RefillPresLastName = {"locator":"xpath=//input[@name='lName']","desc":"Refill Prescription Last name"}
+
+pharmacy.tbx.RefillPresDOB = {"locator":"xpath=(//div[@class='form-input'])[3]","desc":"Refill Prescription Date of Birth"}
+
+pharmacy.tbx.RefillPresCorp = {"locator":"xpath=//input[@name='corp']","desc":"Refill Prescription Corp"}
+
+pharmacy.tbx.RefillPresPrescription = {"locator":"xpath=//input[@name='prescription']","desc":"Refill Prescription Prescription field"}
+
+pharmacy.img.RefillPresHandImage = {"locator":"xpath=//div[@class='prescription']","desc":"Refill Prescription Hand Image"}
+
+pharmacy.btn.RefillPresContinueBtn = {"locator":"xpath=//button[@id='refillRxValidatePatientHelp']","desc":"Refill Prescription Continue button"}
+
+pharmacy.tbx.CheckRefillFirstName={"locator":"xpath=(//label[text()='First Name '])[2]","desc":"Check Refill Status First Name"}
+
+pharmacy.tbx.CheckRefillLastName={"locator":"xpath=//input[@id='rxStausTab_lName']","desc":"Check Refill Status Last Name"}
+
+pharmacy.tbx.CheckRefillDOB={"locator":"xpath=(//div[@class='form-input'])[8]","desc":"Check Refill Status date of Birth"}
+
+pharmacy.tbx.CheckRefillCorp={"locator":"xpath=//input[@id='rxStausTab_corpNumber']","desc":"Check Refill Status corp"}
+
+pharmacy.tbx.CheckRefillPrescription={"locator":"xpath=//input[@id='rxStausTab_prescription']","desc":"Check Refill Status Prescription"}
+
+pharmacy.btn.CheckRefillContinueBtn={"locator":"xpath=//button[@id='refillStatusTabBtn']","desc":"Check Refill Status Continue button"}
+
+pharmacy.img.CheckRefillHandImage={"locator":"xpath=//div[@id='rxStausTab_div']//div","desc":"Check Refill Status Hand image"}
+
+pharmacy.btn.RefillXPressNotification = {"locator":"xpath=//div[@class='notification']","desc":"Refill Xpress notification"}
+
+pharmacy.tbx.RefillXPressFirstName = {"locator":"xpath=//input[@id='refillexp_firstName']","desc":"Refill Xpress First name"}
+
+pharmacy.tbx.RefillXPressLastName = {"locator":"xpath=//input[@id='refillexp_lastName']","desc":"Refill Xpress Last name"}
+
+pharmacy.tbx.RefillXPressDOB = {"locator":"xpath=(//div[@class='form-input'])[8]","desc":"Refill Xpress Date of Birth"}
+
+pharmacy.tbx.RefillXPressCorp = {"locator":"xpath=//input[@id='refillexp_corpNumber']","desc":"Refill Xpress Corp"}
+
+pharmacy.tbx.RefillXPressPrescription = {"locator":"xpath=//input[@id='refillexp_prescription']","desc":"Refill Xpress Prescription field"}
+
+pharmacy.img.RefillXPressHandImage = {"locator":"xpath=(//div[@class='prescription'])[2]","desc":"Refill Xpress Hand Image"}
+
+pharmacy.btn.RefillXPressContinueBtn = {"locator":"xpath=//button[@id='refillExpBtn']","desc":"Refill Xpress Continue button"}
+
+pharmacy.tbx.TransferPresDrugName = {"locator":"xpath=//input[@id='transferrx_drugName']","desc":"Transfer Prescription Drug name"}
+
+pharmacy.tbx.TransferPresDrugStrength = {"locator":"xpath=//input[@id='transferrx_drugStrength']","desc":"Transfer Prescription Drug strength"}
+
+pharmacy.tbx.TransferPresPrescriptionNumber = {"locator":"xpath=//input[@id='drugPrescription']","desc":"Transfer Prescription Prescription number"}
+
+pharmacy.tbx.TransferPresPharmacyname = {"locator":"xpath=//input[@id='transferrx_pname']","desc":"Transfer Prescription Pharmacy name"}
+
+pharmacy.tbx.TransferPresPharmacyPhone = {"locator":"xpath=(//div[@class='form-input'])[10]","desc":"Transfer Prescription pharmacy phone number"}
+
+pharmacy.btn.TransferPresContinueBtn = {"locator":"xpath=//button[@id='transferRxTabBtn']","desc":"Transfer Prescription Continue button"}
+
+pharmacy.img.PharmacyAppStoreImage = {"locator":"xpath=(//img[@alt='Get the Pharmacy app on the App Store'])[2]","desc":"Pharmacy App store Image"}
+
+pharmacy.img.PharmacyGooglePlayImage = {"locator":"xpath=(//img[@alt='Get the Pharmacy app on the Google Play Store'])[2]","desc":"Pharmacy Google Play Image"}
+
+pharmacy.txt.PharmacyServicesText = {"locator":"xpath=//h2[text()='Pharmacy Services']","desc":"Pharmacy services text"}
+
+pharmacy.lnk.Specialtypharmacy = {"locator":"xpath=//a[@id='specialty-pharmacy']","desc":"Specialty pharmacy link"}
+
+pharmacy.lnk.PrescriptionDelivery = {"locator":"xpath=//a[@id='H-E-B-Pharmacy-Delivery-Service']","desc":"Pharmacy Prescription Delivery link"}
+
+pharmacy.lnk.PrescriptionCompounding = {"locator":"xpath=//a[@id='compounding']","desc":"pharmacy prescription compounding link"}
+
+pharmacy.lnk.PrescriptionFlavoring = {"locator":"xpath=//a[@id='rediclinic']","desc":"Pharmacy Prescription Flavoring link"}
+
+pharmacy.lnk.PetMedications = {"locator":"xpath=//a[@id='Pet-Medications-at-H-E-B']","desc":"Pharmacy pet medications link"}
+
+pharmacy.lnk.Generics = {"locator":"xpath=//a[@id='Generics']","desc":"Pharmacy Generics link"}
+
+pharmacy.lnk.PharmacyNearMe = {"locator":"xpath=//a[@id='Pharmacy Near Me']","desc":"pharmacy near me link"}
+
+pharmacy.txt.HealthServicesText = {"locator":"xpath=//h2[text()='Health Services']","desc":"Health services text"}
+
+pharmacy.lnk.immunizations = {"locator":"xpath=//a[@id='H-E-B-Pharmacy-Immunizations']","desc":"Pharmacy Immunizations link"}
+
+pharmacy.lnk.Healthscreenings = {"locator":"xpath=//a[@id='Second-Saturday-Screenings']","desc":"Pharmacy Health screening link"}
+
+pharmacy.lnk.NutritionServices = {"locator":"xpath=//a[@id='Nutrition-Services']","desc":"Pharmacy Nutrition services link"}
+
+pharmacy.lnk.medicare = {"locator":"xpath=//a[@id='Medicare-Overview']","desc":"Pharmacy Medicare link"}
+
+pharmacy.lnk.labservices = {"locator":"xpath=//a[@id='Lab-Services']","desc":"Pharmacy lab services link"}
+
+pharmacy.lnk.DiabetesProducts = {"locator":"xpath=//a[@id='Diabetes-Products']","desc":"Pharmacy Diabetes products link"}
+
+pharmacy.lnk.RxAdvantage = {"locator":"xpath=(//a[text()='Rx Advantage for Employers'])[2]","desc":"Pharmacy Rx Advantage link"}
+
+pharmacy.lnk.NoteOfPrivacyPolicylink = {"locator":"xpath=//a[@class='bluelinks'][1]","desc":"Pharmacy note of privacy policy link"}
+
+pharmacy.lnk.HealthcarNonDiscriminationNoticelink = {"locator":"xpath=//a[text()='Health Care Nondiscrimination Notice']","desc":"Health Care Non discrimination Notice link"}
+
+pharmacy.lnk.TexasStateBoardLink = {"locator":"xpath=//a[text()='Texas State Board of Pharmacy']","desc":"Texas state of board link"}
+
+pharmacy.lnk.HowtoDisposeUnusedMedicineslink = {"locator":"xpath=//a[text()='How to Dispose of Unused Medicines']","desc":"How to dispose unused medicines link"}
+
+pharmacy.lbl.SpecialityPharmacyHeader = {"locator":"xpath=//h1[text()='Specialty Pharmacy']","desc":"Speciality Pharmacy page header"}
+
+pharmacy.lbl.pharmacyprofilesHdr = {"locator":"xpath=//a[text()='Create heb.com Account and Pharmacy Profile']","desc":"Pharmacy profiles header"}
+
+pharmacy.lbl.ImmunizationPageHdr={"locator":"xpath=//h1[text()='Immunizations']","desc":"Immunization page header"}
+
+pharmacy.lnk.pharmacymenu= {"locator":"xpath=//ul[@class='main-nav']//a[text()='Pharmacy']","desc":"Pharmacy link in Home Page header"}

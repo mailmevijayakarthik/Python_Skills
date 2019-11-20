@@ -1,0 +1,147 @@
+recipedetail.lbl.recipename = {"locator":"xpath=//*[@class='block-center recipe-block']/div[@class='title']","desc":"Recipe name in Recipe details page"}
+
+recipedetail.btn.checkall = {"locator":"xpath=//div[@id='checkall_1']","desc":"Button view for Check All"}
+
+recipedetail.btn.addtolist = {"locator":"xpath=.//*[@id='updateRecipeAddToList']","desc":"Button view for Add to List"}
+
+recipedetail.lis.ingredients = {"locator":"xpath=//div[@class='recipesteps']/div[2]","desc":"List view Ingredients"}
+
+recipedetail.lbl.cookingtips = {"locator":"xpath=.//*[@id='CookingTips']/a","desc":"TextView of Cooking Tips"}
+
+recipedetail.lbl.cookingtipstitle = {"locator":"xpath=.//h1[text()='Cooking Tips']","desc":"PageTitle of Cooking Tips"}
+
+recipedetail.btn.loadmoreitems = {"locator":"id=promoRecipesLoadMore","desc":"Button view for Load More Items"}
+
+recipedetail.dd.perfect = {"locator":"id=optionOne","desc":"Drop down selecting perfect in Quick recipe finder"}
+
+recipedetail.dd.with = {"locator":"id=optionTwo","desc":"Drop down selecting with in Quick recipe finder"}
+
+recipedetail.btn.quickrecipesearch = {"locator":"id=quickRecipeSearch","desc":"ButtonView for search in Quick recipe finder"}
+
+recipedetail.lbl.searchresults = {"locator":"xpath=//*[@id='CDP_BodyContent_rsp']/div/div[2]/div/div[3]/div[1]/h1","desc":"LabelView for search results in search results page"}
+
+recipedetail.txt.searchresults = {"locator":"xpath=//*[contains(@class,'search-result-found')]","desc":"TextView for search results in search results page"}
+
+recipedetail.lnk.addtorecipebox = {"locator":"xpath=(//a[contains(text(),'Add to Recipe Box')])[1] | (//button[contains(text(),'Add to Recipe Box')])[1]","desc":"Link view for Add to recipe box"}
+
+recipedetail.lnk.createaccount = {"locator":"id=createAccountBtn","desc":"LinkView for selecting Create Account in create a recipe box"}
+
+recipedetail.lnk.login = {"locator":"linkText=Log in","desc":"LinkView for selecting Login in create a recipe box"}
+
+recipedetail.lbl.bycookingmethod = {"locator":"xpath=//*[contains(text(),'By Cooking Method')]","desc":"LabelView for by cooking method"}
+
+recipedetail.lbl.bycuisinetype = {"locator":"xpath=//*[contains(text(),'By Cuisine Type')]","desc":"LabelView for by cuisine type"}
+
+recipedetail.lbl.bydiet = {"locator":"xpath=//*[contains(text(),'By Diet')]","desc":"LabelView for by diet"}
+
+recipedetail.lbl.bymealtype = {"locator":"xpath=//*[contains(text(),'By Meal Type')]","desc":"LabelView for by meal type"}
+
+recipedetail.lbl.bynutrition = {"locator":"xpath=//*[contains(text(),'By Nutrition')]","desc":"LabelView for by nutrition type"}
+
+recipedetail.lbl.bypopularcategory = {"locator":"xpath=//*[contains(text(),'By Popular Category')]","desc":"LabelView for by popular category"}
+
+recipedetail.lbl.byprimaryingredient = {"locator":"xpath=//*[contains(text(),'By Primary Ingredient')]","desc":"LabelView for by primary ingredient"}
+
+recipedetail.lbl.byseasonorholiday = {"locator":"xpath=//*[contains(text(),'By Season Or Holiday')]","desc":"LabelView for by season or holiday"}
+
+recipedetail.lbl.bysource = {"locator":"xpath=//*[contains(text(),'By Source')]","desc":"LabelView for by source"}
+
+recipedetail.lbl.showing = {"locator":"xpath=.//*[@class='showing']","desc":"TextView of Showing number of Recipes"}
+
+recipedetail.btn.hideloadmorerecipesnotpresent = {"locator":"xpath=//*[@id='promoRecipeHideLoadMore'][contains(@style,'display: none')]","desc":"Buttonview of Hide Load More Recipes"}
+
+recipedetail.lnk.addtolist =  {"locator":"xpath=//*[contains(text(),'Add to List')]","desc":"LinkView for Add to List"}
+
+recipedetail.lbl.selecttheingredients = {"locator":"xpath=//*[contains(text(),'Select the ingredients')]","desc":"LabelView for select the ingredients"}
+
+recipedetail.btn.checkallselectpopup = {"locator":"id=checkall_2","desc":"ButtonView for selecting check all in select the ingredients"}
+
+recipedetail.btn.addtolistselectpopup = {"locator":"id=updateRecipeAddToList","desc":"ButtonView for selecting add to list in select the ingredients"}
+
+recipedetail.lbl.flyoutaddedtolist = {"locator":"id=flyout-added-to-list","desc":"LabelView for flyout added to list in select the ingredients"}
+
+recipedetail.lnk.recipeoftheday = {"locator":"xpath=//span[.='Recipe of the Day']","desc":"LinkView for recipe of the day"}
+
+recipedetail.lbl.pagetitle = {"locator":"xpath=//div[@itemprop='name']","desc":"TextView for Recipes Detail pagetitle"}
+
+recipedetail.lbl.addtorecipebox = {"locator":"xpath=//span[.='Add to Recipe box']","desc":"TextView for add to recipe box"}
+
+recipedetail.li.recipeboxnames = {"locator":"xpath=//div[@class='atl-container']/ul/li","desc":"ListView for recipe box names"}
+
+recipedetail.lbl.addedtorecipebox = {"locator":"xpath=//span[.='Added to Recipe box']","desc":"TextView for added to recipe box"}
+
+recipedetail.lbl.recipebox = {"locator":"xpath=//a[@title='Recipe Box']","desc":"TextView for recipe box in the top"}
+
+recipedetail.lbl.werecommend = {"locator":"xpath=//h2[text()='we recommend']","desc":"TextView for we recommend section header"}
+
+recipedetail.lbl.preptime = {"locator":"xpath=//*[.='Prep Time']","desc":"TextView for preptime"}
+
+recipedetail.lbl.cooktime = {"locator":"xpath=//*[.='Cook Time']","desc":"TextView for cooktime"}
+
+recipedetail.lbl.totaltime = {"locator":"xpath=//*[.='Total Time']","desc":"TextView for totaltime"}
+
+recipedetail.lbl.serves = {"locator":"xpath=//*[.='Serves']","desc":"TextView for serves"}
+
+recipedetail.lbl.ingredientstitle = {"locator":"xpath=//*[@class='ingredientstitle']","desc":"TextView of Recipe Ingredients title"}
+
+recipedetail.lbl.addtolistfromrightside = {"locator":"xpath=//a[.='Add to List']","desc":"TextView for add to list from right side"}
+
+recipedetail.lbl.email = {"locator":"xpath=//a[.='Email']","desc":"TextView for email"}
+
+recipedetail.lbl.print = {"locator":"xpath=//a[.='Print']","desc":"TextView for print"}
+
+recipedetail.lbl.nutritionfacts = {"locator":"xpath=//div[.='Nutrition Facts']","desc":"TextView for nutrition facts"}
+
+recipedetail.lbl.recentlyviewedrecipes = {"locator":"xpath=//div[.='Recently Viewed Recipes']","desc":"TextView for Recently Viewed Recipes"}
+
+recipedetail.lbl.ratethisrecipe = {"locator":"xpath=//div[@class='reviews-product-title']","desc":"TextView for rate this recipe"}
+
+recipedetail.icon.ratingstar4 = {"locator":"xpath=//a[@id='ratingStar4']","desc":"IconView for rating star4"}
+
+recipedetail.txt.reviewtitle = {"locator":"xpath=//input[@id='reviewTitle']","desc":"EditView for review title"}
+
+recipedetail.txt.reviewcomments = {"locator":"xpath=//textarea[@id='reviewComment']","desc":"EditView for review commnets text field"}
+
+recipedetail.btn.submit = {"locator":"xpath=//button[@title='Submit']","desc":"ButtonView for submit"}
+
+recipedetail.lbl.thankyou = {"locator":"xpath=//div[.='Thank you!']","desc":"TextView for thank you"}
+
+recipedetail.lbl.thankyoucommnets = {"locator":"xpath=//div[@class='reviews-nickname']","desc":"TextView for thank you comments"}
+
+recipedetail.lbl.addtorecipeboxall = {"locator":"xpath=//*[@id='cat-recipe']/ul/li[1]/div[4]/div[1]/ul/li[1]/a","desc":"LabelView for All option in Add to recipebox"}
+
+recipedetail.lnk.cookingtipitem1 = {"locator":"xpath=//*[@id='wrapper']/div/div/div[2]/div[2]/div[1]/div/div[3]/div[1]/div[1]/div/p[1]/a","desc":"LinkView for first available item in cooking tips page"}
+
+recipedetail.lbl.ratingstar1 = {"locator":"xpath=//li[contains(@class,'star first active')]","desc":"LabelView for rating star1 "}
+
+recipedetail.lis.ratingstar = {"locator":"xpath=//li[contains(@class,'star  active')]","desc":"LabelView for rating star "}
+
+recipedetail.lbl.ratingstar5 = {"locator":"xpath=//li[contains(@class,'star last active')]","desc":"LabelView for rating star5 "}
+
+recipedetail.box.reviewblocks = {"locator":"xpath=//div[@class='reviewContainer text-gray']","desc":"Blockview of Review blocks"}
+
+recipedetail.li.img.reviewlabels = {"locator":"xpath=//div[@class='reviewLabels']/span","desc":"Imageview of Review labels"}
+
+recipedetail.lbl.noofreviews = {"locator":"xpath=//div[@class='reviewAggregate']/a[@class='system-link']","desc":"TextView of No of reviews available"}
+
+recipedetail.btn.sortby = {"locator":"xpath=//select[@class='pull-right']","desc":"DropdownView of Sort by"}
+
+recipedetail.lbl.reviewheader = {"locator":"xpath=//h2[.='Reviews']","desc":"labelView for Review Header"}
+
+recipedetail.lbl.RecipeBoxContent = {"locator":"xpath=//div[text()='Save and organize your favorite recipes.']"}
+
+recipedetail.btn.pinit = {"locator":"xpath=//img[@alt='Pinterest']","desc":"Buttonview of Pin it"}
+
+recipedetail.btn.tweet = {"locator":"xpath=//img[@alt='Twitter']","desc":"Buttonview of Tweet"}
+
+recipedetail.lnk.firsttopratedrecipetitle = {"locator":"xpath=//ul[@id='tab-1']/li[1]/div[@class='recipetitle']/a","desc":"LinkView for first top rated recipes"}
+
+recipedetail.lbl.cooktimevalue = {"locator":"xpath=//*[@itemprop='cookTime']","desc":"TextView for cooktime value"}
+
+recipedetail.lnk.editnickname = {"locator":"xpath=//a[@title='Edit Your Nickname']","desc":"LinkView for Edit Your Nickname"}
+
+recipedetail.txt.editnickname = {"locator":"xpath=//input[@title='Type Your Nickname Here']","desc":"TextView for Edit Your Nickname"}
+
+recipedetail.btn.editnicknamesave = {"locator":"xpath=//button[@title='Save']","desc":"ButtonView for Edit Your Nickname Save"}
+
+recipedetail.lbl.editnickname = {"locator":"xpath=//span[@id='nickName']","desc":"LabelView for Edit Your Nickname"}

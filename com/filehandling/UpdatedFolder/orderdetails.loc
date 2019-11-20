@@ -1,0 +1,71 @@
+
+
+odrdetail.txt.orderdetailheader = {"locator":"xpath=//h1[text()='Order Details']","desc":"Text view for order details header from Order History Page"}
+
+odrdetail.txt.bannerdetailheader = {"locator":"xpath=//div[@class='order-history__fullfillment-type']/div[1]","desc":"Text view for banner detail header from Order Details Page"}
+
+odrdetail.txt.bannerdetailtime = {"locator":"xpath=//div[@class='order-history__fullfillment-type']/div[2]","desc":"Text view for banner detail time from Order Details Page"}
+
+odrdetail.ele.bannermap = {"locator":"xpath=//*[contains(@class,'map-container')]","desc":"Map view for shop location from Order Details Page"}
+
+odrdetail.ele.bannerorderstatus = {"locator":"xpath=//*[contains(@class,'order-details__container')]//*[contains(@class,'status')]","desc":"Text view for order status from Order Details Page"}
+
+odrdetail.txt.banneraddressdetail = {"locator":"xpath=//*[contains(@class,'order-details__container')]//*[contains(@class,'delivery-address')]","desc":"Text view for delivery address from Order Details Page"}
+
+odrdetail.txt.itemcost = {"locator":"xpath=//*[contains(@class,'item--price')]","desc":"Text view for item cost from Order Details Page"}
+
+orderdetails.lbl.header = {"locator":"xpath=//h1[text()='Order Details']","desc":"Label View for Order Details"}
+
+orderdetails.lbl.cardtype = {"locator":"xpath=//div[text()='Card Type']/following-sibling::div","desc":"Label View for Card Type"}
+
+orderdetails.lbl.cardnumber = {"locator":"xpath=//div[text()='Card Number']/following-sibling::div/strong","desc":"Label View for Card Number"}
+
+orderdetails.lbl.subtotal = {"locator":"xpath=//div[contains(text(),'Est. Subtotal')]/following-sibling::div/strong","desc":"Label View for Est. Subtotal"}
+
+orderdetails.lbl.personalshopperfee = {"locator":"xpath=//div[contains(text(),'Personal Shopper Fee')]/following-sibling::div/strong","desc":"Label View for Personal Shopper Fee"}
+
+orderdetails.lbl.deliveryfee = {"locator":"xpath=//div[contains(text(),'Delivery Fee')]/following-sibling::div/strong","desc":"Label View for Delivery Fee"}
+
+orderdetails.lbl.totalsavings = {"locator":"xpath=//div[contains(text(),'Total Savings')]/following-sibling::div/strong","desc":"Label View for Total Savings"}
+
+orderdetails.lbl.tax = {"locator":"xpath=//div[contains(text(),'Est. Tax')]/following-sibling::div/strong","desc":"Label View for Est. Tax"}
+
+orderdetails.lbl.drivertip = {"locator":"xpath=//div[contains(text(),'Driver Tip')]/following-sibling::div/strong","desc":"Label View for Driver Tip"}
+
+orderdetails.lbl.total = {"locator":"xpath=//div[contains(@class,'price')]","desc":"Label View for Est. Total"}
+
+orderdetails.ele.orderdetailbannericon = {"locator":"xpath=//*[contains(@class,'order-details__fullfillment-icon')]/div","desc":"Icon view for order icon from Order Detail Page"}
+
+orderdetails.txt.orderdetailbannerdetails = {"locator":"xpath=//*[contains(@class,'order-history__fullfillment-type')]/div","desc":"Text view for order detail banner from Order Detail Page"}
+
+orderdetails.ele.orderdetailicon = {"locator":"xpath=//*[@class='order-history__table-icon']/*","desc":"Element view for order icon from Order History Page"}
+
+orderdetails.ele.itemquantity = {"locator":"xpath=//*[contains(@class,'order-details__table-row')]//../*[contains(@class,'order-details__table-column')][3]","desc":"text view for item quantity in order history page"}
+
+orderdetails.btn.cancelorder = {"locator":"xpath=//div[contains(@class,'btn-row')]/button[text()='Cancel Order']","desc":"button view for cancel order in order detail page"}
+
+orderdetails.btn.cancelorderconfirm = {"locator":"xpath=//div[contains(@class,'text-right')]/button[text()='Cancel Order']","desc":"button view for cancel order confirmation in order detail page"}
+
+orderdetails.txt.orderstatus = {"locator":"xpath=//div[contains(@class,'order-history__status')]","desc":"text view for order status in order detail page"}
+
+orderdetails.chk.orderdetails = {"locator":"xpath=//div[contains(@class,'order-details__table')]/..//input[@type='checkbox']","desc":"CheckBox view for order details from Order Detail Page"}
+
+orderdetails.txt.orderproductname = {"locator":"xpath=//div[contains(@class,'order-details__table')]/..//div[contains(@class,'product-name')]/a","desc":"Text view for order product name from Order Detail Page"}
+
+orderdetails.btn.reorderbutton = {"locator":"xpath=//div[contains(@class,'order-details__table')]/..//button[text()='Reorder Selected']","desc":"Button view for reorder button from Order Detail Page"}
+
+orderdetails.txt.ordernumber = {"locator":"xpath=//*[@class='order-details__order-date']","desc":"TextView for substituted order number"}
+
+orderdetails.ele.substitutedicon = {"locator":"xpath=(//*[contains(@class,'sub__icons--orange')])[1]","desc":"ElementView for substituted icon"}
+
+orderdetails.ele.substitutedcolor = {"locator":"xpath=(//*[contains(@class,'sub__icons--orange')]//following::div[contains(@class,'grey')])[1]","desc":"ElementView for substituted color"}
+
+orderdetails.ele.substitutedpaidamount = {"locator":"xpath=(//*[contains(@class,'sub__icons--orange')]//following::div/strong)[1]","desc":"ElementView for substituted paid amount"}
+
+orderdetails.btn.reorderselected = {"locator":"xpath=(//button[text()='Reorder Selected' and @disabled='disabled'])[1]","desc":"Button view for reorder selected from Order Detail Page"}
+
+orderdetails.lnk.breadcrumbyourorder = {"locator":"xpath=//*[@class='breadcrumb']/a[text()='Your Orders']","desc":"Link view for your orders bread crumb from Order Detail Page"}
+
+orderdetails.txt.notavailabletext = {"locator":"xpath=(//div[contains(@class,'order-details__table')]/..//input[@type='checkbox'])[%s]//following-sibling::div[*]/*[@class='order-details__card-product-availability']","desc":"Text view for order details from Order Detail Page"}
+
+orderdetails.txt.substitutionremoved = {"locator":"xpath=(//div[contains(@class,'order-details__table')]/..//input[@type='checkbox'])[%s]//following::div[7]/*[contains(text(),'Removed')]","desc":"Text view for order details from Order Detail Page"}

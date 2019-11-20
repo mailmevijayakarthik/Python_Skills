@@ -1,0 +1,119 @@
+storelocator.btn.search = {"locator":"xpath=//input[@value='Search']","desc":"Button view of Search in HEB ATG Store Page"}
+
+storelocator.lnk.findAStore = {\"locator\":\"xpath=//*[@id='headerStoreLocationsLink']",\"desc\":\"Link view of Find A Store in HEB ATG Home Page\"}
+storelocator.txt.userdefinedstore = {\"locator\":\"xpath=//*[@id='storesNearDiv']",\"desc\":\"Text view of user defined store is displayed\"}
+storelocator.lnk.filterbystoreservices = {"locator":"xpath=//*[@class='system-link'][text()='Filter by store services']","desc":"Link view of Filter By store Services in Store locator Page"}
+storelocator.chk.storeservices = {"locator":"xpath=//*[@class='storelocator-filters']//input[@type='checkbox']","desc":"Check box view for Store Services in Store locator Page"}
+storelocator.lbl.storeservicesname = {"locator":"xpath=//*[@class='storelocator-filters']//label","desc":"Label view for Store Services in Store locator Page"}
+storelocator.lnk.storedetails = {"locator":"xpath=//*[contains(@class,'store-card')]/a[text()='Store Details']","desc":"Link view for Store Details in Store locator Page"}
+
+
+storelocator.btn.close = {"locator":"xpath=//header[@class='modal-header']/div/button[@aria-label='Close']","desc":"Button view of Close modal"} 
+storelocator.btn.donefiltering = {\"locator\":\"xpath=//*[@id='js-filter-close']",\"desc\":\"Button view of Done Filtering\"}
+
+storelocator.txt.findAStore = {"locator":"xpath=//*[@id='userQuery']","desc":"TextBox of Find A Store in HEB ATG Home Page"}
+
+
+storelocator.btn.find = {"locator":"xpath=//input[@id='userQueryHeaderSubmit']","desc":"Button view of Find"}
+
+storelocator.btn.mapstoredetails = {"locator":"xpath=//*[@id='contentInfoWindow']/a[2]","desc":"Button view of store details in map in HEB ATG Store Page"}
+
+
+
+storelocator.btn.myhebstore = {"locator":"xpath=//button[contains(@id,'selectCategoryStore')][@disabled]","desc":"Button view of My HEB store in HEB ATG Store Page"}
+storelocator.btn.selectstore = {"locator":"xpath=//*[starts-with(@class,'btn store__select-button')]","desc":"Button view of Select Store"}
+storelocator.ele.dropdown = {"locator":"xpath=//section[@class='header-dropdown__section']", "desc":"Store selector drop down"}
+storelocator.img.mapview = {"locator":"xpath=//*[@id='googleMapDiv']/div/div/div[1]/div[3]/div/div[3]/div[2]/img","desc":"Image view of store address in map in HEB ATG Store Page"}
+storelocator.img.storehicon = {"locator":"xpath=//*[@id='myStoreSId']/img","desc":"Image view for H icon near Selected Store Name"}
+storelocator.lbl.findastore = {"locator":"xpath=//*[@class='row mar-top-lg']//strong","desc":"TextView for Find a Store"}
+storelocator.lbl.findAStoretitle = {"locator":"xpath=//strong[text()='Find a Store']","desc":"Label view of Find A Store title in HEB ATG Store Page"}
+storelocator.lbl.mapstoreaddress = {"locator":"xpath=//*[@id='contentInfoWindow']/div/div[1]","desc":"Label view of store address in map in HEB ATG Store Page"}
+storelocator.lbl.mapstorename = {"locator":"xpath=//*[@id='contentInfoWindow']/a[1]","desc":"Label view of store name in map in HEB ATG Store Page"}
+storelocator.lbl.mapstorezipcodelocation = {"locator":"xpath=//*[@id='contentInfoWindow']/div/div[2]","desc":"Label view of store zip code and location in map in HEB ATG Store Page"}
+storelocator.lbl.storecount = {"locator":"xpath=//span[@id='storeCount']","desc":"Label for store count near zipcode"}
+storelocator.lbl.storedetailspgstorename = {"locator":"xpath=//*[contains(@class,'store-details__store-name')]","desc":"Label view of store name in store details page"}
+storelocator.lbl.storesNear = {"locator":"xpath=//*[@id='storesNearDiv']","desc":"Label for Searching for stores near zipcode"}
+storelocator.lbl.userenteredZip = {"locator":"xpath=//span[@id='userQueryText']","desc":"Label for Searching for stores near zipcode"}
+storelocator.lis.storedetails = {"locator":"xpath=//a[contains(text(),'Store Details')]","desc":"List view of store details in HEB ATG Store Page"}
+storelocator.lnk.changestore = {"locator":"xpath=//div[@class='header-store-name-container']//a[text()='Change Store' or text()='Find a Store']","desc":"Store change link"}
+storelocator.lnk.changestorelink = {"locator":"xpath=//*[@class='system-link text-ellipsis']","desc":"Link for change store"}
+storelocator.lnk.filterbystoreservices = {\"locator\":\"xpath=//*[@id="js-filter-toggle"]/span[1]",\"desc\":\"Link view of Filter By store Services in Store locator Page\"}
+storelocator.lnk.findAStore = {\"locator\":\"xpath=//*[@id='headerStoreLocationsLink']",\"desc\":\"Link view of Find A Store in HEB ATG Home Page\"}
+storelocator.lnk.findstore = {"locator":"xpath=//div[@class='header-store-container']//a[text()='Find a Store']","desc":"Store change link"}
+storelocator.lnk.headerstorename = {"locator":"xpath=//a[@class='header-store-name']","desc":"Link view of store name in the header"}
+storelocator.lnk.learnmore = {"locator":"xpath=//*[@id='homeDeliveryBlock']","desc":"LinkView for Learn More in Home Delivery block"}
+storelocator.lnk.startyourorder = {"locator":"xpath=//*[@id='homeDeliveryBlock']//img","desc":"LinkView for Start Your Order in Home Delivery block"}
+
+storelocator.lst.storelocatorpin = {"locator":"xpath=//div[@class='storelocator_pin']","desc":"List for store locator pin"}
+
+storelocator.lnk.next = {"locator":"xpath=//a[.='Next']","desc":"Link view of Next"}
+storelocator.lst.storecarddistance = {"locator":"xpath=//p[@class='store-card__distance']","desc":"List for store card distance"}
+
+storelocator.lbl.findAStoretitle = {"locator":"xpath=//*[@id='body']/div[2]/section/h4/strong","desc":"Label view of Find A Store title in HEB ATG Store Page"}
+storelocator.lnk.weeklyad = {"locator":"xpath=//*[@id='main-nav']/li[3]/a","desc":"Link for weekly ad"}
+
+storelocator.lnk.next = {"locator":"xpath=//a[.='Next']","desc":"Link view of Next"}
+storelocator.lnk.selectedstorename = {"locator":"xpath=//*[@id='myStoreSId']/div/a[1]","desc":"LinkText for Selected Store Name"}
+storelocator.lnk.selectedstoretext = {"locator":"xpath=//div[@class='header-store-name-container']//a[@class='header-store-name']","desc":"Selected store text"}
+storelocator.lnk.startyourorder = {"locator":"xpath=//*[@id='homeDeliveryBlock']//img","desc":"LinkView for Start Your Order in Home Delivery block"}
+storelocator.lnk.storename = {"locator":"xpath=//a[@class='store-card__name-link']","desc":"Link view of selecting the store name in HEB ATG Store Page"}
+storelocator.lnk.viewallstores = {"locator":"xpath=//a[contains(text(),'View All Stores')]","desc":"Link view of view all stores"}
+storelocator.lnk.weeklyad = {"locator":"xpath=//*[@id='main-nav']/li[3]/a","desc":"Link for weekly ad"}
+storelocator.lst.availablestoreservices= {"locator":"xpath=//h3[@class='store-details__heading store-details__heading--sub']","desc":"Available Store Services items"}
+storelocator.lst.liststorename = {"locator":"xpath=//li[contains(@class,'storelocator')]/.//*[@class='store-card__name']/a","desc":"List view of store names in HEB ATG Store Page"}
+storelocator.lst.liststores = {"locator":"xpath=//li[contains(@class,'storelocator')]","desc":"List view of stores in HEB ATG Store Page"}
+storelocator.lst.makemyhebstore = {"locator":"xpath=//button[contains(@class, 'storeSelectButton')]","desc":"list view of make my HEB store in HEB ATG Store Page"}
+storelocator.lst.storecarddistance = {"locator":"xpath=//p[@class='store-card__distance']","desc":"List for store card distance"}
+storelocator.lst.storecardname = {"locator":"xpath=//*[@itemprop='name']","desc":"List for store card name"}
+storelocator.lst.storelist = {"locator":"xpath=//h3[starts-with(@class,'store-card__name store-card__name--modal')]","desc":"List View Store Selection"}
+
+storelocator.btn.selectstore = {"locator":"xpath=//*[starts-with(@class,'btn store__select-button')]","desc":"Button view of Select Store"}
+
+
+storelocator.lnk.selectedstoretext = {"locator":"xpath=//div[@class='header-store-name-container']//a[@class='header-store-name']","desc":"Selected store text"}
+
+
+storelocator.lst.storelocatorpin = {"locator":"xpath=//div[@class='storelocator_pin']","desc":"List for store locator pin"}
+storelocator.txt.defaultaddress = {"locator":"xpath=//*[@class='header-store-name']","desc":"Default Address displayed"}
+storelocator.txt.defaultstore = {"locator":"xpath=(//*[@class='curbside-icon details'])[1]","desc":"Default pilot store 'Victoria H-E-B Plus!' Displayed"}
+storelocator.txt.distance = {\"locator\":\"xpath=//*[contains(@id,'loadMoreStoresLoop')]/section/div[1]/p[1]",\"desc\":\"Text Of Distance in Miles in HEB ATG Home Page\"}
+storelocator.txt.findAStore = {"locator":"xpath=//*[@id='userQuery']","desc":"TextBox of Find A Store in HEB ATG Home Page"}
+storelocator.txt.searchbox = {"locator":"xpath=//input[contains(@class, 'searchtext') and @id='userQuery'], "desc":"input box for store search"}
+storelocator.txt.storedistancemiles = {"locator":"xpath=//*[contains(text(),'miles')]","desc":"Text view of store details distance in miles HEB ATG Store Page"}
+storelocator.txt.storeservicesheader= {"locator":"xpath=//h2[text()='Available Store Services']","desc":"text of Available Store Services"}
+storelocator.txt.switchtostore = {"locator":"xpath=(//input[@id='change-store-input'])[1]","desc":"Zipcode field"}
+storelocator.txt.userdefinedstore = {\"locator\":\"xpath=//*[@id='storesNearDiv']",\"desc\":\"Text view of user defined store is displayed\"}
+storelocator.txt.zipcode = {"locator":"xpath=//input[@id='userQueryHeader']","desc":"Text box for Zipcode in HEB ATG Home Page"}
+storelocator.lnk.filterstoreservices = {"locator":"xpath=//*[text()='Filter by store services']","desc":"Link View for filter by store service in store locator page"}
+storelocator.txt.viewtogglebarsection = {"locator":"xpath=//*[contains(@class,'viewtoggle-bar')]","desc":"Text View for view toggle bar section in store locator page"}
+storelocator.ele.googlemapsection = {"locator":"xpath=//*[contains(@id,'googleMap')]","desc":"Map View for google map section in store locator page"}
+
+storelocator.lnk.headerstorename = {"locator":"xpath=//a[@class='header-store-name']","desc":"Link view of store name in the header"}
+storelocator.btn.searchstore = {"locator":"xpath=//*[@id='storeLocatorGo']","desc":"ButtonView for Search"}
+
+storelocator.btn.storezipcode= {"locator":"xpath=(//li[contains(@class,'store')]//span[4])[1]","desc":"Button text of store Address"}
+
+storelocator.lst.storecardname = {"locator":"xpath=//a[@class='store-card__name-link']","desc":"List for store card name"}
+storelocator.lbl.findAStoretitle = {"locator":"xpath=//strong[text()='Find a Store']","desc":"Label view of Find A Store title in HEB ATG Store Page"}
+storelocator.lbl.mapstorename = {"locator":"xpath=//*[@id='contentInfoWindow']/a[1]","desc":"Label view of store name in map in HEB ATG Store Page"}
+
+storelocator.lbl.findAStoretitle = {"locator":"xpath=//strong[text()='Find a Store']","desc":"Label view of Find A Store title in HEB ATG Store Page"}
+storelocator.txt.findAStore = {"locator":"xpath=//*[@id='userQuery']","desc":"TextBox of Find A Store in HEB ATG Home Page"}
+
+storelocator.txt.storeaddress = {"locator":"xpath=//*[contains(@class,'location')]//*[contains(@class,'store-card__street')]","desc":"Text view of store address in Store locator Page"}
+storelocator.lnk.storenext = {"locator":"xpath=//a[@class='next']","desc":"Link view of store next in Store locator Page"}
+storelocator.lnk.storeprevious = {"locator":"xpath=//a[@class='previous']","desc":"Link view of store previous in Store locator Page"}
+
+storelocator.btn.searchstore = {"locator":"xpath=//*[@id='storeLocatorGo']","desc":"ButtonView for Search"}
+storelocator.btn.storeaddress= {"locator":"xpath=(//p[@class='store-card__section store-card__section--strong']//span[text()='SAN ANTONIO'])[1]","desc":"Button text of store Address"}
+storelocator.lis.storedetails = {"locator":"xpath=//a[contains(text(),'Store Details')]","desc":"List view of store details in HEB ATG Store Page"}
+
+storelocator.txt.zipcodeinput = {"locator":"xpath=//input[@id='zipcodeText']","desc":"TextBox of Zipcode in make ready modal window"}
+storelocator.btn.searchstorebutton = {"locator":"xpath=//button[@id='storeGo']","desc":"Search button inmake ready modal window"}
+
+storelocator.ele.storemodules = {"locator":"xpath=//ol[@class='storelocator-store-list ']/li[@style='']","desc":"Element view of store modules in store locator page"}
+storelocator.txt.storename = {"locator":"xpath=//*[starts-with(@class,'store-card')]//h3[contains(@class,'store-card__name')]","desc":"Text view of store name in store locator page"}
+storelocator.txt.storelocator = {"locator":"xpath=//*[starts-with(@class,'store-card')]//*[contains(@class,'store-card__location')]","desc":"Text view of store locator in store locator page"}
+storelocator.txt.storedistance = {"locator":"xpath=//*[starts-with(@class,'store-card')]//*[contains(@class,'store-card__location')]/*[contains(@class,'distance')]","desc":"Text view of store distance in store locator page"}
+storelocator.txt.storedetails = {"locator":"xpath=//*[starts-with(@class,'store-card')]//*[contains(@class,'store-card__section')]//*[text()='%s']","desc":"Text view of store details in store locator page"}
+

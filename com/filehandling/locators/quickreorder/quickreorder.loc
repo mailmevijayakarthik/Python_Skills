@@ -1,0 +1,13 @@
+quickreorder.lnk.navigation= {"locator":"xpath=//a[text()='Quick Reorder']","desc":"Navigate to quickreorder page"}
+quickreorder.lbl.header= {"locator":"xpath=//div[@class='category-title']//*[text()='Quick Reorder']","desc":"page title"}
+quickreorder.lnk.next= {"locator":"xpath=//a[text()='NEXT']","desc":"Link to view Next page"}
+quickreorder.lnk.prev= {"locator":"xpath=//a[text()='PREV']","desc":"Link to view Prev page"}
+quickreorder.btn.addtocart= {"locator":"xpath=//button[text()='Add to Cart']","desc":"Add product to cart"}
+quickreorder.btn.sortoption= {"locator":"xpath=//select[@id='sortOptions']","desc":"sort product"}
+quickreorder.tbx.Quantity= {"locator":"xpath=//input[@class='reorder-input-qty ']","desc":"reorder quantity"}
+quickreorder.lnk.Cart= {"locator":"xpath=//span[@class='fa fa-shopping-cart icon-lg']","desc":"Cart link"}
+quickreorder.lnk.productlist= {"locator":"xpath=//div[@class='ci-item-name']","desc":"list of products in that page"}
+quickreorder.lnk.sortby= {"locator":"xpath=//select[@id='sortOptions']","desc":"Link to select sort"}
+quickreorder.lnk.cartlist= {"locator":"xpath=//div[@class='cart-and-list__item-description']","desc":"list of products in cart"}
+quickreorder.lbl.errmsg= {"locator":"xpath=//div[@id='formError']/span/p","desc":"Error message"}
+quickreorder.txt.minqty= {"locator":"xpath=//div[text()[contains(.,'Minimum Quantity')]]","desc":"Minimum qty product"}

@@ -1,0 +1,13 @@
+footer.lbl.securitystatus = {\"locator\":\"xpath=//strong[.='Security Status:']/ancestor::li",\"desc\":\"Lbl for security status\"}
+
+
+
+footer.lnk.partner = {"locator":"xpath=//a[.='Partners' or //@text = 'Partners' or //@href = 'Partners']","desc":"partner link at the footer"}
+
+footer.lnk.footerlink = {\"locator\":\"//a[text()='%s']",\"desc\":\"Links in Footer\"}
+
+footer.lnk.footerlinktext = {\"locator\":\"xpath=//a[contains(text(),'%s')]",\"desc\":\"Links in Footer\"}
+
+footer.img.footerlink = {\"locator\":\"xpath=//img[@title='%s']",\"desc\":\"Image links in Footer\"}
+
+footer.ele.footersection = {\"locator\":\"xpath=//footer[@class='footer']",\"desc\":\"Footer Section\"}

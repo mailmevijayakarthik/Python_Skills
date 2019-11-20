@@ -1,0 +1,209 @@
+myaccount.lnk.username = {\"locator\":\"xpath=.//*[@id='myaccountSId']/span\",\"desc\":\"LinkTextview of User Name\"}
+
+myaccount.lbl.username = {\"locator\":\"xpath=.//*[@id='myaccountSId']/text()\",\"desc\":\"Textview of User Name\"}
+
+myaccount.lbl.myaccountheader = {\"locator\":\"xpath=.//*[@id='content']/div/div[@class='category-title']/h1[text()='My Account']\",\"desc\":\"My Account TextView Title\"}
+
+myaccount.lnk.leftmyaccount = {\"locator\":\"xpath=.//*[@id='myAccountDash']\",\"desc\":\"My Account left navigation link\"}
+
+myaccount.lnk.leftprofileinformation = {\"locator\":\"xpath=.//*[text()='Profile Information']\",\"desc\":\"Profile Information left navigation link\"}
+
+myaccount.lnk.leftpharmacyprofiles = {\"locator\":\"xpath=.//*[text()='Pharmacy Profiles']\",\"desc\":\"Pharmacy Profiles left navigation link\"}
+
+myaccount.lnk.leftcommunicationprefs = {"locator":"xpath=.//*[text()='Communication Prefs'] | .//*[@title='Communication Pref.']","desc":"Communication Prefs left navigation link"}
+
+myaccount.lbl.leftonlineorders = {\"locator\":\"xpath=.//*[text()='Online Orders']\",\"desc\":\"Online Orders left navigation Label\"}
+
+myaccount.lnk.leftaddressbook = {\"locator\":\"xpath=.//*[text()='Address Book']\",\"desc\":\"Address Book left navigation link\"}
+
+myaccount.lnk.leftorderhistory = {\"locator\":\"xpath=//a[text()='Order History']",\"desc\":\"Order History left navigation link\"}
+
+myaccount.lnk.leftquickreorder = {\"locator\":\"xpath=.//*[text()='Quick Reorder']\",\"desc\":\"Quick Reorder left navigation link\"}
+
+myaccount.lnk.leftchangepassword = {\"locator\":\"xpath=.//div[@class='left-nav']//*[@title='Change Password']\",\"desc\":\"Change Password left navigation link\"}
+
+myaccount.lnk.lefttaxexemption = {\"locator\":\"xpath=.//*[text()='Tax Exemption']\",\"desc\":\"Tax Exemption left navigation link\"}
+
+myaccount.lnk.leftmanagecreditcards = {\"locator\":\"xpath=.//*[@id='manageCreditcards']\",\"desc\":\"Manage Credit Cards left navigation link\"}
+
+myaccount.lnk.leftmanagesubscriptions = {\"locator\":\"xpath=.//*[@id='manageSubscriptions']\",\"desc\":\"Manage Subscriptions left navigation link\"}
+
+myaccount.lbl.leftsavings = {\"locator\":\"xpath=.//*[@title='Savings']\",\"desc\":\"Savings left navigation Label\"}
+
+myaccount.lnk.leftdigitalcoupons = {\"locator\":\"xpath=.//*[@title='Digital Coupons']\",\"desc\":\"Digital Coupons left navigation link\"}
+
+myaccount.lbl.leftfeatures = {\"locator\":\"xpath=.//*[@title='Features']\",\"desc\":\"Features left navigation Label\"}
+
+myaccount.lnk.leftrecipebox = {\"locator\":\"xpath=.//*[@title='Recipe Box']\",\"desc\":\"Recipe Box left navigation link\"}
+
+myaccount.lnk.leftshoppinglist = {\"locator\":\"xpath=.//*[@id='sidebar']//a[.='Shopping List']",\"desc\":\"Shopping List left navigation link\"}
+
+
+
+myaccount.lbl.OrderHistoryHdr= {\"locator\":\"xpath=//h1[text()='Your Orders']",\"desc\":\"Order history page title\"}
+
+myaccount.lbl.informationtab = {\"locator\":\"xpath=.//span[.='information']",\"desc\":\"Information tab label in MyAccount page\"}
+
+myaccount.lbl.onlineorderstab = {\"locator\":\"xpath=.//span[.='online orders']",\"desc\":\"Online orders tab label in MyAccount page\"}
+
+myaccount.lbl.mysavingstab = {\"locator\":\"xpath=.//span[.='my savings']",\"desc\":\"My savings tab label in MyAccount page\"}
+
+myaccount.lbl.featurestab = {\"locator\":\"xpath=.//span[.='features']",\"desc\":\"Features tab label in MyAccount page\"}
+
+myaccount.lbl.profileinformationsubtitle = {\"locator\":\"xpath=.//div[.='Profile Information']",\"desc\":\"profile information subtitle\"}
+
+myaccount.lbl.nameemailpwdleftcontainer = {\"locator\":\"xpath=.//p[.='Name, Email & Password']",\"desc\":\"Name Email Password under Profile Info\"}
+
+myaccount.lbl.myhebleftcontainer = {\"locator\":\"xpath=.//p[.='My H‑E‑B']",\"desc\":\"My Heb under Profile Info\"}
+
+myaccount.lbl.pharmacysubtitle = {\"locator\":\"xpath=.//div[.='Pharmacy Profiles']",\"desc\":\"Pharmacy Subtitle under Profile Info\"}
+
+myaccount.lnk.editprofileinfo = {\"locator\":\"xpath=.//a[@title='Edit Profile Information']",\"desc\":\"Edit profile information link\"}
+
+myaccount.lnk.editcommpref = {\"locator\":\"xpath=.//a[@title='Edit Communication Preferences']",\"desc\":\"Edit Communication Preferences link\"}
+
+myaccount.lnk.changepwd = {\"locator\":\"xpath=.//div[@class='right-container']//a[@title='Change Password']",\"desc\":\"Change Password link\"}
+
+myaccount.lnk.createpharmacyprofile = {\"locator\":\"xpath=.//a[@title='Create Pharmacy Profile']",\"desc\":\"Create Pharmacy Profile link\"}
+
+myaccount.lbl.addressbooksubtitle = {\"locator\":\"xpath=.//div[.='Address Book']",\"desc\":\"Address Book subtitle under online orders\"}
+
+myaccount.lbl.orderhistorysubtitle = {\"locator\":\"xpath=.//div[.='Order History']",\"desc\":\"Order History subtitle under online orders\"}
+
+myaccount.lnk.editaddbk = {\"locator\":\"xpath=.//a[@title='Edit Address Book']",\"desc\":\"Edit address book link\"}
+
+myaccount.lnk.startshoppingnow = {\"locator\":\"xpath=.//a[@title='Start Shopping Now']",\"desc\":\"Start Shopping Now link\"}
+
+myaccount.lnk.seeorderhistory = {\"locator\":\"xpath=.//a[@title='See Order History']",\"desc\":\"See Order History link\"}
+
+myaccount.lbl.digitalcouponssubtitle = {\"locator\":\"xpath=.//div[.='Digital Coupons']",\"desc\":\"Digital Coupons subtitle under My Savings\"}
+
+myaccount.lnk.editmobpref = {\"locator\":\"xpath=.//a[@title='Edit Mobile Preferences']",\"desc\":\"Edit mobile preferences link\"}
+
+myaccount.lnk.seecurrentcoupons = {\"locator\":\"xpath=.//a[@title='See Current Coupons']",\"desc\":\"See current coupons link\"}
+
+myaccount.lbl.shoppinglistsubtitle = {\"locator\":\"xpath=.//div[contains(text(),'Shopping List')]",\"desc\":\"Shopping List subtitle under features\"}
+
+myaccount.lbl.recipeboxsubtitle = {\"locator\":\"xpath=.//div[.='Recipe Box']",\"desc\":\"Recipe Box subtitle under features\"}
+
+myaccount.lnk.managemylist = {\"locator\":\"xpath=.//*[@title='Manage my Lists']\",\"desc\":\"Manage My List link\"}
+
+myaccount.lbl.shoplist = {\"locator\":\"xpath=.//*[@class='shoplist']\",\"desc\":\"My Shopping List dropdown\"}
+
+myaccount.lbl.myaacountbreadcrumblast = {\"locator\":\"xpath=.//*[@class='breadcrumb-last' and text()='My Account']\",\"desc\":\"My Account text view in breadcrumb-last\"}
+
+myaccount.lnk.change = {\"locator\":\"xpath=.//*[@title='Change My Store']\",\"desc\":\"Change link on mouseover UserName\"}
+
+myaccount.lbl.mypreferredstore = {\"locator\":\"xpath=.//*[text()='My Preferred Store']\",\"desc\":\"My Preferred Store on mouseover UserName\"}
+
+myaccount.lnk.orderstatus = {\"locator\":\"xpath=.//*[@title='Order Status']\",\"desc\":\"Order Status link\"}
+
+myaccount.lnk.myrecipebox = {\"locator\":\"xpath=.//*[@title='My Recipe Box']\",\"desc\":\"My Recipe Box link\"}
+
+myaccount.lnk.mycoupons = {\"locator\":\"xpath=.//*[@title='My Coupons']\",\"desc\":\"My Coupons link\"}
+
+myaccount.lnk.pharmacyprofile = {\"locator\":\"xpath=.//*[@title='Pharmacy Profile']\",\"desc\":\"Pharmacy Profile link\"}
+
+myaccount.lnk.myaccountusername = {\"locator\":\"xpath=.//*[@title='My Account']\",\"desc\":\"My Account link under UserName\"}
+
+myaccount.lnk.logout = {\"locator\":\"xpath=.//*[@title='Log out']\",\"desc\":\"Log out link\"}
+
+myaccount.lis.addtocart = {\"locator\":\"xpath=//*[contains(@id,'add-to-cart')]\",\"desc\":\"ListView for Add to Cart button\"}
+
+myaccount.lnk.managemycard = {"locator":"xpath=//a[.='Manage Your Card' or @text='Manage Your Card' or @href='Manage Your Card']","desc":"link view of manage my card"}
+
+myaccount.txt.linkyourvppaccount = {"locator":"xpath=//div[@class='category-title']/h1","desc":"Text view of Link your Valued partner perks page"}
+
+myaccount.lnk.managemyaccount = {"locator":"id=manage-pcr-account","desc":"Linkview of Manage my account"}
+
+myaccount.txt.linkyourpcraccount = {"locator":"xpath=//*[@id='body']/div[2]/h1","desc":"Linkview of Point Club Rewards Account"}
+
+myaccount.txt.pcraccountno =  {"locator":"id=pcrNumber","desc":"Textview of Point Club Rewards Account Number"}
+
+myaccount.txt.pcrbdaymonth =  {"locator":"id=dobMonth","desc":"Textview of Point Club Rewards month"}
+
+myaccount.txt.pcrbdaydate =  {"locator":"id=dobDay","desc":"Textview of Point Club Rewards date"}
+
+myaccount.txt.pcrphnotxtbx1 =  {"locator":"id=mobNo1","desc":"Textview of PCR phonenumber 1st text box"}
+
+myaccount.txt.pcrphnotxtbx2 =  {"locator":"id=mobNo2","desc":"Textview of PCR phonenumber 2nd text box"}
+
+myaccount.txt.pcrphnotxtbx3 =  {"locator":"id=mobNo3","desc":"Textview of PCR phonenumber 3rd text box"}
+
+myaccount.txt.pcrpin =  {"locator":"id=pcrPin","desc":"Textview of PCR 4 digits pin number"}
+
+myaccount.btn.checkbox = {"locator":"xpath=//*[@id='label_mobile_number_1']","desc":"Button view of Checkbox"} 
+
+myaccount.btn.submit = {"locator":"xpath=//*[@id='pcrRegSubmitBut']","desc":"Button view of Submit"}
+
+myaccount.btn.close = {"locator":"xpath=(//*[@id='OverlayDiv']//a)[2]","desc":"Popup Close button"}
+
+myaccount.txt.popupsuccessMsg = {"locator":"xpath=(//*[@id='OverlayDiv']//div)[4]","desc":"Text view of Success popup Message"}
+
+myaccount.btn.thankyouMsg = {"locator":"xpath=//*[@id='body']//h1","desc":"Text view of Thank ypu For Creating An Account"}
+
+myaccount.btn.save =  {"locator":"id=personalqa-btn","desc":"Button View of Save button"}
+
+myaccount.btn.addanewcreditcard = {"locator":"xpath=//a[@title='Add a new credit or debit card']","desc":"Button view of Add a New Credit Card"}
+
+myaccount.btn.mypaymentinfo = {"locator":"xpath=//*[@class='account-title']/span","desc":"Text view of My Payment Information"}
+
+myaccount.txt.addnewcard= {"locator":"xpath=//input[@placeholder='Card Number']","desc":"Text View of Add New Card in Homepage"}
+
+myaccount.txt.firstname= {"locator":"xpath=(//*[@class='input-field form-group']//input)[2]","desc":"Text View of first name in Homepage"}
+
+myaccount.txt.lastname= {"locator":"xpath=(//*[@class='input-field form-group']//input)[3]","desc":"Text View of last name in Homepage"}
+
+myaccount.txt.cvv= {"locator":"xpath=(//*[@class='input-field form-group']//input)[4]","desc":"Text View of CVV in Homepage"}
+
+myaccount.txt.carddescription= {"locator":"xpath=(//*[@class='input-field form-group']//input)[5]","desc":"Text View of Card Description in Homepage"}
+
+myaccount.txt.streetadd1= {"locator":"xpath=(//*[@class='input-field form-group']//input)[6]","desc":"Text View of billing street address1 in Homepage"}
+
+myaccount.txt.streetadd2= {"locator":"xpath=(//*[@class='input-field form-group']//input)[7]","desc":"Text View of billing street address2 in Homepage"}
+
+myaccount.txt.city= {"locator":"xpath=(//*[@class='input-field form-group']//input)[8]","desc":"Text View of city in Homepage"}
+
+myaccount.txt.zipcode= {"locator":"xpath=(//*[@class='input-field form-group']//input)[9]","desc":"Text View of zipcode in Homepage"}
+
+myaccount.txt.expirationmonth= {"locator":"xpath=(//*[@class='input-field form-group']//select)[1]","desc":"Dropdown View of expiration month in Homepage"}
+
+myaccount.txt.expirationyear= {"locator":"xpath=(//*[@class='input-field form-group']//select)[2]","desc":"Dropdown View of expiration year in Homepage"}
+
+myaccount.txt.state= {"locator":"xpath=(//*[@class='input-field form-group']//select)[3]","desc":"Dropdown View of state in Homepage"}
+
+myaccount.btn.addcard= {"locator":"xpath=//*[@class='button-container']","desc":"Button View of add card in Homepage"}
+
+myaccount.lst.savedcards = {"locator":"xpath=//div[contains(@class, 'allcards')]","desc":"All saved cards"}
+
+myaccount.img.cardimage = {"locator":"xpath=//img[@id='cardImage']","desc":"View of card image"}
+
+myaccount.lnk.leftaddressbook = {"locator":"xpath=//a[text()='Address Book']",\"desc\":\"Address Book left navigation link\"}
+
+myaccount.lnk.leftorderhistory = {\"locator\":\"xpath=.//*[@title='Order History']",\"desc\":\"Order History left navigation link\"}
+
+myaccount.btn.otherorderstab = {"locator":"xpath=.//a[@class='huptab js-coupon-tab ']","desc":"Other Orders tab view"}
+
+myaccount.btn.viewdetails= {"locator":"xpath=//*[@class='order-details']//*[@id='show-details-button']","desc":"Button View of View details"}
+
+myaccount.lbl.shiptohometitleinviewdetails = {"locator":"xpath=.//div[@class='c-title-row oh-o-first-title']","desc":"ship to home title in view details"}
+
+myaccount.lbl.orderidinviewdetails = {"locator":"xpath=//*[@class='order-details']//*[@class='oh-o-number strong']","desc":"order id in view details"}
+
+myaccount.txt.recipedetails = {"locator":"xpath=//*[contains(text(),'Recipe Box')]//self::div//following::span[@class='li-name']","desc":"Text View for added recipes"}
+
+myaccount.lnk.gotorecipebox = {"locator":"xpath=//*[contains(text(),'Go to Recipe Box')]","desc":"Link View for Go to Recipe Box Button"}
+
+myaccount.lst.breadcrumb = {"locator":"xpath=//div[@class='breadcrumb clearfix']/a","desc":"List view for Breadcrumb in my account"}
+
+myaccount.lbl.yoursordershdr= {\"locator\":\"xpath=//h1[text()='Your Orders']",\"desc\":\"Your Orders page title\"}
+
+myaccount.lnk.myaccountlinks= {"locator":"xpath=//*[@id='sidebar']//li/a[text()='%s']","desc":"Link View of sidebar in MyAccount Page"}
+
+myaccount.btn.addnewcreditcard= {"locator":"xpath=//*[text()='Add a New Credit Card']","desc":"Button View for add new credit card in Manage Credit Card Page"}
+
+myaccount.ele.addedcard= {"locator":"xpath=//div[@class='nameSection']/span[1]","desc":"Element View of added card in Manage Credit Card Page"}
+
+myaccount.lnk.deleteaddedcard= {"locator":"xpath=//div[@class='cardSection']/..//a[text()='Delete']","desc":"Element View of delete button in Manage Credit Card Page"}
+
+myaccount.btn.deleteyes= {"locator":"xpath=//div[@class='my-account_modal-body']/..//button[2]","desc":"Element View of delete yes button in Manage Credit Card Page"}

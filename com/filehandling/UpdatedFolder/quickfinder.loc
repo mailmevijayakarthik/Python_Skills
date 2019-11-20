@@ -1,0 +1,25 @@
+quickfinder.txt.optiontwo = {\"locator\":\"xpath=//select[@id='optionTwo']\",\"desc\":\"DropDownView for Quickfinder option2\"}
+
+quickfinder.txt.optionone = {\"locator\":\"xpath=//select[@id='optionOne']\",\"desc\":\"DropDownView for Quickfinder option1\"}
+
+quickfinder.btn.search = {\"locator\":\"id=quickRecipeSearch\",\"desc\":\"ButtonView for search button\"}
+
+quickfinder.lbl.quickrecipefinder = {\"locator\":\"xpath=.//*[@id='advSearchForm']/div/img\",\"desc\":\"TextView for Quick Recipe Finder\"}
+
+quickfinder.lbl.searchresults = {\"locator\":\"xpath=//h1[.='Search Results']\",\"desc\":\"TextView for Search Results\"}
+
+quickfinder.lbl.recipescount = {\"locator\":\"xpath=//div[@class='result-search']/span\",\"desc\":\"TextView for Recipes count\"}
+
+quickfinder.get.lbl.quickfinderrecipesproductimage = {\"locator\":\"xpath=.//*[@id='cat-recipe']/ul/li[%s]/div[1]/a/img\",\"desc\":\"TextView for quickfinder recipes product image\"}
+
+quickfinder.get.lbl.quickfinderrecipestitle = {\"locator\":\"xpath=.//*[@id='cat-recipe']/ul/li[%s]/div[@class='cat-list-deparment']/a\",\"desc\":\"TextView for quickfinder recipes title\"}
+
+quickfinder.get.lbl.quickfinderrecipesspecs = {\"locator\":\"xpath=.//*[@id='cat-recipe']/ul/li[%s]/div[@class='cat-star clearfix']\",\"desc\":\"TextView for quickfinder recipes specs\"}
+
+quickfinder.get.lbl.quickfinderaddtolist = {\"locator\":\"xpath=.//*[@id='cat-recipe']/ul/li[%s]/div[@class='cart-actions']/a[@title='Add to List']\",\"desc\":\"TextView for quickfinder add to list\"}
+
+quickfinder.get.lbl.quickfinderaddtorecipebox = {\"locator\":\"xpath=.//*[@id='cat-recipe']/ul/li[%s]/div[@class='cart-actions']/a[@title='Add to Recipe Box']\",\"desc\":\"TextView for quickfinder add to recipebox\"}
+
+quickfinder.get.lbl.quickfinderaddedtorecipebox = {\"locator\":\"xpath=.//*[@id='cat-recipe']/ul/li[%s]/div[@class='cart-actions']/div[@title='Added to Recipe Box']\",\"desc\":\"TextView for quickfinder added to recipebox\"}
+
+quickfinder.get.lbl.addtorecipeboxalloption = {\"locator\":\"xpath=.//*[@id='cat-recipe']/ul/li[%s]/div[4]/div[1]/ul/li[1]/a\",\"desc\":\"TextView for quickfinder added to recipebox All dropdown option\"}

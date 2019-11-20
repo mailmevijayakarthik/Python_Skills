@@ -1,0 +1,133 @@
+home.lnk.register = {\"locator\":\"linkText=Register",\"desc\":\"Link for clicking the register\"}
+home.lnk.login = {\"locator\":\"xpath=//*[@id='LogIn'][@title='Log in']",\"desc\":\"Link for clicking the Log In\"}
+home.lbl.userdetail = {"locator":"xpath=//*[@id='myaccountSId']","desc":"LabelView for user logged in"}
+home.img.cart = {"locator":"xpath=//*[@id='myCartSId']|(//a[@title='Cart'])[1]","desc":"ImageView for Mini Cart logo"}
+home.txt.shiptohome = {"locator":"xpath=//*[@id='footer']//*[text()='Ship to Home']","desc":"TextView for Ship to Home"}
+home.lbl.yourfirstorder = {"locator":"xpath=//*[@class='hero__title']","desc":"TextView for Your First Order in Ship to Home page"}
+home.img.myaccount = {"locator":"xpath=//*[@id='myaccountSId']/span","desc":"Imageview for MyAccount dashboard"}
+home.lnk.recipes = {"locator":"xpath=//ul[@id='main-nav']/li[2]/a","desc":"LinkView for Recipes"}
+home.btn.shoppinglist = {"locator":"xpath=//*[@id='my-list-anchor']","desc":"ButtonView for ShoppingList"}
+home.lbl.securitystatus= {"locator":"xpath=//*[@class='list-unstyled']//li[contains(.,'Security Status')]","desc":"ButtonView for ShoppingList"}
+home.lnk.logout = {"locator":"xpath=//div/ul/li/following::a[@title='Log out']","desc":"Textview for Log out Link"}
+home.lnk.logout = {"locator":"xpath=//a[@title='Log out']","desc":"Textview for Log out Link"}
+home.btn.reserveatimelot={"locator":"xpath=//div[@class='reservation-display']/button[1]","desc":"Reserve a timeslot CTA"}
+home.txt.addressname= {"locator":"xpath=//button/span[@class='delivery-address__name']","desc":"Address name in shop assistant"}
+home.lnk.giftcard = {"locator":"xpath=//span//a[text()='Gift Cards']","desc":"Gift card link in homepage"}
+home.lbl.giftcard = {"locator":"xpath=//h1[text()='Gift Cards']","desc":"Gift card label in gift card page"}
+home.btn.giftcardbalance = {"locator":"xpath=//button[text()='Check Balance']","desc":"Check balance button in gift card page"}
+home.txt.giftcardnumber = {"locator":"xpath=//*[@id='gcnumber']","desc":"Gift card number in gift card page"}
+home.txt.giftcardpin = {"locator":"xpath=//*[@id='gcpin']","desc":"Gift card pin in gift card page"}
+home.btn.giftcardchkbalance = {"locator":"xpath=//*[@id='gcBalanceSubmit']","desc":"Check balance submit button in gift card page"}
+home.lbl.chkbalance = {"locator":"xpath=//h2[text()='check gift card balance']","desc":"Check balance page"}
+home.lnk.recaptcha = {"locator":"xpath=//*[@id='recaptcha-anchor']/div[5]]","desc":"Solve recaptcha"}
+home.txt.cardbalancemsg = {"locator":"xpath=//*[@id='gc_balance_check']/div[4]/div[2]/div[2]/div[1]","desc":"Available card balance"}
+home.btn.continue = {"locator":"xpath=//div[@aria-hidden='false']//a[text()='Continue']","desc":"Button view of Continue in leaving context popup"}
+home.lnk.contextdownarrow = {"locator":"xpath=//div[@class='site-header__top-bar']//span[@class='fa fa-angle-down']","desc":"Link view of Context down arrow"}
+home.lnk.exploremystore = {"locator":"xpath=//div[@class='site-header__experience-dropdown-content hidden-content']/a[contains(text(),'Explore My Store')]","desc":"Link view of Explore My Store"}
+home.lnk.shiptohome = {"locator":"xpath=//div[@class='site-header__experience-dropdown-content hidden-content']/a[contains(text(),'Ship-to-Home')]","desc":"Link view of Ship-to-Home"}
+home.lbl.cartridgeheading = {"locator":"xpath=//h2[text()='Order Ahead for In-Store Pickup']","desc":"Label view of In-Store Pickup cartridge heading"}
+home.lnk.primopickscabwines = {"locator":"xpath=//h4[text()='Primo Picks Cab Wines']","desc":"Link view of Primo Picks Cab Wines"}
+home.lst.newinseason = {"locator":"xpath=//ul[contains(@class,'cartridge-new-seasonal__list')]//h4","desc":"List of new and in season items"}
+home.lst.newinseasonlinks = {"locator":"xpath=//ul[contains(@class,'cartridge-new-seasonal__list')]//a","desc":"List of new and in season links"}
+home.lnk.exploreholidayappetizers = {"locator":"xpath=//h4[text()='Explore Holiday Appetizers']","desc":"Link view of Explore Holiday Appetizers"}
+home.lnk.raiseaglassofcheer = {"locator":"xpath=//h4[text()='Raise a Glass of Cheer!']","desc":"Link view of Raise a Glass of Cheer!"}
+home.lnk.partytrays = {"locator":"xpath=//a[@title='Party Trays']","desc":"Link view of Party Trays"}
+home.lst.herolinks = {"locator":"xpath=//div[contains(@class, 'homepage-hero-container')]//a","desc":"List view of homepage hero blocks"}
+home.lst.herotitles = {"locator":"xpath=//div[contains(@class, 'homepage-hero-container')]//h2[contains(@class,'hero__title')]","desc":"List view of homepage hero blocks"}
+home.lnk.cakes = {"locator":"xpath=//a[@title='Cakes']","desc":"Link view of Cakes"}
+home.lnk.wine = {"locator":"xpath=//a[@title='Wine']","desc":"Link view of Wine"}
+home.lnk.freshflowers = {"locator":"xpath=//a[@title='Fresh Flowers']","desc":"Link view of Fresh Flowers"}
+home.lnk.activecontext = {"locator":"xpath=//DIV[contains(@class, 'site-header__experience-tabs site-header__experience-tabs--active')]","desc":"Active shopping context"}
+home.lnk.curbsidecontext = {"locator":"xpath=//div[@id='site-header__store-experience']/a[contains(text(),'Curbside & Delivery')]","desc":"Link to curbside context"}
+home.lnk.explorecontext = {"locator":"xpath=//div[@class='site-header__experience-tabs-innerhtml']//a[contains(text(),'Explore My Store')]","desc":"Link to curbside context"}
+home.btn.contextmodalcontinue = {"locator":"xpath=//div[contains(@id, 'modal-leave') and @aria-hidden='false']//a[contains(@class, 'btn btn-xs btn-red js-switch-context')]","desc":"Button to accept context changes"}
+home.btn.storeselectorclose = {"locator":"xpath=//div[@id='change-store-modal' and contains(@class, 'show')]//button[@class='close']","desc":"Close button for curbside store selector modal"}
+home.lst.recipesgridlink = {"locator":"xpath=//section[@class='recipes-grid']/div[@class='recipes-at-heb flex-container row']/a","desc":"Link View for Recipes Grid"}
+home.img.weeklyads = {"locator":"xpath=//img[@title='Weekly Ads']","desc":"Image view of Weekly Ads"}
+home.img.digitalcoupons = {"locator":"xpath=//img[@title='Digital Coupons']","desc":"Image view of Digital Coupons"}
+home.img.findarecipe = {"locator":"xpath=//img[@title='Find a Recipe']","desc":"Image view of Find a Recipe"}
+home.img.herobanner = {"locator":"xpath=(//*[contains(@class,'hero')])[1]","desc":"Section of Hero banner"}
+home.lnk.herobanner = {"locator":"xpath=//section[@class='hero']//a","desc":"Link view of Hero banner"}
+home.txt.signupemail = {"locator":"xpath=//input[@id='signup-email-address']","desc":"Text View of signup email address"}
+home.btn.go = {"locator":"xpath=//input[@value='Go']","desc":"Button view of Go 'Sign up for email updates' section"}
+home.lst.recipesgridlink = {"locator":"xpath=//section[@class='recipes-grid']/div[@class='recipes-at-heb flex-container row']/a","desc":"Link View for Recipes Grid"}
+home.lnk.ordernow = {"locator":"xpath=//a[text()='Order Now']","desc":"Link of Order Now hero block"}
+home.lnk.orderpoinsettias = {"locator":"xpath=//a[text()='Order Poinsettias']","desc":"Link of Order Poinsettias hero block"}
+home.modal.leavinginstore = {"locator":"xpath=//DIV[contains(@id, 'modal-leave-instoreview-to-curbside') and contains(@class, 'open')]","desc":"Leaving in-store modal"}
+home.lnk.welcomepopclose = {"locator":"xpath=//div[contains(@id,'modal-curbside-welcome') and @aria-hidden='false']//a[@class='close-reveal-modal']","desc":"Close button for Welcome to HEB.com pop up"}
+home.lnk.timeslotexpired = {"locator":"xpath=//*[@class='modal-header']/button","desc":"Close button for time slot expired pop up"}
+home.btn.okay = {"locator":"xpath=(//button[.='Okay'])[1]","desc":"Okay button on time slot expired pop up"}
+home.lnk.logo = {"locator":"xpath=//a[text()='HEB.com']","desc":"View of HEB Logo"}
+home.lnk.activetabs = {"locator":"xpath=//div[starts-with(@class,'site-header__experience-tabs')]/a","desc":"Active tab name for home page"}
+home.ele.angledown = {"locator":"xpath=//div[@class='site-header__experience-tabs-innerhtml']/span[@class='fa fa-angle-down']","desc":"Angle down for home page second tab"}
+home.ele.contentoption = {"locator":"xpath=//div[@class='site-header__experience-dropdown-content hidden-content']/a","desc":"Content option for home page second tab"}
+home.lbl.leavingcontext = {"locator":"xpath=//div[@aria-hidden='false']/h4[@class='modal-heading']","desc":"Label to Leaving context"}
+home.lbl.existingusererrmsg = {"locator":"xpath=//div[@class='oops']/span","desc":"Label to existing user error msg"}
+home.lnk.help = {\"locator\":\"linkText=Help",\"desc\":\"Link for clicking the Help\"}
+home.lnk.currentexplorestorecontext = {"locator":"xpath=//div[@class='site-header__experience-tabs-innerhtml']/a","desc":"Link to current explore store context"}
+home.lnk.warningpopclose = {"locator":"xpath=//div[@aria-hidden='false']/a[@class='close-reveal-modal']","desc":"Close button for leaving context Warning pop up"}
+home.chk.dontshowmeagain = {"locator":"xpath=//div[@aria-hidden='false']//input[@type='checkbox']","desc":"Checkbox for Leaving context Don't show me this again"}
+home.lnk.myrecipebox = {"locator":"xpath=//a[@title='My Recipe Box']","desc":"Textview for my recipe box Link"}
+home.ele.headersection = {\"locator\":\"xpath=//header[@class='site-header']",\"desc\":\"Header Section\"}
+home.lnk.shopcurbside = {\"locator\":\"xpath=//a[@title='Go to Curbside']",\"desc\":\"Link for shop curbside\"}
+home.lnk.shopdelivery = {\"locator\":\"xpath=//a[@title='Go to Delivery']",\"desc\":\"Link for shop delivery\"}
+home.lnk.userdropdownoptions = {"locator":"xpath=//ul[@class='my-account-dropdown-links']//a[@title='%s']","desc":"Linkview for registered user dropdown options"}
+home.lnk.createaccount = {"locator":"xpath=//a[.='Create one']","desc":"Link view of Create one"}
+
+home.txt.addressname= {"locator":"xpath=//button[contains(@class,'selected')]/span[@class='delivery-address__name']","desc":"Address name in shop assistant"}
+
+home.ele.timeslotexpiredmodal = {"locator":"xpath=//div[contains(@aria-labelledby, 'reservation-expired')]","desc":"Timeslot expired modal"}
+home.btn.timeslotexpiredmodalokay = {"locator":"xpath=//div[contains(@aria-labelledby, 'reservation-expired')]//button[contains(text(), 'Okay')]","desc":"Timeslot expired modal okay button"}
+home.btn.curbsideicondetails = {"locator":"xpath=//*[@class='curbside-icon details']","desc":"ButtonView for curbside icon details"}
+home.btn.timeslotwillexpiremodalclose = {"locator":"xpath=//div[contains(@id,'reservation-expires-soon-modal')]//button[@class='close']","desc":"Close button on time will expire soon modal"}
+home.lnk.logoutmobile = {"locator":"xpath=//a[@title='Log out' and @class='site-header__link']","desc":"Log out link on mobile web"}
+home.lnk.loginmobile = {"locator":"xpath=//*[@class='site-header__link' and text()=' Log in']","desc":"Log in link on mobile web"}
+home.lnk.registermobile = {"locator":"xpath=//a[text()='Register' and @class='site-header__link']","desc":"Register link on mobile web"}
+home.txt.addressname= {"locator":"xpath=//button/span[@class='delivery-address__name']","desc":"Address name in shop assistant"}
+home.lnk.activetabsmobile = {"locator":"xpath=(//a[@id='site-header__explore-store-option'])","desc":"Active tab name for home page on mobile"}
+home.lnk.shiptohomecontextmobile = {"locator":"xpath=((//ul[@id='contextSelector'])[1]//li[3]//a)[1]","desc":"Link view of Ship To Home context mobile"}
+home.lnk.curbsidecontextmobile = {"locator":"xpath=((//ul[@id='contextSelector'])[1]//li//a)[1]","desc":"Link to curbside context on mobile"}
+home.lnk.contextdropdownmobile = {"locator":"xpath=//a[@data-dropdown='contextSelector']//span","desc":"Link to click mobile context dropdown"}
+home.lnk.activecontextmobile = {"locator":"xpath=//a[@data-dropdown='contextSelector']","desc":"Active shopping context - mobile"}
+
+home.btn.addtolistweeklyads = {"locator":"xpath=(//div[@class='cartridge-ads-carousel__wrap ajax-carousel']//div[@class='weeklyaditem-actions'])[1]/a","desc":"Button view of Add to List in Weekly Ads Carousal"}
+home.lbl.itemdescription={"locator":"xpath=(//div[@class='weeklyaditem_title'])[1]","desc":"Label of Item Description"}
+home.lbl.itemdescriptionmylists={"locator":"xpath=//div[@class='sl-item__name-link']","desc":"Label of Item Description in My Lists Page"}
+home.ele.itemaddedtoflyout={"locator":"xpath=//div[@id='flyout-added-to-list']","desc":"Item added to flyout"}
+home.lbl.addedweeklyads={"locator":"xpath=//a[@class='btn btn-xs weeklyads_action_button btn-disabled']","desc":"Label view of Added in Weekly Ads Carousal"}
+home.lnk.listlink = {"locator":"xpath=//a[@id='my-list-anchor']","desc":"List link of home page"}
+home.lnk.skiptutorial = {"locator":"xpath=//a[text()='Skip tutorial']","desc":"Skip Shopping list tutorial link"}
+home.lnk.newlist = {"locator":"xpath=//button[text()='New List']","desc":"New List link"}
+
+home.ele.weeklyadsnext = {"locator":"xpath=//*[@class='cartridge-ads-carousel__wrap ajax-carousel']//*[contains(@class,'carousel__arrow--next')]","desc":"Next button for weekly ads"}
+home.ele.weeklyadsprevious = {"locator":"xpath=//*[@class='cartridge-ads-carousel__wrap ajax-carousel']//*[contains(@class,'carousel__arrow--prev')]","desc":"Previous button for weekly ads"}
+
+home.txt.weeklyadsitemname = {"locator":"xpath=//*[@class='cartridge-ads-carousel__wrap ajax-carousel']//*[contains(@class,'weeklyaditem_title')]","desc":"Text view for weekly ads item name"}
+home.lnk.weeklyadsmoredetails = {"locator":"xpath=//*[@class='cartridge-ads-carousel__wrap ajax-carousel']//*[contains(text(),'More Details')]","desc":"More details link for weekly ads"}
+
+home.txt.weeklyadsmoredetailname = {"locator":"xpath=//*[contains(@class,'reveal-modal modal-more-details open')]/*[contains(@class,'modal-more-details_title')]","desc":"Text view for more details item name"}
+
+home.lnk.viewallweeklyads = {"locator":"xpath=//a[@class='cartridge-ads-carousel__view-all']","desc":"View All Weekly Ads link"}
+home.txt.weeklyadspage = {"locator":"xpath=//div[@class='category-title']","desc":"weekly ads home page"}
+
+home.ele.weeklyadscarosusal={"locator":"xpath=//div[@class='cartridge-ads-carousel']","desc":"Weekly Ads Carousal element"}
+home.lbl.weeklyadscarosusal={"locator":"xpath=//h3[@class='cartridge-ads-carousel__heading']","desc":"LabelView for user Weekly Ads"}
+home.lnk.weeklyadsmoredetails={"locator":"xpath=(//a[@class='btn btn-xs btn-white text-blue weeklyads_action_button'][contains(.,'More Details')])[1]","desc":"More Details link in Weekly Ads"}
+home.ele.weeklyadspreviousarrow={"locator":"xpath=//ul[contains(@class,'weekly-ads-')]/button[contains(@class,'carousel__arrow--prev')]","desc":"Previous Arrow in Weekly Ads Carousal"}
+home.ele.weeklyadsnextarrow={"locator":"xpath=//ul[contains(@class,'weekly-ads')]/button[contains(@class,'carousel__arrow--next')]","desc":"Next Arrow in Weekly Ads Carousal"}
+home.lnk.weeklyadsaddtolist={"locator":"xpath=(//a[@class='btn btn-xs btn-blue weeklyads_action_button'][contains(.,'Add to List')])[1]","desc":"Add to List link in Weekly Ads Carousal"}
+home.img.weeklyadsimages={"locator":"xpath=//img[@class='weeklyAdImg']","desc":"Images in Weekly Ads Carousal"}
+home.lbl.weeklyadsprices={"locator":"xpath=//div[@class='weeklyaditem_price strong']","desc":"Prices in Weekly Ads"}
+home.lbl.weeklyadsproducttitle={"locator":"xpath=//div[@class='weeklyaditem_title']","desc":"Product Titles in Weekly Ads"}
+
+
+home.lnk.couponheader = {"locator":"xpath="//*[@class='cartridge-coupons-carousel']//*[contains(@class,'arrow--next slick-arrow')]","desc":"Coupons header in explore home page"}
+home.lnk.explorecoupons = {"locator":"xpath=//*[contains(@class,'slick-active')]//*[@class='coupon-description']","desc":"Coupons description in explore home page"}
+home.lnk.explorecouponsspotlight = {"locator":"xpath=//*[@class='coupon-detail-modal__description col-7']//*[@class='coupon-detail-modal__display-name']","desc":"Coupons description in explore spotlight home page"}
+
+home.txt.somethingwrong = {"locator":"xpath=//*[contains(text(), 'Something Went Wrong')]", "desc":"Somethign went wrong"}
+
+home.lnk.headersitelogo = {\"locator\":\"xpath=//a[@class='site-header__logo']",\"desc\":\"Header Section site logo\"}
+
+home.btn.registrationmodalclose = {"locator":"xpath=//div[contains(@style,'visible')]//a[@class='close-reveal-modal']","desc":"Registration modal close button"}
+

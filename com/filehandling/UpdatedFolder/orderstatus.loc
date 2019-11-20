@@ -1,0 +1,19 @@
+orderstatus.lbl.header = {"locator":"xpath=//h1[.='Order Status']","desc":"Textview for Order status"}
+
+orderstatus.lbl.orderConfirNum = {"locator":"xpath=//*[normalize-space(text())='Order Confirmation Number']","desc":"Textview for Order confirmation number"}
+
+orderstatus.edt.orderConfirNum = {"locator":"xpath=//*[normalize-space(text())='Order Confirmation Number']/following-sibling::dd/input[1]","desc":"EditTextview for Order confirmation number"}
+
+orderstatus.lbl.emailaddress = {"locator":"xpath=//*[normalize-space(text())='Email Address']","desc":"Textview for email address"}
+
+orderstatus.edt.emailaddress = {"locator":"xpath=//*[normalize-space(text())='Email Address']/following-sibling::dd/input[1]","desc":"EditTextview for email address"}
+
+orderstatus.lnk.whereismyorderconfi = {"locator":"xpath=//*[normalize-space(text())='Order Confirmation Number']/a","desc":"Linkview for Where is my order confirmation number"}
+
+orderstatus.btn.submit = {"locator":"xpath=//button[.='Submit']","desc":"Buttonview for Submit"}
+
+orderstatus.lnk.cancel = {"locator":"xpath=//a[.='Cancel']","desc":"Linkview for Cancel"}
+
+orderstatus.lbl.breadcrumb = {"locator":"xpath=//*[@class='breadcrumb-last']","desc":"Textview for Breadcrumb Check order status"}
+
+orderstatus.lbl.orderconfirmationmandatorystar = {"locator":"xpath=//dt[@class='order-number']/span[@class='primary-3']","desc":"View for Mandatory Star"}

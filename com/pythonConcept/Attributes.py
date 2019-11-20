@@ -12,7 +12,7 @@ class Attributes_learning():
         
 
     def __privatemethod(self):
-        print("Inside the Private method")    
+        print("\nInside the Private method")    
         
 obj=Attributes_learning()
 obj._Attributes_learning__privatemethod()

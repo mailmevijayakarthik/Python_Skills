@@ -1,0 +1,39 @@
+login.txt.email = {"locator":"id=login-email","desc":"Text view of email"}
+
+login.lbl.emaillabel = {"locator":"xpath=//label[.='Email']","desc":"Label view of email"}
+
+login.txt.password = {"locator":"xpath=//*[@id='reg-password']","desc":"Text view of password"}
+
+login.lbl.passwordlabel = {"locator":"xpath=//label[.='Password']","desc":"Label view of password"}
+
+login.btn.login = {"locator":"xpath=//*[@id='login-submit']","desc":"Button view of Login"}
+
+login.lbl.error = {"locator":"xpath=//*[@id='formError']/span","desc":"Text view of Error Message"}
+
+login.lnk.forgotpwd = {"locator":"xpath=//a[text()='Forgot your password?']","desc":"Link view of Forgot Your Password"}
+
+login.lnk.createone = {"locator":"xpath=//a[.='Create one']","desc":"Link view of create one from login page"}
+
+login.lnk.logout = {"locator":"xpath=//a[@title='Log out']","desc":"Button view of Log out"}
+
+login.img.logo = {"locator":"xpath=//img[@title='H‑E‑B']","desc":"View of HEB Logo"}
+
+login.lbl.header = {"locator":"xpath=//h1[text()='Login']","desc":"View of Login Header"}
+
+login.lbl.donthaveanacc = {"locator":"xpath=//p[@class='lead text-center'][contains(text(),'Don’t have an account?')]","desc":"View of Don’t have an account?"}
+
+login.lnk.viewprivacypolicy = {"locator":"xpath=//a[@title='View Privacy Policy']","desc":"Link View of Privacy Policy"}
+
+login.lnk.viewtermsconditions = {"locator":"xpath=//a[@title='View Terms & Conditions']","desc":"Link View of Terms & Conditions"}
+
+login.lbl.copyright = {"locator":"xpath=//p[@class='legal-copy text-center'][contains(text(),'Copyright © 2017 H‑E‑B')]","desc":"View of Copyright"}
+
+login.lnk.backtoheb = {"locator":"xpath=//a[text()=' Back to H‑E‑B']","desc":"Link view of Back to H-E-B"}
+
+login.txt.guestemail = {"locator":"name=login","desc":"Text view of guest email"}
+
+login.txt.guestpassword = {"locator":"id=atg_store_passwordInput","desc":"Text view of guest password"}
+
+login.btn.guestlogin ={"locator":"xpath=//*[@title='Log In']","desc":"Button view of Login"} 
+
+login.lnk.login = {"locator":"xpath=//a[@id='LogIn' and @title='Log in']","desc":"Link view of Login Page"}

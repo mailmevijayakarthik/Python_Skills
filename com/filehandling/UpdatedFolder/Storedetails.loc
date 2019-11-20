@@ -1,0 +1,87 @@
+storedetails.lnk.orderonline = {"locator":"xpath=//*[@class='deep-linking__content']","desc":"LinkText for Order Online"}
+
+storedetails.txt.shoppingdelivery = {"locator":"xpath=//*[contains(text(),'You will be redirected to hebtoyou.com')]","desc":"TextView for shopping Delivery pop up"}
+
+storedetails.btn.close = {"locator":"xpath=//*[text()='×']","desc":"ButtonView for Close in shopping delivery pop up"}
+
+storedetails.btn.continuetohebtoyou  = {"locator":"xpath=//*[text()='Continue to hebtoyou.com ']","desc":"ButtonView for Continue to hebtoyou.com"}
+
+storedetails.btn.stayonheb  = {"locator":"xpath=//*[text()='Stay on heb.com ']","desc":"ButtonView for Stay on heb.com"}
+
+storedetails.txt.hebtoyou  = {"locator":"xpath=//*[contains(text(),'Home | H-E-B To You | Curbside Grocery Pickup')]","desc":"PageTitle for H-E-B To You"}
+
+storedetails.btn.hebtoyouclose  = {"locator":"xpath=//*[@id='shopping-selector-parent-process-modal-close-click']","desc":"Button for Close in HEB to You page pop up"}
+
+storedetails.txt.welcometoheb  = {"locator":"xpath=//*[contains(text(),'Welcome to H-E-B')]","desc":"TextView for Welcome to HEB in HEB to You page"}
+
+storedetails.lnk.viewallstores  = {"locator":"xpath=//a[.='View All Stores']","desc":"LinkView for View All Stores"}
+
+storedetails.lnk.weeklyad = {"locator":"xpath=//*[contains(text(),'Weekly Ad')]","desc":"Link for weekly ad"}
+
+storedetails.txt.nearbystores = {"locator":"xpath=//*[text()='Nearby Stores']","desc":"TextView for nearby stores"}
+
+
+
+storedetails.lnk.coupons = {"locator":"xpath=//*[text()='Coupons']","desc":"Link for Coupons"}
+
+storedetails.txt.availablestores = {"locator":"xpath=//*[text()='Available Store Services']","desc":"TextView for available stores"}
+
+storedetails.lbl.storetimings = {"locator":"xpath=//*[@id='body']/div/div[2]/p[1]","desc":"LabelView for store timings"}
+
+storedetails.lbl.storename = {"locator":"xpath=//h1[@class='store-details__store-name']","desc":"LabelView for store name"}
+
+storedetails.txt.storephone = {"locator":"xpath=//*[@id='body']/div/div[2]/p[2]/a","desc":"TextView for store phone"}
+
+storedetails.txt.pharmacyphone = {"locator":"xpath=//*[@id='body']/div/div[2]/p[3]/a","desc":"TextView for pharmacy phone"}
+
+storedetails.txt.storestreetaddress = {"locator":"xpath=//*[@id='body']/div/div[4]/p[1]","desc":"TextView for store street address"}
+
+storedetails.txt.storecityzipstate = {"locator":"xpath=//*[@id='body']/div/div[4]/p[2]","desc":"TextView for store city,zip and state"}
+
+storedetails.lnk.getdirections = {"locator":"xpath=//*[@class='store-details__directions']//a[@class='store-details__link']","desc":"LinkView for Get Directions"}
+
+storedetails.img.googlemaps = {"locator":"xpath=//*[@id='map-wrap']","desc":"ImageView for google maps"}
+
+storedetails.img.directiongooglemaps = {"locator":"xpath=(//*[@class='widget-directions-waypoints']//child::input[contains(@class,'searchbox')])[1]","desc":"ImageView for direction google maps"}
+
+storedetails.ele.storemap = {"locator":"xpath=//*[contains(@*,'map-wrap')]","desc":"Map view for Store Map"}
+
+storedetails.txt.storeopeninghours = {"locator":"xpath=//*[contains(@*,'openingHours')]","desc":"Text view for Store opening hour"}
+
+storedetails.txt.storephonenumber = {"locator":"xpath=//*[contains(text(),'Store Phone')]//following::div[@id='map-wrap']","desc":"Text view for Store phone number"}
+
+storedetails.txt.storeaddress = {"locator":"xpath=//*[contains(@class,'location')]/*[contains(@itemprop,'streetAddress')]","desc":"Text view for Store address"}
+
+storedetails.txt.storenearbystores = {"locator":"xpath=//*[@*='store-details__section']/..//*[text()='Nearby Stores']","desc":"Text view for Nearby stores"}
+
+storedetails.ele.pharmacy = {"locator":"xpath=//*[contains(@*,'section')]/*[text()='Pharmacy']","desc":"Element view for Pharmacy"}
+
+storedetails.ele.storeservicessection = {"locator":"xpath=//*[contains(@*,'section')]/*[text()='Available Store Services']","desc":"Element view for Store services section"}
+
+storedetails.ele.everythingbettersection = {"locator":"xpath=//section/*[starts-with(text(),'Here Everything')]","desc":"Element view for Every thing better section"}
+
+storedetails.lnk.curbsidebanner = {"locator":"xpath=//*[text()='Curbside Pickup']/..//h3[text()='Curbside']","desc":"LinkView for curbside banners from stores detail page"}
+
+storedetails.lnk.deliverybanner = {"locator":"xpath=//*[text()='Curbside Pickup']/..//h3[text()='Delivery']","desc":"LinkView for delivery banners from stores detail page"}
+
+storedetails.btn.curbsidestayonheb = {"locator":"xpath=//a[text()='Stay on heb.com ']","desc":"ButtonView for curbside pickup banners stay on heb from stores detail page"}
+
+storedetails.txt.postalcode = {"locator":"xpath=//*[contains(@class,'store-card__section store-card__section--strong')]/*[@*='postalCode']","desc":"Text box for PostalCode in Store details Page"}
+
+storedetails.ele.nearbystores = {"locator":"xpath=//*[text()='Nearby Stores']/..//li","desc":"Text view for nearby stores in Store details Page"}
+
+storedetails.ele.nearbystoresdistance = {"locator":"xpath=//*[text()='Nearby Stores']/..//li//p[contains(@class,'distance')]","desc":"Text view for nearby stores distance in Store details Page"}
+
+storedetails.txt.breadcrumbname = {"locator":"xpath=//a[@class='breadcrumb-last']","desc":"Text view of breadcrumb in stores detail Page"}
+
+storedetails.lst.makemyhebstore = {"locator":"xpath=//button[contains(@class, 'storeSelectButton')]","desc":"list view of make my HEB store in HEB ATG Store Page"}
+
+storedetails.lst.makemyhebstore = {"locator":"xpath=//button[@class='btn btn-tool store-card__action storeSelectButton selectCategoryStore ']","desc":"list view of make my HEB store in HEB ATG Store Page"}
+
+storedetails.lst.storecardname = {"locator":"xpath=//*[@itemprop='name']","desc":"List for store card name"}
+
+storedetails.lnk.selectedstorename = {"locator":"xpath=//*[@id='myStoreSId']/div/a[1]","desc":"LinkText for Selected Store Name"}
+
+storedetails.lbl.storeservices = {"locator":"xpath=//*[contains(@class,'responsive-grid')]/div[2]/p","desc":"List for store services name"}
+
+storedetails.lbl.availablestoreservices = {"locator":"xpath=//*[contains(@class,'store-details')]//li[contains(@class,'list-item')]","desc":"List for available store service name"}

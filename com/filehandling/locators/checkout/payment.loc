@@ -1,0 +1,71 @@
+payment.lbl.paymentmethod = {"locator":"xpath=//div[.='Payment Method']","desc":"TextView for payment method"}
+payment.lbl.paymentheader = {"locator":"xpath=//ul[@class='rdcrcl-navigation clearfix']/li[5]/div[2]/div","desc":"TextView for payment header"}
+payment.lbl.enteracreditcard = {"locator":"xpath=//*[@class='radio radioPosition clearfix']/dd//strong","desc":"TextView for enter a credit card"}
+payment.txt.nameoncard = {"locator":"xpath=//input[@id='cardInfoNameOnCard']","desc":"EditView for name on card"}
+payment.txt.cardtypedropdown = {"locator":"xpath=//select[@id='cardInfoCardType']","desc":"DropdownView for card type"}
+payment.txt.cardnumber = {"locator":"xpath=//input[@id='creditCardNumber']","desc":"EditView for card number"}
+payment.txt.cardcvc = {"locator":"xpath=//input[@id='cc-pswd-field']","desc":"EditView for card cvc code"}
+payment.txt.cardexpirymonth = {"locator":"xpath=//select[@id='checkout-cc-expiry-month']","desc":"DropdownView for card expiry month"}
+payment.txt.cardexpiryyear = {"locator":"xpath=//select[@id='checkout-cc-expiry-year']","desc":"DropdownView for card expiry year"}
+payment.lbl.billingaddress = {"locator":"xpath=//div[.='Billing Address']","desc":"TextView for billing address header"}
+payment.txt.firstname = {"locator":"xpath=//input[@id='billingAddressFirstName']","desc":"EditView for firstname"}
+payment.txt.lastname = {"locator":"xpath=//input[@id='billingAddressLastName']","desc":"EditView for lastname"}
+payment.txt.phonenumber1 = {"locator":"xpath=//input[@id='phoneNumber1']","desc":"EditView for phonenumber part one"}
+payment.txt.phonenumber1error = {"locator":"xpath=//input[contains(@class,' input-error') and @id='phoneNumber1']","desc":"EditView for phonenumber part one error"}
+payment.txt.phonenumber2 = {"locator":"xpath=//input[@id='phoneNumber2']","desc":"EditView for phonenumber part two"}
+payment.txt.phonenumber2error = {"locator":"xpath=//input[contains(@class,' input-error') and @id='phoneNumber2']","desc":"EditView for phonenumber part two error"}
+payment.txt.phonenumber3 = {"locator":"xpath=//input[@id='phoneNumber3']","desc":"EditView for phonenumber part three"}
+payment.txt.phonenumber3error = {"locator":"xpath=//input[contains(@class,' input-error') and @id='phoneNumber3']","desc":"EditView for phonenumber part three error"}
+payment.lbl.entervalidphonenumbererrormsg = {"locator":"xpath=//p[.='Please enter a valid phone number.']","desc":"TextView for Please enter a valid phone number."}
+payment.txt.streetaddress1 = {"locator":"xpath=//input[@id='billingAddressAddress1']","desc":"EditView for street address 1"}
+payment.txt.streetaddress2 = {"locator":"xpath=//input[@id='billingAddressAddress2']","desc":"EditView for street addres 2"}
+payment.txt.city = {"locator":"xpath=//input[@id='billingAddressCity']","desc":"EditView for city"}
+payment.txt.state = {"locator":"xpath=//select[@id='stateBox']","desc":"DropdownView for state"}
+payment.txt.zipcode = {"locator":"xpath=//input[@id='billingPostalCode']","desc":"EditView for zipcode"}
+payment.txt.email = {"locator":"xpath=//input[@id='billingAddressEmail1']","desc":"EditView for email"}
+payment.txt.confirmemail = {"locator":"xpath=//input[@id='billingAddressEmail2']","desc":"EditView for confirm email"}
+payment.btn.submitorder = {"locator":"xpath=//button[.='Submit Order']","desc":"ButtonView for submit order"}
+payment.txt.cardtypemastercard = {"locator":"xpath=//select[@id='cardInfoCardType']/option[.='Master Card']","desc":"DropdownView for card type as master card"}
+payment.txt.cardexpiryyearvalue = {"locator":"xpath=//select[@id='checkout-cc-expiry-year']/option[@value='2034']","desc":"DropdownView for expiry year value"}
+payment.txt.cardexpiryyearinvalidvalue = {"locator":"xpath=//select[@id='checkout-cc-expiry-year']/option[@value='2024']","desc":"DropdownView for invalid expiry year value"}
+payment.txt.cardexpirymonthvalue = {"locator":"xpath=//select[@id='checkout-cc-expiry-month']/option[@value='7']","desc":"DropdownView for expiry month value"}
+payment.lbl.giftcardnumber = {"locator":"xpath=//dt[.='Gift Card Number']","desc":"TextView for giftcard number"}
+payment.txt.giftcardpin = {"locator":"xpath=//*[contains(text(),'PIN')]//following-sibling::input","desc":"EditView for giftcard pin"}
+payment.lbl.giftcardpin = {"locator":"xpath=//form[@id='giftcardops']/div[3]/dl[2]/dt[3]","desc":"TextView for giftcard pin"}
+payment.lbl.giftcardandegiftcard = {"locator":"xpath=//a[contains(text(),'Gift Card')]","desc":"TextView for giftcard and egift card"}
+payment.txt.giftcardnumber = {"locator":"xpath=//*[contains(text(),'Gift Card Number')]//following-sibling::input","desc":"EditView for giftcard number"}
+payment.btn.applygiftcard = {"locator":"xpath=//button[contains(text(),'Apply Gift Card')]","desc":"ButtonView for apply giftcard"}
+payment.lbl.giftcardamt = {"locator":"xpath=//span[.='Gift Card']/following-sibling::span","desc":"TextView for giftcard amount"}
+payment.lbl.ordertotalamt = {"locator":"xpath=//span[contains(.,'Order Total')]/following-sibling::span","desc":"TextView for order total amount"}
+payment.lbl.ordersubtotalamt = {"locator":"xpath=//span[.='Order Subtotal']/following-sibling::span","desc":"TextView for order subtotal amount"}
+payment.lbl.giftcardappliedmessage = {"locator":"xpath=//div[@class='checkout-gift-card-message']/p[1]","desc":"TextView for giftcard applied"}
+payment.lbl.applytaxexemption = {"locator":"xpath=//span[.='Apply Tax Exemption']","desc":"TextView for apply tax exemption"}
+payment.chk.applytaxexemption = {"locator":"xpath=//input[@id='taxExemptChkBox']","desc":"ChedkboxView for apply tax exemption"}
+payment.lbl.estimatedtaxamt = {"locator":"xpath=//div[@id='defaultTaxAmount']/span[@class='qty']","desc":"TextView for estimated tax amount"}
+payment.chk.savecreditcard = {"locator":"xpath=//input[@id='saveNewCardCheckbox']","desc":"CheckboxView for save credit card"}
+payment.rbtn.enteracreditcard = {"locator":"xpath=//input[@id='radioNewCard']","desc":"RadiobuttonView for enter a credit card"}
+payment.chk.ageverification = {"locator":"id=ageVerification","desc":"CheckboxView for age verification"}
+payement.btn.makeprimarycard = {"locator":"xpath=//button[@name='primaryCardRepId']","desc":"ButtonView for Make Primary card"}
+payement.btn.myprimarycard = {"locator":"xpath=//div[@class='cardNature']/div","desc":"ButtonView for My Primary card"}
+payement.lbl.cardname = {"locator":"xpath=//div[.='My Primary Card']/../preceding-sibling::div/b","desc":"LabelView for Card Name"}
+payement.lbl.defaultcards = {"locator":"xpath=//div[@class='allcards defaultCard']","desc":"TextView for Default cards"}
+payment.lbl.cardtypeamericanexpress = {"locator":"xpath=//select[@id='cardInfoCardType']/  option[.='American Express']","desc":"DropDownView for American Express"}
+payment.lnk.giftcardremove = {"locator":"xpath=//*[.='Gift Card']/preceding-sibling::a[.='Remove']","desc":"LinkView for giftcard remove"}
+payment.lbl.errormsg = {"locator":"xpath=//*[contains(text(),'Gift Card & E-Gift Card')]//following::*[@*='error']","desc":"TextView for error message"}
+payment.txt.cardtypeamericanexcard = {"locator":"xpath=//select[@id='cardInfoCardType']/option[.='American Express']","desc":"DropdownView for card type as American Express"}
+payment.chk.sameAsShippingAddress = {"locator":"xpath=//*[@id='sameAsShippingAddress']","desc":"Check Box for sameAsShippingAddress"}
+payment.txt.specialhandlingamount = {"locator":"xpath=//span[.='Special Handling']/following-sibling::span","desc":"TextView for Special Handling amount"}
+payment.lbl.shippingmethod = {"locator":"xpath=//div[@class='checkout-address-container']//p","desc":"TextView for Shipping method"}
+payment.lbl.shiptohome = {"locator":"xpath=//div[@class='checkout-title']","desc":"TextView for Ship to home"}
+payment.lbl.shippingamount = {"locator":"xpath=//span[contains(.,'Shipping')]/following-sibling::span","desc":"TextView for Shipping amount"}
+
+payment.txt.giftcardnumber = {"locator":"xpath=//div[@class='checkout-title']","desc":"TextView for Ship to home"}
+
+payment.txt.paymentcardname = {"locator":"xpath=//*[contains(@class,'slick-slide')]//child::div[@class='credit-card__type']/span","desc":"Text View for payment card name"}
+payment.ele.deletecard = {"locator":"xpath=//*[contains(@class,'slick-slide')]//child::div[contains(@class,'delete')]/*[text()='Delete']","desc":"Element View for delete payment card"}
+payment.btn.delete = {"locator":"xpath=//*[contains(@class,'footer')]/button[text()='Delete']","desc":"Button View for delete"}
+payment.ele.nextcard = {"locator":"xpath=//*[contains(@class,'slick-next')]","desc":"Element View for next icon"}
+
+
+
+

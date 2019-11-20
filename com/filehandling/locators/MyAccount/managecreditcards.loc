@@ -1,0 +1,54 @@
+
+
+manageCC.txt.header = {"locator":"xpath=//h1[text()='Manage Credit Cards']","desc":"Manage Credit Cards TextView Title"}
+managecc.li.lbl.creditcardnamelist = {"locator":"xpath=//div[@class='cardOwnerName']","desc":"TextView for credit card names"}
+managecc.li.lbl.creditcarddeletelist = {"locator":"xpath=//a[@id='deleteCard']","desc":"LinkView for card delete link list"}
+managecc.lbl.creditcarddeletepopuptitle = {"locator":"xpath=//p[.='Are you sure you want to delete this card?']","desc":"TextView for delete card pop up title"}
+managecc.btn.creditcarddeletepopupyes = {"locator":"xpath=//a[@title='Yes']","desc":"ButtonView for delete card pop up yes button"}
+managecc.lbl.mycreditcards = {"locator":"xpath=//span[.='My Credit Cards']","desc":"TextView for my credit cards section header"}
+managecc.btn.addanewcreditcard = {"locator":"xpath=//a[@title='Add a new credit or debit card']","desc":"ButtonView for add a new credit card"}
+managecc.lbl.addnewcreditordebitcardheader = {"locator":"xpath=//h1[.='Add New Credit or Debit Card']","desc":"TextView for add a new credit ir debit card page header"}
+managecc.lbl.mypaymentinfo = {"locator":"xpath=//span[.='My Payment Information']","desc":"TextView for my payment information"}
+managecc.btn.addcreditcard = {"locator":"xpath=//input[@id='addCreditCardSubmit']","desc":"ButtonView for add credit card"}
+managecc.btn.canceladdingcreditcard = {"locator":"xpath=//a[@title='Cancel Adding a Credit or Debit Card']","desc":"ButtonView for cancel adding a credit card"}
+managecc.lbl.youdonothavecreditcard = {"locator":"xpath=//h1[.='You do not have any saved credit cards on file.']","desc":"TextView for you do not have a credit card label"}
+manageCC.txt.header = {\"locator\":\"xpath=.//*[@id='content']/div/div[@class='category-title']/h1[text()='Manage Credit Cards']\",\"desc\":\"Manage Credit Cards TextView Title\"}
+manageCC.lbl.addnewcardtitle = {\"locator\":\"xpath=//div[@class='category-title']/h1[text()='Add New Credit or Debit Card']\",\"desc\":\"TextView for Add new credit card title\"}
+manageCC.txt.nameoncard = {\"locator\":\"xpath=//*[contains(@id,'cardInfoNameOnCard')]\",\"desc\":\"Textview for name on the card\"}
+manageCC.drop.cardtype = {\"locator\":"xpath=//*[contains(@id,'cardInfoCardType')]",\"desc\":\"Dropdown view for card type\"}
+manageCC.txt.cardnumber = {\"locator\":\"id=creditCardNumber\",\"desc\":\"Textview for creditCardNumber\"}
+manageCC.drop.expmonth = {\"locator\":\"id=checkout-cc-expiry-month\",\"desc\":\"Dropdown view for card exp month\"}
+manageCC.drop.expyear = {\"locator\":\"id=checkout-cc-expiry-year\",\"desc\":\"Dropdown view for checkout-cc-expiry-year\"}
+manageCC.txt.cvc = {\"locator\":\"id=cc-pswd-field\",\"desc\":\"Textview for card cvc\"}
+manageCC.txt.billfname = {\"locator\":\"id=billingAddressFirstName\",\"desc\":\"Textview for billingAddressFirstName\"}
+manageCC.txt.billlname = {\"locator\":\"id=billingAddressLastName\",\"desc\":\"Textview for billingAddressLastName\"}
+manageCC.txt.phoneNumber1 = {\"locator\":\"id=phoneNumber1\",\"desc\":\"Textview for phoneNumber1\"}
+manageCC.txt.phoneNumber2 = {\"locator\":\"id=phoneNumber2\",\"desc\":\"Textview for phoneNumber2\"}
+manageCC.txt.phoneNumber3 = {\"locator\":\"id=phoneNumber3\",\"desc\":\"Textview for phoneNumber3\"}
+manageCC.txt.billAddr1 = {\"locator\":\"id=billingAddressAddress1\",\"desc\":\"Textview for billingAddressAddress1\"}
+manageCC.txt.billcity = {\"locator\":\"id=billingAddressCity\",\"desc\":\"Textview for billingAddressCity\"}
+manageCC.txt.billzipcode = {\"locator\":\"id=billingPostalCode\",\"desc\":\"Textview for billingPostalCode\"}
+manageCC.txt.billemail = {\"locator\":\"id=billingAddressEmail1\",\"desc\":\"Textview for billingAddressEmail1\"}
+manageCC.txt.billconfirmemail = {\"locator\":\"id=billingAddressEmail2\",\"desc\":\"Textview for billingAddressEmail2\"}
+manageCC.btn.addcreditcardsubmit = {\"locator\":\"id=addCreditCardSubmit\",\"desc\":\"Button view for addCreditCardSubmit\"}
+manageCC.lnk.addcreditcardcancel = {\"locator\":\"xpath=//a[@title='Cancel Adding a Credit or Debit Card']\",\"desc\":\"Linkview for cancel\"}
+manageCC.btn.addnewcreditcard = {\"locator\":\"xpath=//a[@title='Add a new credit or debit card']\",\"desc\":\"Button view for Add a new credit or debit card\"}
+manageCC.lbl.mycreditcards = {\"locator\":\"xpath=//div[@class='account-title']/span[text()='My Credit Cards']\",\"desc\":\"Textview for My Credit Cards\"}
+manageCC.lbl.defaultCard = {\"locator\":\"xpath=//div[@class='allcards defaultCard']\",\"desc\":\"Textview for defaultCard\"}
+manageCC.lnk.deleteCard = {\"locator\":\"id=deleteCard\",\"desc\":\"Linkview for deleteCard\"}
+manageCC.lbl.deleteContainer = {\"locator\":\"xpath=//div[@class='delete-container']\",\"desc\":\"Labelview for delete-container']\"}
+manageCC.btn.yes = {\"locator\":\"xpath=//button[contains(text(),'Delete')]",\"desc\":\"Button view for Yes\"}
+manageCC.lnk.cancel = {\"locator\":\"xpath=//a[@title='Cancel']\",\"desc\":\"Linkview for Cancel\"}
+manageCC.lbl.addedbillname = {\"locator\":\"xpath=//div[@class='nameSection']/span[1]\",\"desc\":\"Textview for added billing address name']\"}
+
+manageCC.img.creditcardtype = {\"locator\":\"xpath=.//div[@class='cardImage']/img\",\"desc\":\"Image view for credit card type\"}
+manageCC.lst.creditcards = {\"locator\":\"xpath=//div[contains(@class,'myAccountCards')]/div\",\"desc\":\"List view for credit cards\"}
+manageCC.lbl.cardlastfournum = {\"locator\":\"xpath=.//div[@class='cardOwnerName']\",\"desc\":\"Label view for last four num in credit cards\"}
+manageCC.lnk.delete = {\"locator\":\"xpath=.//a[text()='Delete']\",\"desc\":\"Link view for delete credit cards\"}
+
+
+managecc.btn.makeprimarycards = {\"locator\":\"xpath=//*[contains(@class,'account-subcontainer')]/..//*[text()='Make Primary Card']\",\"desc\":\"Button view for make primary cards\"}
+managecc.txt.cardownername = {\"locator\":\"xpath=//*[contains(@class,'account-subcontainer')]/..//*[text()='Make Primary Card']//ancestor::div[2]//*[@class='cardOwnerName']\",\"desc\":\"Text view for card own name\"}
+managecc.txt.myprimarycardownername = {\"locator\":\"xpath=//*[text()='My Primary Card']//ancestor::div[2]//div[@class='cardOwnerName']\",\"desc\":\"Text view for my primary card owner name\"}
+
+

@@ -1,0 +1,12 @@
+cv.get.lbl.connectionvideoheader = {\"locator\":\"xpath=//h3[text()='%s']\",\"desc\":\"TextView for connection video header\"}
+cv.icon.video = {\"locator\":\"xpath=//*[@id='IconEffect_s7classic_2F']\",\"desc\":\"IconView for video\"}
+cv.get.img.cvrecipeimage = {\"locator\":\"xpath=//a[@title='%s']/img\",\"desc\":\"ImageView for connection video recipe Image\"}
+cv.get.lbl.cvrecipetitle = {\"locator\":\"xpath=//div[@class='recipetitle']/a[@title='%s']\",\"desc\":\"TextView for connection video recipe title\"}
+cv.lbl.cvreciperating = {\"locator\":\"xpath=//div[@class='inline-table recipestars']\",\"desc\":\"TextView for video Recipe Rating\"}
+cv.lnk.cvrecipeaddtolist = {\"locator\":\"xpath=//a[@class='btn btn-tool '][.='Add to List']\",\"desc\":\"LinkTextView for Add to List\"}
+cv.lnk.cvrecipeaddtorecipebox = {\"locator\":\"xpath=//a[@title='Add to Recipe Box']\",\"desc\":\"LinkTextView for Add to Recipe Box\"}
+cv.lbl.cvmorevideos = {\"locator\":\"xpath=//h2[text()='more videos']\",\"desc\":\"TextView for More Videos\"}
+cv.lbl.preptime = {\"locator\":\"xpath=//div[@class='recipespecs'][contains(text(),'Prep Time:')]\",\"desc\":\"TextView for Prep Time\"}
+cv.lbl.totaltime = {\"locator\":\"xpath=//div[@class='recipespecs'][contains(text(),'Total Time:')]\",\"desc\":\"TextView for Total Time\"}
+cv.lbl.serves = {\"locator\":\"xpath=//div[@class='recipespecs'][contains(text(),'Serves')]\",\"desc\":\"TextView for Serves\"}
+cv.lbl.VideoPageHdr={\"locator\":\"xpath=//h1\",\"desc\":\"Connection video Header\}

@@ -1,0 +1,35 @@
+cc.lbl.featuredvideo = {\"locator\":\"xpath=//span[@class='title']\",\"desc\":\"TextView for featured video\"}
+
+cc.icon.video = {\"locator\":\"xpath=//img[@alt='Video']\",\"desc\":\"IconView for video play button\"}
+
+cc.lbl.pagetitle = {\"locator\":\"xpath=//h1[text()='Cooking Connections']\",\"desc\":\"TextView for page heading\"}
+
+cc.lbl.cookingconnectionvideos = {\"locator\":\"xpath=//h2[.='cooking connection videos']\",\"desc\":\"TextView for cooking connection videos header\"}
+
+cc.lbl.cookingconnectionrecipes = {\"locator\":\"xpath=//h2[.='cooking connection recipes']\",\"desc\":\"TextView for cooking connection videos recipes\"}
+
+cc.lbl.cookingconnectionrecipesnamelist = {\"locator\":\"xpath=//div[@class='cookingconnectionvideowrapper']/div//p[2]/a\",\"desc\":\"TextView for cooking connection recipes name list\"}
+
+cc.lbl.cookingconnectionvideosnamelist = {\"locator\":\"xpath=//div[@class='cookingrecipe inline-table']/div/p[2]/a\",\"desc\":\"TextView for cooking connection videos name list\"}
+
+cc.lnk.featuredvideoAdd2RecipeBox = {\"locator\":\"xpath=//p/a[@title='Add to Recipe Box']\",\"desc\":\"TextView for Add to list link in featured video\"}
+
+cc.img.cookingconnectionimage = {\"locator\":\"xpath=//div[@class='inline-block leftconnection']/img\",\"desc\":\"TextView for cooking connection image\"}
+
+cc.lnk.storelocation = {\"locator\":\"xpath=//a[@title='Store Locations']\",\"desc\":\"Link TextView for cooking connection Store Location\"}
+
+cc.get.lnk.ccuniquevideos = {\"locator\":\"xpath=//div[@class='cookingrecipe inline-table']/a[@title='%s']\",\"desc\":\"Link for each cooking connection videos\"}
+
+cc.get.lnk.viewvideo = {\"locator\":\"xpath=//div[@class='cookingrecipe inline-table']//a[@title='%s']/../../p[@class='link']/a\",\"desc\":\"Link for each view video \"}
+
+cc.chk.ccrecipesfilterbybread = {\"locator\":\"xpath=//label[@for='addons_2']\",\"desc\":\"CheckBoxView for cooking connection recipes bread filter\"}
+
+cc.chk.ccrecipesfilterbyburgers = {\"locator\":\"xpath=//label[@for='addons_4']\",\"desc\":\"CheckBoxView for cooking connection recipes burgers filter\"}
+
+cc.chk.ccrecipesfilterbybreakfast = {\"locator\":\"xpath=//label[@for='addons_3']\",\"desc\":\"CheckBoxView for cooking connection recipes breakfast filter\"}
+
+cc.dd.ccrecipessort = {\"locator\":\"xpath=//div[@class='sort-container']//select\",\"desc\":\"DropdownView for cooking connection recipes Sort\"}
+
+cc.lbl.ccrecipesxofy = {\"locator\":\"xpath=//div[@class='pagenofn']\",\"desc\":\"TextView for cooking connection recipes showing X of Y\"}
+
+cc.lbl.ccrecipesresultscount = {\"locator\":\"xpath=//div[@class='result-search']/span\",\"desc\":\"TextView for cooking connection recipes Results\"}
