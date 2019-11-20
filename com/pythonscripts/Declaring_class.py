@@ -14,4 +14,4 @@ vk.Hello(a)
 
 print(myLearning.__name__)
 print(myLearning.__module__)
-print(myLearning.__dict__)
+print("Dict is :",myLearning.__dict__)
