@@ -15,6 +15,7 @@ class LearnExceptionHandling:
     def div(self):
         try:
             div=self.a/self.b
+           
             print(div)
         
         except ZeroDivisionError as e:
