@@ -1,0 +1,9 @@
+with open("fruits.txt","r") as myfile:
+    mycontent=myfile.read()
+    print(mycontent)
+with open("fruits.txt","a+") as myfile:
+    myfile.write(mycontent)
+    myfile.write(mycontent)
+    myfile.seek(0)
+    print(myfile.read())
+
