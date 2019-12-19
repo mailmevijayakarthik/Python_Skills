@@ -10,7 +10,7 @@ def getLatLong():
     df2["Coordinates"] = df2["Location"].apply(geolocator.geocode)
     df2["Latitude"] = df2["Coordinates"].apply(lambda x: x.latitude if x != None else None)
     df2["Longitude"] = df2["Coordinates"].apply(lambda x: x.longitude if x != None else None)
-    df2.to_csv(r'entry.txt', header=True, index=True, mode='a')
+    df2.to_csv(r'entry.csv', header=True, index=True, mode='a')
 
 geolocator = ArcGIS(user_agent="StoreLocator",timeout=100)
 getLatLong()
