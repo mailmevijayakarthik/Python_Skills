@@ -1,4 +1,7 @@
 class Account:
+    """
+    This Class is for simple OOPS concepts
+    """
     def __init__(self,filepath):
         with open(filepath,"r")as file:
             self.filepath=filepath
@@ -14,11 +17,19 @@ class Account:
         with open(self.filepath,"w") as file:
             file.write(str(self.balance))
 
+
+
+
+"""
+Use the below method to run the class 
+"""
+
 account=Account("balance.txt")
-print(account)
-print(account.balance)
-account.withdraw(100)
-print(account.balance)
-account.deposit(500)
-print(account.balance)
-account.commit_balance()
+print(account.__doc__)
+#print(account)
+#print(account.balance)
+#account.withdraw(100)
+#print(account.balance)
+#account.deposit(500)
+#print(account.balance)
+#account.commit_balance()
