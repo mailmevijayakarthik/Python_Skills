@@ -1,9 +1,0 @@
-myaccflyout.lnk.myaccount = {"locator":"xpath=//a[@title='My Account']","desc":"Textview for My Account Link"}
-
-myaccflyout.lnk.logout = {"locator":"xpath=//a[@title='Log out']","desc":"Textview for Log out Link"}
-
-myaccflyout.lnk.changemystore = {"locator":"xpath=//a[@title='Change My Store']","desc":"Textview for Change My Store Link"}
-
-
-
-myaccflyout.lnk.orderstatus = {"locator":"xpath=//a[@title='Order Status']","desc":"Textview for My Account Link"}

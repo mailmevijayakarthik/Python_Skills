@@ -6,9 +6,9 @@ redirtect="127.0.0.1"
 websites=["www.facebook.com","www.linkedin.com"]
 
 while True:
-    if dt(dt.now().year,dt.now().month,dt.now().day,8)<dt.now()<dt(dt.now().year,dt.now().month,dt.now().day,20):
+    if dt(dt.now().year,dt.now().month,dt.now().day,8)<dt.now()<dt(dt.now().year,dt.now().month,dt.now().day,17):
         print("Its working Hour. Blocking all Social Media")
-        with open(hostpath,"r+") as file:
+        with open(host_temp,"r+") as file:
             content=file.read()
             for sites in websites:
                 if sites in content:
@@ -18,7 +18,7 @@ while True:
 
     else:
 
-        with open(hostpath, "r+") as file:
+        with open(host_temp, "r+") as file:
             content = file.readlines()
             file.seek(0)
             for line in content:

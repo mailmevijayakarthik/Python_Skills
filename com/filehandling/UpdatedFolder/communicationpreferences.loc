@@ -1,7 +1,0 @@
-commpref.txt.commprefheader = {\"locator\":\"xpath=.//*[@id='editCommPref']/div[3]/div[@class='category-title']/h1[text()='Communication Preferences']\",\"desc\":\"Communication Preferences TextView Title\"}
-
-commpref.chkbox.preferences = {\"locator\":\"xpath=//p[contains(text(),'%s')]/parent::div//input[@type='checkbox']/following-sibling::label\",\"desc\":\"Checkbox view for My Email Preferences\"}
-
-commpref.chk.preferences = {\"locator\":\"xpath=//p[contains(text(),'%s')]/parent::div//input[@type='checkbox']\",\"desc\":\"Checkbox view for My Email Preferences\"}
-
-commpref.btn.save = {\"locator\":\"id=editCommPref-btn\",\"desc\":\"Buttonview for Save\"}

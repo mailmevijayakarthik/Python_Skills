@@ -1,9 +1,0 @@
-pcrreg.input.newfirstname = {"locator":"xpath=//input[@id='register-first-name']","desc":"Input box for first name in PCR account registration page"}
-
-pcrreg.input.newlastname = {"locator":"xpath=//input[@id='register-last-name']","desc":"Input box for last name in PCR account registration page"}
-
-pcrreg.input.newemail = {"locator":"xpath=//input[@id='register-email']","desc":"Input box for email in PCR account registration page"}
-
-pcrreg.input.newpassword = {"locator":"xpath=//input[@id='reg-password']","desc":"Input box for password in PCR account registration page"}
-
-pcrreg.btn.continue = {"locator":"xpath=//*[@id='createaccount-btn']","desc":"Button for continue in PCR account registration page"}
