@@ -36,7 +36,8 @@ node5 = Node("E");
 node1.adjacencyList.append(node2);
 node1.adjacencyList.append(node4);
 node2.adjacencyList.append(node3);
-node4.adjacencyList.append(node5);
+node2.adjacencyList.append(node5);
+
 
 bfs = BreadthFirstSearch();
 bfs.bfs(node1);
