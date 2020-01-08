@@ -4,4 +4,13 @@ def welcome(s):
     print(output)
     return output
 
-welcome("Welcome to 30 Days of Code!")
+def reverselist(mylist):
+    res=[]
+    n=len(mylist)
+    for i in range(n-1,-1,-1):
+        res.append(mylist[i])
+    return res
+
+#welcome("Welcome to 30 Days of Code!")
+mylist=[2,4,6,8]
+print(reverselist(mylist))
