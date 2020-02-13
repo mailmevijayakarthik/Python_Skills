@@ -1,7 +1,7 @@
     
 import os
 
-basepath = 'C:/Users/242074/git/HEB.COM/src/main/resources/common/locators'
+basepath = '/Users/vijayakarthikeyanarul/git/python_Skills/com/filehandling/locators'
 with os.scandir(basepath) as entries:
     for entry in entries:
         if entry.is_file():

@@ -11,14 +11,14 @@ def writeUniquerecords(dirpath,filenames):
             if line not in destination_lines:
                 destination_lines.append(line)
     
-    destinationfile='C:/Users/242074/git/Python_Skills/com/filehandling/UpdatedFolder'
+    destinationfile='/Users/vijayakarthikeyanarul/git/python_Skills/com/filehandling/UpdatedFolder'
     destipath=os.path.join(destinationfile,filenames)
     with open(destipath, "w+")as destination:
         destination.write("\n".join(destination_lines))            
 
 
 def Readandwrite():
-    for dirpath,dirnames,filenames in os.walk('C:/Users/242074/git/Python_Skills/com/filehandling/locators'):
+    for dirpath,dirnames,filenames in os.walk('/Users/vijayakarthikeyanarul/git/python_Skills/com/filehandling/locators'):
         print('Current Path',dirpath)
         print('Current Folder names',dirnames)
         print('Current Files names ',filenames)

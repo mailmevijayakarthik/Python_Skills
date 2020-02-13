@@ -1,17 +1,5 @@
-pdp.lst.pdprecommendproductblocks = {"locator":"xpath=//ul[contains(@class,'spotlightCartActions')]/li","desc":"PDP Product Array"}
+pdp.lnk.mylist	= {"locator":"xpath=//div[@class='atl-container']//ul/li/a[text()='My List']","desc":"My list link PDP"}
 
-pdp.lbl.productname = {"locator":"xpath=//h1[@itemprop='name']","desc":"PDP Product name"}
-
-pdp.lbl.sellby = {"locator":"xpath=//div[@class='packing-options']","desc":"PDP Product capacity"}
+pdp.lnk.pdpaddtolist = {"locator":"xpath=//a[@title='Add to Shopping List']","desc":"Add to list link in PDP"}
 
 
-
-pdp.radiobtn.subscribe = {"locator":"xpath=//input[@value='subscribe']","desc":"Subscribe Radio Button"}
-
-pdp.lbl.allrecommendproductname = {"locator":"xpath=//li[contains(@class,'responsivegriditem')]//*[contains(@class,'title')]","desc":"All recommend product name from PDP"}
-
-pdp.btn.recommendproductaddtocart = {"locator":"xpath=//li[contains(@class,'responsivegriditem')]//*[text()='Add To Cart']","desc":"All recommend product add to cart from PDP"}
-
-pdp.lnk.lastbreadcrump = {"locator":"xpath=//*[@class='breadcrumb clearfix']/a","desc":"link for last breadcrump"}
-
-pdp.lst.recentlyvieweditems={"locator":"xpath=*//div[@class='pdp-recently-container last']//div[2]//li//div[@class='pdp-item-info']/div[1]","desc":"List view of recently viewed items in PDP"}
