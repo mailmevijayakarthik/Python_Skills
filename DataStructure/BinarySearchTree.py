@@ -105,19 +105,47 @@ class BinarySearchTree(object):
             return self.getPredecessor(node.rightchild)
         return node
 
+    # Leetcode : 938 Range sum of BST
+    def range_sum_BST_between_L_R(self,L,R):
+        return self.range_sum_BST(self.root, L, R)
+
+    def range_sum_BST(self,node,L,R):
+        result =0
+        if node.data >=L and node.data<=R:
+            result+=node.data
+        if node.leftchild and node.data > L:
+            result= result + self.range_sum_BST(node.leftchild, L, R)
+        if node.rightchild and node.data<R:
+            result= result + self.range_sum_BST(node.rightchild,L,R)
+
+        return result
+
+
+
 
 binarySearchTree=BinarySearchTree()
+# binarySearchTree.insert(10)
+# binarySearchTree.insert(20)
+# binarySearchTree.insert(30)
+# binarySearchTree.insert(15)
+# binarySearchTree.insert(25)
+# #binarySearchTree.insert(3)
+# #binarySearchTree.getminimumvalue()
+# #binarySearchTree.getHighestvalue()
+# binarySearchTree.traverse()
+# binarySearchTree.remove(30)
+# binarySearchTree.traverse()
 binarySearchTree.insert(10)
-binarySearchTree.insert(20)
-binarySearchTree.insert(30)
+binarySearchTree.insert(5)
 binarySearchTree.insert(15)
-binarySearchTree.insert(25)
-#binarySearchTree.insert(3)
-#binarySearchTree.getminimumvalue()
-#binarySearchTree.getHighestvalue()
-binarySearchTree.traverse()
-binarySearchTree.remove(30)
-binarySearchTree.traverse()
+binarySearchTree.insert(3)
+binarySearchTree.insert(7)
+binarySearchTree.insert(18)
+
+print(binarySearchTree.range_sum_BST_between_L_R(7,15))
+
+
+
 
 
 
