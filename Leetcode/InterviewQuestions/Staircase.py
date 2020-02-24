@@ -17,6 +17,10 @@ class Staircase_solution(object):
             d[i]=value
         return d[n]
 
+    def fib_memo(self,n):
+        memo=[None]*(n+1)
+        return self.fibo_staircase_memoization(n, memo)
+
     def fibo_staircase_memoization(self,n,memo):
         if memo[n] is not None:
             return memo[n]
@@ -27,11 +31,11 @@ class Staircase_solution(object):
             memo[n]=result
             return result
 
-    def fib_memo(self,n):
-        memo=[None]*(n+1)
-        return self.fibo_staircase_memoization(n, memo)
 
 
 sol=Staircase_solution()
 print(sol.UsingBottomUp(1000))
 print(sol.fib_memo(1000))
+print(sol.fib_memo_dict(1000))
+#sol.staircase_memo_dict(10)
+#print("Using memo dict : ",sol.staircase_memo_dict(10))
